@@ -1,3 +1,9 @@
+import pandas as pd
+
+DATA_TYPE = "bone_and_joint_data.csv"
+RECORDING_NUMBER = "recording_17_33_15_gmt-7"
+BONE_AND_JOINT_CSV_FILE = f"{RECORDING_NUMBER}_{DATA_TYPE}"
+
 # The headers in the bone and joint data files follow a pattern of <prefix>_<joint_name>.
 # I have defined the prefixes as the HEADER_PREFIXES list.
 HEADER_PREFIXES = [
@@ -64,3 +70,33 @@ JOINT_TO_BONE = {
     "left_knee":      "shin.L",
     "right_knee":     "shin.R",
 }
+    
+def build_relevant_columns_from_csv(csv_file_path: str) -> list[str]:
+    """
+    Build a list of relevant column names by reading the headers from a CSV file.
+
+    Args:
+        csv_file_path (str): The path to the CSV file containing bone and joint data.
+
+    Returns:
+        list[str]: A list of relevant column names.
+    """
+
+    # Read the CSV file to get the headers
+    df = pd.read_csv(csv_file_path, nrows=0)  # Read only the header row
+    headers = df.columns.tolist()
+
+    # Filter headers based on relevant prefixes and suffixes
+    relevant_columns = []
+    for header in headers:
+        for prefix in RELEVANT_PREFIXES:
+            if header.startswith(prefix):
+                relevant_columns.append(header)
+                break  # No need to check other prefixes once a match is found
+
+    return relevant_columns
+
+#call it
+if __name__ == "__main__":
+    relevant_columns = build_relevant_columns_from_csv(BONE_AND_JOINT_CSV_FILE)
+    print(relevant_columns)
