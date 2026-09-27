@@ -18,3 +18,14 @@ HEADER_SUFFIXES = sorted(
      "_rotation_euler_x", "_rotation_euler_y", "_rotation_euler_z", "_rotation_euler_order"]
     + [f"_matrix_{i}_{j}" for i in range(4) for j in range(4)],
 )
+
+JOINT_TO_BONE = {
+    "left_shoulder":  "upper_arm.L",
+    "right_shoulder": "upper_arm.R",
+    "left_elbow":     "forearm.L",
+    "right_elbow":    "forearm.R",
+    "left_hip":       "thigh.L",
+    "right_hip":      "thigh.R",
+    "left_knee":      "shin.L",
+    "right_knee":     "shin.R",
+}
