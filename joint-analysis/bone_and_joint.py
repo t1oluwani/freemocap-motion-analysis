@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 
 DATA_TYPE = "bone_and_joint_data.csv"
@@ -124,9 +125,30 @@ def get_header_prefixes() -> list[str]:
     """
     return HEADER_PREFIXES
 
+def get_header_suffixes() -> list[list[str]]:
+    """
+    Get the list of header suffixes for bone and joint data.
 
+    Returns:
+        list[list[str]]: A list of header suffixes.
+    """
+    return HEADER_SUFFIXES
+
+def save_to_analysis_output_dir(data: pd.DataFrame, filename: str) -> None:
+    """
+    Save the given DataFrame to the analysis output directory with the specified filename.
+
+    Args:
+        data (pd.DataFrame): The DataFrame to save.
+        filename (str): The name of the file to save the DataFrame as.
+    """
+    output_dir = "analysis_output"
+    os.makedirs(output_dir, exist_ok=True)  # Create the directory if it doesn't exist
+    output_path = os.path.join(output_dir, filename)
+    data.to_csv(output_path, index=False)
+    print(f"Data saved to {output_path}")
 
 #call it
 if __name__ == "__main__":
     relevant_columns = build_relevant_columns_from_csv(BONE_AND_JOINT_CSV_FILE)
-    print(relevant_columns)
+    
