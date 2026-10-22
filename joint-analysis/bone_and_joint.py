@@ -2,7 +2,8 @@ import pandas as pd
 
 DATA_TYPE = "bone_and_joint_data.csv"
 RECORDING_NUMBER = "recording_17_33_15_gmt-7"
-BONE_AND_JOINT_CSV_FILE = f"{RECORDING_NUMBER}_{DATA_TYPE}"
+VIDEO_FOLDER_PATH = "freemocap/video1/saved_data"
+BONE_AND_JOINT_CSV_FILE = f"{VIDEO_FOLDER_PATH}/{RECORDING_NUMBER}_{DATA_TYPE}"
 
 # The headers in the bone and joint data files follow a pattern of <prefix>_<joint_name>.
 # I have defined the prefixes as the HEADER_PREFIXES list.
@@ -95,6 +96,35 @@ def build_relevant_columns_from_csv(csv_file_path: str) -> list[str]:
                 break  # No need to check other prefixes once a match is found
 
     return relevant_columns
+
+def get_joint_to_bone_mapping() -> dict[str, str]:
+    """
+    Get the mapping of joint names to their corresponding bone names.
+
+    Returns:
+        dict[str, str]: A dictionary mapping joint names to bone names.
+    """
+    return JOINT_TO_BONE
+
+def get_relevant_prefixes() -> list[str]:
+    """
+    Get the list of relevant prefixes for bone and joint data.
+
+    Returns:
+        list[str]: A list of relevant prefixes.
+    """
+    return RELEVANT_PREFIXES
+
+def get_header_prefixes() -> list[str]:
+    """
+    Get the list of header prefixes for bone and joint data.
+
+    Returns:
+        list[str]: A list of header prefixes.
+    """
+    return HEADER_PREFIXES
+
+
 
 #call it
 if __name__ == "__main__":
