@@ -1,4 +1,56 @@
+"""
+joint_analysis.py
+
+Turns FreeMoCap's Blender-exported bone_and_joint CSV into:
+
+  1. a frame-by-frame dict containing ONLY the bones we care about:
+         frames = {
+             0: {"forearm.R": {"head": (x, y, z), "tail": (x, y, z),
+                               "quaternion": (x, y, z, w),
+                               "euler_deg": (x, y, z), "euler_order": "XYZ"},
+                 "thigh.L": {...}, ...},
+             1: {...},
+         }
+  2. joint angles computed from the world-space bone positions, and
+  3. readable text such as "right elbow bent 50 degrees".
+
+Each joint is reported two ways so they can be compared (as Prof. Payandeh
+asked):
+  - OUR angle: geometric, from the bone head/tail world positions.
+  - FreeMoCap's own: the Blender pose-bone rotation_euler of the matching bone.
+
+JOINT DEFINITIONS (ours)
+  Elbow / knee (hinge joints): flexion = angle between the proximal bone
+      direction and the distal bone direction (upper_arm->forearm,
+      thigh->shin).  0 = straight, larger = more bent.
+  Shoulder / hip (ball joints): measured against a trunk frame built from the
+      bones themselves:
+          up      = spine head -> neck head
+          right   = left thigh head -> right thigh head (made perpendicular to up)
+          forward = up x right
+      The limb direction is projected onto the sagittal plane (up/forward) and
+      the frontal plane (up/right):
+          flexion   (+ = limb forward of the trunk, - = behind)
+          abduction (+ = limb away from the midline, - = across the body)
+      0/0 means the limb hangs straight down relative to the trunk.
+      These are projection angles, not a full 3-axis joint decomposition, and
+      they get less meaningful once a limb is raised near/above horizontal.
+
+UNITS: Blender's Python API stores rotation_euler in RADIANS. This script
+assumes radians by default (--euler_unit degrees to override) and warns if the
+values look like degrees.
+
+Usage:
+    python joint_analysis.py --csv path/to/..._bone_and_joint_data.csv
+    python joint_analysis.py --selftest
+"""
+
+import argparse
+import math
 import os
+import tempfile
+
+import numpy as np
 import pandas as pd
 
 DATA_TYPE = "bone_and_joint_data.csv"
@@ -33,24 +85,26 @@ HEADER_PREFIXES = [
     "palm.04.L", "f_pinky.01.L", "f_pinky.02.L", "f_pinky.03.L",
 ]
 
-# The headers in the bone and joint data files follow a pattern of <bone_name>_<suffix>. 
-# I have defined the suffixes as the HEADER_SUFFIXES list. 
+# The headers in the bone and joint data files follow a pattern of <bone_name>_<suffix>.
+# I have defined the suffixes as the HEADER_SUFFIXES list.
+# (Flattened: the original version wrapped this in an extra outer list.)
 HEADER_SUFFIXES = [
-    [
-        # Starting point
-        "_head_center_world_x", "_head_center_world_y", "_head_center_world_z",
+    # Starting point
+    "_head_center_world_x", "_head_center_world_y", "_head_center_world_z",
 
-        # Ending point
-        "_tail_center_world_x", "_tail_center_world_y", "_tail_center_world_z",
+    # Ending point
+    "_tail_center_world_x", "_tail_center_world_y", "_tail_center_world_z",
 
-        # Rotation (quaternion)
-        "_rotation_quaternion_x", "_rotation_quaternion_y", "_rotation_quaternion_z", "_rotation_quaternion_w",
+    # Rotation (quaternion)
+    "_rotation_quaternion_x", "_rotation_quaternion_y",
+    "_rotation_quaternion_z", "_rotation_quaternion_w",
 
-        # Rotation (euler)
-        "_rotation_euler_x", "_rotation_euler_y", "_rotation_euler_z", "_rotation_euler_order"
-
-        # Transformation matrix (4x4)
-    ] + [f"_matrix_{i}_{j}" for i in range(4) for j in range(4)]
+    # Rotation (euler)
+    "_rotation_euler_x", "_rotation_euler_y", "_rotation_euler_z",
+    "_rotation_euler_order",
+] + [
+    # Transformation matrix (4x4)
+    f"_matrix_{i}_{j}" for i in range(4) for j in range(4)
 ]
 
 # The relevant prefixes are the ones that correspond to the joints we are interested in analyzing.
@@ -59,8 +113,11 @@ RELEVANT_PREFIXES = [
     "thigh.L", "thigh.R", "shin.L", "shin.R"
 ]
 
+# Bones needed only to build the trunk reference frame (up direction).
+REFERENCE_PREFIXES = ["spine", "neck"]
+
 # The JOINT_TO_BONE dictionary maps joint names to their corresponding bone names.
-# This mapping should theoretically be used to convert joint data to bone data for analysis.
+# A bone's rotation is taken to represent the joint at its head (proximal) end.
 # These mappings were decided arbitrarily, but should line up with correct anatomically relevant locations.
 JOINT_TO_BONE = {
     "left_shoulder":  "upper_arm.L",
@@ -72,83 +129,509 @@ JOINT_TO_BONE = {
     "left_knee":      "shin.L",
     "right_knee":     "shin.R",
 }
-    
-def build_relevant_columns_from_csv(csv_file_path: str) -> list[str]:
-    """
-    Build a list of relevant column names by reading the headers from a CSV file.
 
-    Args:
-        csv_file_path (str): The path to the CSV file containing bone and joint data.
+# How each joint's angle is computed (see module docstring).
+JOINT_SPECS = {
+    "right_shoulder": {"kind": "ball",  "bone": "upper_arm.R", "side": "right"},
+    "right_elbow":    {"kind": "hinge", "proximal": "upper_arm.R", "distal": "forearm.R"},
+    "right_hip":      {"kind": "ball",  "bone": "thigh.R", "side": "right"},
+    "right_knee":     {"kind": "hinge", "proximal": "thigh.R", "distal": "shin.R"},
+    "left_shoulder":  {"kind": "ball",  "bone": "upper_arm.L", "side": "left"},
+    "left_elbow":     {"kind": "hinge", "proximal": "upper_arm.L", "distal": "forearm.L"},
+    "left_hip":       {"kind": "ball",  "bone": "thigh.L", "side": "left"},
+    "left_knee":      {"kind": "hinge", "proximal": "thigh.L", "distal": "shin.L"},
+}
+JOINT_ORDER = list(JOINT_SPECS)
 
-    Returns:
-        list[str]: A list of relevant column names.
-    """
+# Which CSV columns feed each property in the frame dict.
+PROPERTY_COLUMNS = {
+    "head": ("_head_center_world_x", "_head_center_world_y", "_head_center_world_z"),
+    "tail": ("_tail_center_world_x", "_tail_center_world_y", "_tail_center_world_z"),
+    "quaternion": ("_rotation_quaternion_x", "_rotation_quaternion_y",
+                   "_rotation_quaternion_z", "_rotation_quaternion_w"),
+    "euler": ("_rotation_euler_x", "_rotation_euler_y", "_rotation_euler_z"),
+}
+EULER_ORDER_SUFFIX = "_rotation_euler_order"
 
-    # Read the CSV file to get the headers
-    df = pd.read_csv(csv_file_path, nrows=0)  # Read only the header row
-    headers = df.columns.tolist()
+# Below this, a joint is described as "straight" / "neutral".
+NEUTRAL_THRESHOLD_DEG = 5.0
 
-    # Filter headers based on relevant prefixes and suffixes
-    relevant_columns = []
-    for header in headers:
-        for prefix in RELEVANT_PREFIXES:
-            if header.startswith(prefix):
-                relevant_columns.append(header)
-                break  # No need to check other prefixes once a match is found
-
-    return relevant_columns
 
 def get_joint_to_bone_mapping() -> dict[str, str]:
-    """
-    Get the mapping of joint names to their corresponding bone names.
-
-    Returns:
-        dict[str, str]: A dictionary mapping joint names to bone names.
-    """
+    """Mapping of joint names to their corresponding bone names."""
     return JOINT_TO_BONE
 
-def get_relevant_prefixes() -> list[str]:
-    """
-    Get the list of relevant prefixes for bone and joint data.
 
-    Returns:
-        list[str]: A list of relevant prefixes.
-    """
+def get_relevant_prefixes() -> list[str]:
+    """Bone-name prefixes for the joints we analyze."""
     return RELEVANT_PREFIXES
 
-def get_header_prefixes() -> list[str]:
-    """
-    Get the list of header prefixes for bone and joint data.
 
-    Returns:
-        list[str]: A list of header prefixes.
-    """
+def get_header_prefixes() -> list[str]:
+    """Every bone-name prefix present in the CSV."""
     return HEADER_PREFIXES
 
-def get_header_suffixes() -> list[list[str]]:
-    """
-    Get the list of header suffixes for bone and joint data.
 
-    Returns:
-        list[list[str]]: A list of header suffixes.
-    """
+def get_header_suffixes() -> list[str]:
+    """Every per-bone property suffix present in the CSV."""
     return HEADER_SUFFIXES
 
-def save_to_analysis_output_dir(data: pd.DataFrame, filename: str) -> None:
-    """
-    Save the given DataFrame to the analysis output directory with the specified filename.
 
-    Args:
-        data (pd.DataFrame): The DataFrame to save.
-        filename (str): The name of the file to save the DataFrame as.
+# ---------------------------------------------------------------------------
+# 1. Column selection + frame-by-frame dict
+# ---------------------------------------------------------------------------
+
+def build_relevant_columns_from_csv(csv_file_path: str, include_matrix: bool = False) -> list[str]:
     """
+    Read just the header row of the CSV and return the names of the columns we
+    need: every property (minus the 16 matrix values unless include_matrix)
+    of the relevant bones plus the trunk reference bones.
+
+    Matching is exact (<prefix> + <known suffix>), so "spine" never picks up
+    "spine.001" columns.
+    """
+    wanted_suffixes = {s for s in HEADER_SUFFIXES if include_matrix or "_matrix_" not in s}
+    headers = pd.read_csv(csv_file_path, nrows=0).columns.tolist()
+    prefixes = RELEVANT_PREFIXES + REFERENCE_PREFIXES
+
+    relevant_columns = []
+    for header in headers:
+        for prefix in prefixes:
+            if header.startswith(prefix + "_") and header[len(prefix):] in wanted_suffixes:
+                relevant_columns.append(header)
+                break
+    return relevant_columns
+
+
+def load_relevant_frames(csv_file_path: str, euler_unit: str = "radians") -> dict[int, dict]:
+    """
+    Load only the relevant columns and return a frame-by-frame dict:
+
+        {frame_index: {bone_name: {"head": (x, y, z), "tail": (x, y, z),
+                                   "quaternion": (x, y, z, w),
+                                   "euler_deg": (x, y, z),
+                                   "euler_order": "XYZ"}}}
+
+    euler_unit says what unit the CSV's rotation_euler columns are in
+    ("radians" is what Blender's API produces); "euler_deg" is always degrees.
+    """
+    if euler_unit not in ("radians", "degrees"):
+        raise ValueError("euler_unit must be 'radians' or 'degrees'")
+
+    columns = build_relevant_columns_from_csv(csv_file_path)
+    df = pd.read_csv(csv_file_path, usecols=columns)
+
+    bones = [p for p in RELEVANT_PREFIXES + REFERENCE_PREFIXES
+             if all(p + s in df.columns for s in PROPERTY_COLUMNS["head"])]
+    missing = [p for p in RELEVANT_PREFIXES + REFERENCE_PREFIXES if p not in bones]
+    if missing:
+        print(f"Warning: bones not found in this CSV: {missing}")
+
+    arrays = {}
+    for bone in bones:
+        arrays[bone] = {key: df[[bone + s for s in suffixes]].to_numpy(dtype=float)
+                        for key, suffixes in PROPERTY_COLUMNS.items()}
+        order_col = bone + EULER_ORDER_SUFFIX
+        arrays[bone]["euler_order"] = (df[order_col].astype(str).to_numpy()
+                                       if order_col in df.columns
+                                       else np.full(len(df), ""))
+
+    if euler_unit == "radians":
+        biggest = max((np.nanmax(np.abs(a["euler"])) for a in arrays.values()
+                       if a["euler"].size and not np.isnan(a["euler"]).all()), default=0.0)
+        if biggest > 2 * math.pi + 0.5:
+            print(f"Warning: euler values reach {biggest:.1f}, too large for radians - "
+                  f"the CSV may already be in degrees (use --euler_unit degrees).")
+    scale = 180.0 / math.pi if euler_unit == "radians" else 1.0
+
+    frames = {}
+    for i in range(len(df)):
+        frames[i] = {
+            bone: {
+                "head": tuple(a["head"][i].tolist()),
+                "tail": tuple(a["tail"][i].tolist()),
+                "quaternion": tuple(a["quaternion"][i].tolist()),
+                "euler_deg": tuple((a["euler"][i] * scale).tolist()),
+                "euler_order": str(a["euler_order"][i]),
+            }
+            for bone, a in arrays.items()
+        }
+    return frames
+
+
+# ---------------------------------------------------------------------------
+# 2. Geometry + joint angles
+# ---------------------------------------------------------------------------
+
+def _unit(v) -> np.ndarray:
+    v = np.asarray(v, dtype=float)
+    n = np.linalg.norm(v)
+    return v / n if n > 1e-9 else np.full(3, np.nan)
+
+
+def _angle_between(u, v) -> float:
+    """Angle in degrees between two vectors (NaN if either is degenerate)."""
+    return float(np.degrees(np.arccos(np.clip(np.dot(_unit(u), _unit(v)), -1.0, 1.0))))
+
+
+def _signed_angle(d, axis, down) -> float:
+    """Angle of direction d away from `down`, toward `axis`, in the plane they span."""
+    return float(np.degrees(np.arctan2(np.dot(d, axis), np.dot(d, down))))
+
+
+def bone_direction(frame: dict, bone: str) -> np.ndarray:
+    """Unit vector from the bone's head to its tail, in world coordinates."""
+    return _unit(np.array(frame[bone]["tail"]) - np.array(frame[bone]["head"]))
+
+
+def trunk_frame(frame: dict) -> dict:
+    """
+    Trunk axes (world coordinates) from the spine/neck/thigh bones:
+    up, right, forward (right-handed: forward = up x right).
+    """
+    up = _unit(np.array(frame["neck"]["head"]) - np.array(frame["spine"]["head"]))
+    right = np.array(frame["thigh.R"]["head"]) - np.array(frame["thigh.L"]["head"])
+    right = _unit(right - np.dot(right, up) * up)
+    return {"up": up, "right": right, "forward": np.cross(up, right)}
+
+
+def compute_joint_angles(frame: dict) -> dict:
+    """
+    Joint angles for one frame (a {bone: properties} dict).
+
+    Returns {joint_name: entry}, where entry is None if a needed bone is
+    missing, otherwise:
+        hinge joints (elbow, knee):  {"flexion_deg"}
+        ball joints (shoulder, hip): {"flexion_deg", "abduction_deg"}
+    plus FreeMoCap's own rotation for the matching bone:
+        {"freemocap_euler_deg": (x, y, z), "freemocap_euler_order": "XYZ"}
+    Values are NaN where the tracking data for that frame was missing.
+    """
+    try:
+        trunk = trunk_frame(frame)
+    except KeyError:
+        trunk = None
+
+    result = {}
+    for joint in JOINT_ORDER:
+        spec = JOINT_SPECS[joint]
+        try:
+            if spec["kind"] == "hinge":
+                entry = {"flexion_deg": _angle_between(
+                    bone_direction(frame, spec["proximal"]),
+                    bone_direction(frame, spec["distal"]))}
+            else:
+                if trunk is None:
+                    raise KeyError("trunk reference bones")
+                d = bone_direction(frame, spec["bone"])
+                down = -trunk["up"]
+                outward = trunk["right"] if spec["side"] == "right" else -trunk["right"]
+                entry = {"flexion_deg": _signed_angle(d, trunk["forward"], down),
+                         "abduction_deg": _signed_angle(d, outward, down)}
+            fm_bone = frame[JOINT_TO_BONE[joint]]
+            entry["freemocap_euler_deg"] = fm_bone["euler_deg"]
+            entry["freemocap_euler_order"] = fm_bone["euler_order"]
+            result[joint] = entry
+        except KeyError:
+            result[joint] = None
+    return result
+
+
+# ---------------------------------------------------------------------------
+# 3. Readable text
+# ---------------------------------------------------------------------------
+
+def describe_joint(joint_name: str, angles: dict | None) -> str:
+    """e.g. 'right elbow bent 50 degrees', 'left hip flexed 70 degrees, abducted 10 degrees'."""
+    label = joint_name.replace("_", " ")
+    if angles is None:
+        return f"{label}: no data"
+    flex = angles["flexion_deg"]
+    abd = angles.get("abduction_deg")
+    if np.isnan(flex) or (abd is not None and np.isnan(abd)):
+        return f"{label}: no data"
+
+    t = NEUTRAL_THRESHOLD_DEG
+    part = joint_name.split("_", 1)[1]
+
+    if part in ("elbow", "knee"):
+        return f"{label} straight" if flex < t else f"{label} bent {flex:.0f} degrees"
+
+    parts = []
+    if part == "hip":
+        if flex >= t:
+            parts.append(f"flexed {flex:.0f} degrees")
+        elif flex <= -t:
+            parts.append(f"extended {-flex:.0f} degrees")
+        if abd >= t:
+            parts.append(f"abducted {abd:.0f} degrees")
+        elif abd <= -t:
+            parts.append(f"adducted {-abd:.0f} degrees")
+    else:  # shoulder
+        if flex >= t:
+            parts.append(f"raised forward {flex:.0f} degrees")
+        elif flex <= -t:
+            parts.append(f"raised backward {-flex:.0f} degrees")
+        if abd >= t:
+            parts.append(f"raised out to the side {abd:.0f} degrees")
+        elif abd <= -t:
+            parts.append(f"pulled across the body {-abd:.0f} degrees")
+    return f"{label} " + (", ".join(parts) if parts else "neutral")
+
+
+def describe_frame(frame: dict) -> list[str]:
+    """One readable line per joint for a single frame."""
+    angles = compute_joint_angles(frame)
+    return [describe_joint(j, angles[j]) for j in JOINT_ORDER]
+
+
+def describe_frames(frames: dict[int, dict]) -> dict[int, list[str]]:
+    """{frame_index: [readable line per joint]} for every frame."""
+    return {i: describe_frame(f) for i, f in frames.items()}
+
+
+def frames_to_angle_table(frames: dict[int, dict]) -> pd.DataFrame:
+    """
+    One row per frame: our flexion/abduction angles plus FreeMoCap's own Euler
+    rotation (degrees) for the matching bone, ready for plotting/comparison.
+    """
+    rows = []
+    for i, frame in frames.items():
+        angles = compute_joint_angles(frame)
+        row = {"frame": i}
+        for joint in JOINT_ORDER:
+            a = angles[joint]
+            row[f"{joint}_flexion_deg"] = a["flexion_deg"] if a else np.nan
+            if JOINT_SPECS[joint]["kind"] == "ball":
+                row[f"{joint}_abduction_deg"] = a["abduction_deg"] if a else np.nan
+            fm = a["freemocap_euler_deg"] if a else (np.nan,) * 3
+            for axis, v in zip("xyz", fm):
+                row[f"{joint}_freemocap_euler_{axis}_deg"] = v
+        rows.append(row)
+    return pd.DataFrame(rows)
+
+
+def check_euler_columns(frames: dict[int, dict]) -> None:
+    """Print the range of FreeMoCap's Euler values per relevant bone (sanity check)."""
+    print("FreeMoCap rotation_euler range per bone (degrees):")
+    all_zero = True
+    for bone in RELEVANT_PREFIXES:
+        vals = np.array([f[bone]["euler_deg"] for f in frames.values() if bone in f])
+        if vals.size == 0 or np.isnan(vals).all():
+            continue
+        lo, hi = np.nanmin(vals, axis=0), np.nanmax(vals, axis=0)
+        print(f"  {bone:<12} x[{lo[0]:8.1f}, {hi[0]:8.1f}]  "
+              f"y[{lo[1]:8.1f}, {hi[1]:8.1f}]  z[{lo[2]:8.1f}, {hi[2]:8.1f}]")
+        if np.nanmax(np.abs(vals)) > 1e-3:
+            all_zero = False
+    if all_zero:
+        print("  NOTE: every Euler value is ~0. If the rig is driven by constraints, the raw\n"
+              "  rotation_euler properties may not reflect the motion; the head/tail-based\n"
+              "  angles above are then the reliable ones.")
+
+
+def save_to_analysis_output_dir(data: pd.DataFrame, filename: str) -> None:
+    """Save the given DataFrame to the analysis output directory with the specified filename."""
     output_dir = "analysis_output"
-    os.makedirs(output_dir, exist_ok=True)  # Create the directory if it doesn't exist
+    os.makedirs(output_dir, exist_ok=True)
     output_path = os.path.join(output_dir, filename)
     data.to_csv(output_path, index=False)
     print(f"Data saved to {output_path}")
 
-#call it
+
+# ---------------------------------------------------------------------------
+# Self-test: synthetic skeleton with KNOWN joint angles, in the real CSV layout
+# ---------------------------------------------------------------------------
+
+_RIGHT = np.array([1.0, 0.0, 0.0])
+_FWD = np.array([0.0, 1.0, 0.0])
+_UP = np.array([0.0, 0.0, 1.0])
+
+
+def _unit_vec(v):
+    return v / np.linalg.norm(v)
+
+
+def _ball_direction(flex_deg, abd_deg, outward):
+    """Direction whose sagittal/frontal projection angles are exactly (flex, abd)."""
+    d = (math.tan(math.radians(abd_deg)) * outward
+         + math.tan(math.radians(flex_deg)) * _FWD - _UP)
+    return _unit_vec(d)
+
+
+def _hinge_direction(parent_dir, flex_deg, bend_toward):
+    """Direction exactly flex_deg away from parent_dir, bending toward `bend_toward`."""
+    n = _unit_vec(bend_toward - np.dot(bend_toward, parent_dir) * parent_dir)
+    a = math.radians(flex_deg)
+    return math.cos(a) * parent_dir + math.sin(a) * n
+
+
+def _synthetic_skeleton(pose: dict) -> dict:
+    """Body facing +Y (right = +X, up = +Z). Returns {bone: (head, tail)}."""
+    bones = {}
+    for side, sign, word in (("R", 1.0, "right"), ("L", -1.0, "left")):
+        out = sign * _RIGHT
+        hip = np.array([0.1 * sign, 0.0, 1.0])
+        d_thigh = _ball_direction(*pose.get(f"{word}_hip", (0.0, 0.0)), out)
+        knee = hip + 0.45 * d_thigh
+        d_shin = _hinge_direction(d_thigh, pose.get(f"{word}_knee", 0.0), -_FWD)
+        bones[f"thigh.{side}"] = (hip, knee)
+        bones[f"shin.{side}"] = (knee, knee + 0.45 * d_shin)
+
+        shoulder = np.array([0.2 * sign, 0.0, 1.45])
+        d_upper = _ball_direction(*pose.get(f"{word}_shoulder", (0.0, 0.0)), out)
+        elbow = shoulder + 0.30 * d_upper
+        d_fore = _hinge_direction(d_upper, pose.get(f"{word}_elbow", 0.0), _FWD)
+        bones[f"upper_arm.{side}"] = (shoulder, elbow)
+        bones[f"forearm.{side}"] = (elbow, elbow + 0.25 * d_fore)
+    bones["spine"] = (np.array([0.0, 0.0, 1.0]), np.array([0.0, 0.0, 1.2]))
+    bones["neck"] = (np.array([0.0, 0.0, 1.5]), np.array([0.0, 0.0, 1.65]))
+    return bones
+
+
+def _rotate_whole_body(bones, yaw_deg, lean_deg, shift):
+    cy, sy = math.cos(math.radians(yaw_deg)), math.sin(math.radians(yaw_deg))
+    cl, sl = math.cos(math.radians(lean_deg)), math.sin(math.radians(lean_deg))
+    rz = np.array([[cy, -sy, 0], [sy, cy, 0], [0, 0, 1]])
+    rx = np.array([[1, 0, 0], [0, cl, -sl], [0, sl, cl]])
+    m = rz @ rx
+    return {k: (m @ h + shift, m @ t + shift) for k, (h, t) in bones.items()}
+
+
+def _write_synthetic_csv(path, frames_bones, euler_overrides):
+    """Write a CSV with all 61 bones x 30 columns, like the real FreeMoCap export."""
+    cols = {p + s: [] for p in HEADER_PREFIXES for s in HEADER_SUFFIXES}
+    for i, bones in enumerate(frames_bones):
+        for prefix in HEADER_PREFIXES:
+            vals = {s: 0.0 for s in HEADER_SUFFIXES}
+            vals["_rotation_quaternion_w"] = 1.0
+            vals["_rotation_euler_order"] = "XYZ"
+            if prefix in bones:
+                head, tail = bones[prefix]
+                for ax, v in zip("xyz", head):
+                    vals[f"_head_center_world_{ax}"] = v
+                for ax, v in zip("xyz", tail):
+                    vals[f"_tail_center_world_{ax}"] = v
+            for ax, v in zip("xyz", euler_overrides.get((i, prefix), (0.0, 0.0, 0.0))):
+                vals[f"_rotation_euler_{ax}"] = v
+            for s in HEADER_SUFFIXES:
+                cols[prefix + s].append(vals[s])
+    pd.DataFrame(cols).to_csv(path, index=False)
+
+
+def run_selftest() -> bool:
+    pose_a = {"right_elbow": 50.0, "left_knee": 85.0, "right_hip": (70.0, 0.0),
+              "left_shoulder": (40.0, 15.0)}
+    pose_b = {"right_hip": (-20.0, 0.0), "left_hip": (0.0, 25.0),
+              "right_shoulder": (0.0, 80.0), "left_elbow": 120.0, "right_knee": 10.0}
+    poses = [{}, pose_a, pose_b, pose_a, pose_a]
+
+    skeletons = [_synthetic_skeleton(p) for p in poses]
+    skeletons[3] = _rotate_whole_body(skeletons[3], yaw_deg=40, lean_deg=20,
+                                      shift=np.array([2.0, -1.0, 0.3]))
+    skeletons[4]["neck"] = (np.full(3, np.nan), skeletons[4]["neck"][1])  # missing trunk data
+
+    euler = {(1, "forearm.R"): (math.radians(50.0), 0.0, 0.0)}  # FreeMoCap-style radians
+    path = os.path.join(tempfile.mkdtemp(), "synthetic_bone_and_joint_data.csv")
+    _write_synthetic_csv(path, skeletons, euler)
+
+    all_ok = True
+
+    def check(label, ok):
+        nonlocal all_ok
+        all_ok &= bool(ok)
+        print(f"  {'PASS' if ok else 'FAIL'}  {label}")
+
+    print("Column selection / frame dict:")
+    cols = build_relevant_columns_from_csv(path)
+    check(f"140 columns selected (10 bones x 14, no matrix) - got {len(cols)}", len(cols) == 140)
+    check("300 columns with matrix",
+          len(build_relevant_columns_from_csv(path, include_matrix=True)) == 300)
+    frames = load_relevant_frames(path)
+    check("5 frames loaded", len(frames) == 5)
+    check("10 bones per frame", all(len(f) == 10 for f in frames.values()))
+    check("no hand/finger/other bones leaked in", set(frames[0]) == set(RELEVANT_PREFIXES + REFERENCE_PREFIXES))
+
+    print("\nJoint angles vs known synthetic values:")
+    ball = ("hip", "shoulder")
+    for i, pose in enumerate(poses):
+        angles = compute_joint_angles(frames[i])
+        nan_trunk = (i == 4)
+        for word in ("right", "left"):
+            for joint in ("elbow", "knee"):
+                want = pose.get(f"{word}_{joint}", 0.0)
+                got = angles[f"{word}_{joint}"]["flexion_deg"]
+                check(f"frame {i} {word} {joint}: want {want:6.1f} got {got:6.1f}",
+                      abs(got - want) < 1e-3)
+            for joint in ball:
+                wf, wa = pose.get(f"{word}_{joint}", (0.0, 0.0))
+                a = angles[f"{word}_{joint}"]
+                if nan_trunk:
+                    check(f"frame {i} {word} {joint}: NaN when trunk data missing",
+                          np.isnan(a["flexion_deg"]) and np.isnan(a["abduction_deg"]))
+                else:
+                    check(f"frame {i} {word} {joint}: want ({wf:5.1f},{wa:5.1f}) "
+                          f"got ({a['flexion_deg']:5.1f},{a['abduction_deg']:5.1f})",
+                          abs(a["flexion_deg"] - wf) < 1e-3 and abs(a["abduction_deg"] - wa) < 1e-3)
+
+    print("\nFreeMoCap Euler pass-through (radians -> degrees):")
+    fm = compute_joint_angles(frames[1])["right_elbow"]["freemocap_euler_deg"]
+    check(f"right elbow euler = {tuple(round(v, 3) for v in fm)} (want 50, 0, 0)",
+          np.allclose(fm, (50.0, 0.0, 0.0), atol=1e-6))
+
+    print("\nReadable text:")
+    text = describe_frame(frames[1])
+    for line in text:
+        print(f"    {line}")
+    check("'right elbow bent 50 degrees'", "right elbow bent 50 degrees" in text)
+    check("'left knee bent 85 degrees'", "left knee bent 85 degrees" in text)
+    check("'right hip flexed 70 degrees'", "right hip flexed 70 degrees" in text)
+    check("left shoulder forward + out to the side",
+          "left shoulder raised forward 40 degrees, raised out to the side 15 degrees" in text)
+    check("standing frame reads straight/neutral",
+          all(("straight" in l or "neutral" in l) for l in describe_frame(frames[0])))
+    text_b = describe_frame(frames[2])
+    check("right hip extended 20", "right hip extended 20 degrees" in text_b)
+    check("left hip abducted 25", "left hip abducted 25 degrees" in text_b)
+    check("missing trunk -> 'no data' for hips, elbows still readable",
+          "right hip: no data" in describe_frame(frames[4])
+          and "right elbow bent 50 degrees" in describe_frame(frames[4]))
+
+    print("\nTable export:")
+    table = frames_to_angle_table(frames)
+    check(f"table shape {table.shape} (5 rows)", len(table) == 5 and "right_elbow_flexion_deg" in table)
+
+    print("\nALL TESTS PASSED" if all_ok else "\nSOME TESTS FAILED")
+    return all_ok
+
+
+# ---------------------------------------------------------------------------
+# Command line
+# ---------------------------------------------------------------------------
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--selftest", action="store_true", help="run synthetic-data tests")
+    ap.add_argument("--csv", default=BONE_AND_JOINT_CSV_FILE, help="bone_and_joint CSV")
+    ap.add_argument("--euler_unit", choices=["radians", "degrees"], default="radians")
+    ap.add_argument("--print_frames", type=int, default=3, help="how many frames to print")
+    ap.add_argument("--save", action="store_true", help="save per-frame angle table to analysis_output/")
+    args = ap.parse_args()
+
+    if args.selftest:
+        raise SystemExit(0 if run_selftest() else 1)
+
+    frames = load_relevant_frames(args.csv, euler_unit=args.euler_unit)
+    print(f"Loaded {len(frames)} frames, {len(next(iter(frames.values())))} bones per frame.\n")
+    check_euler_columns(frames)
+    print()
+    for i in list(frames)[:args.print_frames]:
+        print(f"Frame {i}:")
+        for line in describe_frame(frames[i]):
+            print(f"  {line}")
+    if args.save:
+        save_to_analysis_output_dir(frames_to_angle_table(frames), f"{RECORDING_NUMBER}_joint_angles.csv")
+
+
 if __name__ == "__main__":
-    relevant_columns = build_relevant_columns_from_csv(BONE_AND_JOINT_CSV_FILE)
-    
+    main()
