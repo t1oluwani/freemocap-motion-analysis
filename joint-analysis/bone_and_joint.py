@@ -41,8 +41,7 @@ assumes radians by default (--euler_unit degrees to override) and warns if the
 values look like degrees.
 
 Usage:
-    python joint_analysis.py --csv path/to/..._bone_and_joint_data.csv
-    python joint_analysis.py --selftest
+    python joint_analysis.py --csv path/to/..._bone_and_joint_data.csv --save
 """
 
 import argparse
@@ -483,7 +482,7 @@ def describe_joint(joint_name: str, angles: dict | None) -> str:
             parts.append(f"pulled across the body {-abd:.0f} degrees")
     return f"{label} " + (", ".join(parts) if parts else "neutral")
 
-def describe_joint_freemocap(joint_name: str, angles: dict | None) -> str:
+def describe_joint_euler(joint_name: str, angles: dict | None) -> str:
     """
     Readable line for FreeMoCap's own pose-bone rotation for a joint.
 
@@ -495,38 +494,27 @@ def describe_joint_freemocap(joint_name: str, angles: dict | None) -> str:
     """
     label = joint_name.replace("_", " ")
     if angles is None:
-        return f"{label} (FreeMoCap): no data"
+        return f"{label}: no data"
     euler = angles.get("freemocap_euler_deg")
     order = angles.get("freemocap_euler_order", "XYZ")
     if euler is None or any(np.isnan(v) for v in euler):
-        return f"{label} (FreeMoCap): no data"
+        return f"{label}: no data"
 
     t = NEUTRAL_THRESHOLD_DEG
     if max(abs(v) for v in euler) < t:
-        return f"{label} (FreeMoCap): rotation ~0 degrees"
+        return f"{label}: rotation ~0 degrees"
 
     x, y, z = euler
     return (
-        f"{label} (FreeMoCap): rotation {order} "
+        f"{label}: rotation {order} "
         f"x={x:.0f} y={y:.0f} z={z:.0f} degrees"
     )
 
-
-def describe_frame(frame: dict) -> list[str]:
-    """One readable line per joint for a single frame."""
-    angles = compute_joint_angles(frame)
-    return [describe_joint(j, angles[j]) for j in JOINT_ORDER]
-
-
-def describe_frames(frames: dict[int, dict]) -> dict[int, list[str]]:
-    """{frame_index: [readable line per joint]} for every frame."""
-    return {i: describe_frame(f) for i, f in frames.items()}
-
-def describe_frame_both(frame: dict) -> tuple[list[str], list[str]]:
+def describe_frames(frame: dict) -> tuple[list[str], list[str]]:
     """Return (computed_lines, freemocap_lines) for one frame."""
     angles = compute_joint_angles(frame)
     computed = [describe_joint(j, angles[j]) for j in JOINT_ORDER]
-    freemocap = [describe_joint_freemocap(j, angles[j]) for j in JOINT_ORDER]
+    freemocap = [describe_joint_euler(j, angles[j]) for j in JOINT_ORDER]
     return computed, freemocap
 
 
@@ -652,7 +640,6 @@ def save_print_to_output_dir(print_output: str, filename: str) -> None:
 # Command line
 # ---------------------------------------------------------------------------
 
-
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--csv", default=BONE_AND_JOINT_CSV_FILE, help="bone_and_joint CSV")
@@ -675,34 +662,6 @@ def main():
     args = ap.parse_args()
 
     frames = load_relevant_frames(args.csv, euler_unit=args.euler_unit)
-    # print(
-    #     f"Loaded {len(frames)} frames, {len(next(iter(frames.values())))} bones per frame.\n"
-    # )
-    # check_euler_columns(frames)
-    # print()
-    # for i in list(frames)[: args.print_frames]:
-    #     print(f"Frame {i}:")
-    #     for line in describe_frame(frames[i]):
-    #         print(f"  {line}")
-
-    # if args.save:
-    #     if args.combine:
-    #         save_csv_to_output_dir(
-    #             frames_to_angle_table(frames), f"{RECORDING_NUMBER}_joint_angles_combined.csv"
-    #         )
-    #         save_print_to_output_dir() #todo
-    #     else:
-    #         save_csv_to_output_dir(
-    #             frames_to_computed_angle_table(frames),
-    #             f"{RECORDING_NUMBER}_computed_joint_angles.csv",
-    #         )
-    #         save_print_to_output_dir() #todo
-    #         save_csv_to_output_dir(
-    #             frames_to_freemocap_angle_table(frames),
-    #             f"{RECORDING_NUMBER}_freemocap_joint_angles.csv",
-    #         )
-    #         save_print_to_output_dir() #todo
-
     full_lines: list[str] = []
     computed_lines: list[str] = []
     freemocap_lines: list[str] = []
@@ -722,7 +681,7 @@ def main():
     full_lines.append(buf.getvalue())
 
     for i in list(frames)[: args.print_frames]:
-        computed, freemocap = describe_frame_both(frames[i])
+        computed, freemocap = describe_frames(frames[i])
 
         if args.combine:
             full_lines.append(f"Frame {i} (computed vs FreeMoCap, interleaved):")
