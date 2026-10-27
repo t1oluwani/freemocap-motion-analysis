@@ -1,0 +1,4770 @@
+Frame 0 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 1 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 2 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 3 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 4 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 5 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 6 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 7 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 8 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 9 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 10 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 11 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 12 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 13 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 14 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 15 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 16 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 17 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 18 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 19 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 20 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 21 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 22 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 23 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 24 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 25 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 26 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 27 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 28 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 29 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 30 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 31 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 32 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 33 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 34 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 35 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 36 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 37 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 38 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip adducted 6 degrees
+  right knee straight
+  left shoulder raised out to the side 6 degrees
+  left elbow straight
+  left hip abducted 10 degrees
+  left knee bent 7 degrees
+Frame 39 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 40 - computed:
+  right shoulder raised out to the side 11 degrees
+  right elbow straight
+  right hip abducted 12 degrees
+  right knee straight
+  left shoulder pulled across the body 14 degrees
+  left elbow straight
+  left hip adducted 22 degrees
+  left knee bent 13 degrees
+Frame 41 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 5 degrees
+  left elbow straight
+  left hip abducted 9 degrees
+  left knee bent 10 degrees
+Frame 42 - computed:
+  right shoulder pulled across the body 25 degrees
+  right elbow bent 8 degrees
+  right hip adducted 30 degrees
+  right knee bent 15 degrees
+  left shoulder raised out to the side 29 degrees
+  left elbow straight
+  left hip abducted 45 degrees
+  left knee bent 27 degrees
+Frame 43 - computed:
+  right shoulder pulled across the body 15 degrees
+  right elbow bent 9 degrees
+  right hip adducted 22 degrees
+  right knee bent 11 degrees
+  left shoulder raised out to the side 20 degrees
+  left elbow straight
+  left hip abducted 34 degrees
+  left knee bent 31 degrees
+Frame 44 - computed:
+  right shoulder raised forward 180 degrees, raised out to the side 95 degrees
+  right elbow bent 13 degrees
+  right hip flexed 180 degrees, abducted 96 degrees
+  right knee bent 19 degrees
+  left shoulder raised forward 180 degrees, pulled across the body 110 degrees
+  left elbow bent 10 degrees
+  left hip flexed 180 degrees, adducted 134 degrees
+  left knee bent 41 degrees
+Frame 45 - computed:
+  right shoulder raised backward 180 degrees, raised out to the side 151 degrees
+  right elbow straight
+  right hip extended 180 degrees, abducted 146 degrees
+  right knee bent 20 degrees
+  left shoulder raised backward 180 degrees, pulled across the body 176 degrees
+  left elbow straight
+  left hip flexed 180 degrees, abducted 166 degrees
+  left knee bent 45 degrees
+Frame 46 - computed:
+  right shoulder raised forward 180 degrees, raised out to the side 167 degrees
+  right elbow bent 13 degrees
+  right hip extended 180 degrees, abducted 158 degrees
+  right knee bent 20 degrees
+  left shoulder raised forward 180 degrees, raised out to the side 165 degrees
+  left elbow straight
+  left hip flexed 180 degrees, abducted 149 degrees
+  left knee bent 48 degrees
+Frame 47 - computed:
+  right shoulder raised forward 180 degrees, pulled across the body 171 degrees
+  right elbow bent 26 degrees
+  right hip extended 180 degrees, abducted 176 degrees
+  right knee bent 26 degrees
+  left shoulder raised forward 180 degrees, raised out to the side 140 degrees
+  left elbow bent 8 degrees
+  left hip extended 180 degrees, abducted 117 degrees
+  left knee bent 63 degrees
+Frame 48 - computed:
+  right shoulder raised backward 180 degrees, raised out to the side 96 degrees
+  right elbow bent 167 degrees
+  right hip extended 180 degrees, abducted 119 degrees
+  right knee bent 109 degrees
+  left shoulder raised out to the side 60 degrees
+  left elbow bent 137 degrees
+  left hip abducted 42 degrees
+  left knee bent 158 degrees
+Frame 49 - computed:
+  right shoulder raised out to the side 28 degrees
+  right elbow bent 117 degrees
+  right hip abducted 10 degrees
+  right knee bent 123 degrees
+  left shoulder raised backward 180 degrees, raised out to the side 121 degrees
+  left elbow bent 127 degrees
+  left hip extended 180 degrees, abducted 135 degrees
+  left knee bent 160 degrees
+Frame 50 - computed:
+  right shoulder raised out to the side 29 degrees
+  right elbow bent 48 degrees
+  right hip abducted 21 degrees
+  right knee bent 6 degrees
+  left shoulder neutral
+  left elbow straight
+  left hip adducted 77 degrees
+  left knee bent 40 degrees
+Frame 51 - computed:
+  right shoulder raised out to the side 18 degrees
+  right elbow bent 9 degrees
+  right hip abducted 11 degrees
+  right knee straight
+  left shoulder neutral
+  left elbow bent 7 degrees
+  left hip adducted 15 degrees
+  left knee bent 167 degrees
+Frame 52 - computed:
+  right shoulder raised out to the side 15 degrees
+  right elbow bent 8 degrees
+  right hip abducted 6 degrees
+  right knee bent 6 degrees
+  left shoulder raised out to the side 6 degrees
+  left elbow straight
+  left hip adducted 9 degrees
+  left knee bent 159 degrees
+Frame 53 - computed:
+  right shoulder raised out to the side 13 degrees
+  right elbow bent 7 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 7 degrees
+  left elbow straight
+  left hip adducted 12 degrees
+  left knee straight
+Frame 54 - computed:
+  right shoulder raised out to the side 10 degrees
+  right elbow bent 9 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 8 degrees
+  left elbow bent 5 degrees
+  left hip adducted 15 degrees
+  left knee bent 10 degrees
+Frame 55 - computed:
+  right shoulder raised out to the side 7 degrees
+  right elbow bent 12 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 10 degrees
+  left elbow bent 5 degrees
+  left hip adducted 14 degrees
+  left knee bent 11 degrees
+Frame 56 - computed:
+  right shoulder raised out to the side 7 degrees
+  right elbow bent 11 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 11 degrees
+  left elbow straight
+  left hip adducted 8 degrees
+  left knee bent 7 degrees
+Frame 57 - computed:
+  right shoulder raised out to the side 9 degrees
+  right elbow bent 7 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 12 degrees
+  left elbow bent 6 degrees
+  left hip neutral
+  left knee straight
+Frame 58 - computed:
+  right shoulder raised out to the side 12 degrees
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 11 degrees
+  left elbow bent 10 degrees
+  left hip neutral
+  left knee straight
+Frame 59 - computed:
+  right shoulder raised out to the side 13 degrees
+  right elbow straight
+  right hip adducted 5 degrees
+  right knee straight
+  left shoulder raised out to the side 9 degrees
+  left elbow bent 14 degrees
+  left hip neutral
+  left knee straight
+Frame 60 - computed:
+  right shoulder raised out to the side 13 degrees
+  right elbow straight
+  right hip adducted 5 degrees
+  right knee straight
+  left shoulder raised out to the side 7 degrees
+  left elbow bent 16 degrees
+  left hip neutral
+  left knee straight
+Frame 61 - computed:
+  right shoulder raised out to the side 12 degrees
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 6 degrees
+  left elbow bent 14 degrees
+  left hip neutral
+  left knee straight
+Frame 62 - computed:
+  right shoulder raised out to the side 12 degrees
+  right elbow bent 5 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 6 degrees
+  left elbow bent 12 degrees
+  left hip neutral
+  left knee straight
+Frame 63 - computed:
+  right shoulder raised out to the side 12 degrees
+  right elbow bent 6 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 6 degrees
+  left elbow bent 11 degrees
+  left hip neutral
+  left knee straight
+Frame 64 - computed:
+  right shoulder raised out to the side 12 degrees
+  right elbow bent 7 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 7 degrees
+  left elbow bent 11 degrees
+  left hip neutral
+  left knee straight
+Frame 65 - computed:
+  right shoulder raised out to the side 11 degrees
+  right elbow bent 7 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 7 degrees
+  left elbow bent 10 degrees
+  left hip neutral
+  left knee straight
+Frame 66 - computed:
+  right shoulder raised out to the side 11 degrees
+  right elbow bent 5 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 8 degrees
+  left elbow bent 10 degrees
+  left hip neutral
+  left knee straight
+Frame 67 - computed:
+  right shoulder raised out to the side 11 degrees
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 9 degrees
+  left elbow bent 9 degrees
+  left hip neutral
+  left knee straight
+Frame 68 - computed:
+  right shoulder raised out to the side 10 degrees
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 9 degrees
+  left elbow bent 9 degrees
+  left hip neutral
+  left knee straight
+Frame 69 - computed:
+  right shoulder raised out to the side 9 degrees
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 9 degrees
+  left elbow bent 9 degrees
+  left hip neutral
+  left knee straight
+Frame 70 - computed:
+  right shoulder raised out to the side 9 degrees
+  right elbow bent 6 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 9 degrees
+  left elbow bent 10 degrees
+  left hip neutral
+  left knee straight
+Frame 71 - computed:
+  right shoulder raised out to the side 8 degrees
+  right elbow bent 7 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 9 degrees
+  left elbow bent 11 degrees
+  left hip neutral
+  left knee straight
+Frame 72 - computed:
+  right shoulder raised out to the side 9 degrees
+  right elbow bent 7 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 9 degrees
+  left elbow bent 11 degrees
+  left hip neutral
+  left knee straight
+Frame 73 - computed:
+  right shoulder raised out to the side 9 degrees
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 9 degrees
+  left elbow bent 11 degrees
+  left hip neutral
+  left knee straight
+Frame 74 - computed:
+  right shoulder raised out to the side 10 degrees
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 10 degrees
+  left elbow bent 11 degrees
+  left hip neutral
+  left knee straight
+Frame 75 - computed:
+  right shoulder raised out to the side 11 degrees
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 10 degrees
+  left elbow bent 12 degrees
+  left hip neutral
+  left knee straight
+Frame 76 - computed:
+  right shoulder raised out to the side 11 degrees
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 9 degrees
+  left elbow bent 14 degrees
+  left hip neutral
+  left knee straight
+Frame 77 - computed:
+  right shoulder raised out to the side 11 degrees
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 9 degrees
+  left elbow bent 15 degrees
+  left hip neutral
+  left knee straight
+Frame 78 - computed:
+  right shoulder raised out to the side 12 degrees
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 9 degrees
+  left elbow bent 15 degrees
+  left hip neutral
+  left knee straight
+Frame 79 - computed:
+  right shoulder raised out to the side 12 degrees
+  right elbow bent 6 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 8 degrees
+  left elbow bent 15 degrees
+  left hip neutral
+  left knee straight
+Frame 80 - computed:
+  right shoulder raised out to the side 13 degrees
+  right elbow bent 9 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 8 degrees
+  left elbow bent 13 degrees
+  left hip neutral
+  left knee straight
+Frame 81 - computed:
+  right shoulder raised out to the side 13 degrees
+  right elbow bent 12 degrees
+  right hip neutral
+  right knee bent 6 degrees
+  left shoulder raised out to the side 6 degrees
+  left elbow bent 11 degrees
+  left hip neutral
+  left knee straight
+Frame 82 - computed:
+  right shoulder raised out to the side 14 degrees
+  right elbow bent 13 degrees
+  right hip neutral
+  right knee bent 6 degrees
+  left shoulder neutral
+  left elbow bent 10 degrees
+  left hip neutral
+  left knee straight
+Frame 83 - computed:
+  right shoulder raised out to the side 14 degrees
+  right elbow bent 14 degrees
+  right hip adducted 7 degrees
+  right knee straight
+  left shoulder neutral
+  left elbow bent 9 degrees
+  left hip neutral
+  left knee straight
+Frame 84 - computed:
+  right shoulder raised out to the side 14 degrees
+  right elbow bent 16 degrees
+  right hip adducted 9 degrees
+  right knee straight
+  left shoulder neutral
+  left elbow bent 8 degrees
+  left hip neutral
+  left knee straight
+Frame 85 - computed:
+  right shoulder raised out to the side 15 degrees
+  right elbow bent 18 degrees
+  right hip adducted 11 degrees
+  right knee bent 9 degrees
+  left shoulder neutral
+  left elbow bent 6 degrees
+  left hip neutral
+  left knee straight
+Frame 86 - computed:
+  right shoulder raised out to the side 15 degrees
+  right elbow bent 19 degrees
+  right hip adducted 11 degrees
+  right knee bent 12 degrees
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 87 - computed:
+  right shoulder raised out to the side 15 degrees
+  right elbow bent 20 degrees
+  right hip adducted 9 degrees
+  right knee bent 12 degrees
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 88 - computed:
+  right shoulder raised out to the side 15 degrees
+  right elbow bent 20 degrees
+  right hip adducted 7 degrees
+  right knee bent 12 degrees
+  left shoulder neutral
+  left elbow straight
+  left hip neutral
+  left knee bent 8 degrees
+Frame 89 - computed:
+  right shoulder raised out to the side 15 degrees
+  right elbow bent 20 degrees
+  right hip neutral
+  right knee bent 12 degrees
+  left shoulder pulled across the body 5 degrees
+  left elbow bent 6 degrees
+  left hip neutral
+  left knee bent 10 degrees
+Frame 90 - computed:
+  right shoulder raised out to the side 14 degrees
+  right elbow bent 20 degrees
+  right hip neutral
+  right knee bent 11 degrees
+  left shoulder neutral
+  left elbow bent 11 degrees
+  left hip neutral
+  left knee bent 11 degrees
+Frame 91 - computed:
+  right shoulder raised out to the side 13 degrees
+  right elbow bent 20 degrees
+  right hip neutral
+  right knee bent 10 degrees
+  left shoulder neutral
+  left elbow bent 12 degrees
+  left hip neutral
+  left knee bent 14 degrees
+Frame 92 - computed:
+  right shoulder raised out to the side 12 degrees
+  right elbow bent 20 degrees
+  right hip neutral
+  right knee bent 9 degrees
+  left shoulder raised out to the side 8 degrees
+  left elbow straight
+  left hip neutral
+  left knee bent 18 degrees
+Frame 93 - computed:
+  right shoulder raised out to the side 12 degrees
+  right elbow bent 19 degrees
+  right hip neutral
+  right knee bent 8 degrees
+  left shoulder raised out to the side 12 degrees
+  left elbow straight
+  left hip neutral
+  left knee bent 20 degrees
+Frame 94 - computed:
+  right shoulder raised out to the side 12 degrees
+  right elbow bent 18 degrees
+  right hip neutral
+  right knee bent 7 degrees
+  left shoulder raised out to the side 13 degrees
+  left elbow bent 7 degrees
+  left hip neutral
+  left knee bent 18 degrees
+Frame 95 - computed:
+  right shoulder raised out to the side 11 degrees
+  right elbow bent 13 degrees
+  right hip neutral
+  right knee bent 6 degrees
+  left shoulder raised out to the side 13 degrees
+  left elbow straight
+  left hip neutral
+  left knee bent 16 degrees
+Frame 96 - computed:
+  right shoulder raised out to the side 9 degrees
+  right elbow bent 7 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 12 degrees
+  left elbow straight
+  left hip neutral
+  left knee bent 13 degrees
+Frame 97 - computed:
+  right shoulder raised out to the side 7 degrees
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 12 degrees
+  left elbow straight
+  left hip neutral
+  left knee bent 10 degrees
+Frame 98 - computed:
+  right shoulder raised out to the side 5 degrees
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 13 degrees
+  left elbow straight
+  left hip neutral
+  left knee bent 8 degrees
+Frame 99 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 14 degrees
+  left elbow straight
+  left hip neutral
+  left knee bent 7 degrees
+Frame 100 - computed:
+  right shoulder raised out to the side 6 degrees
+  right elbow bent 6 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 16 degrees
+  left elbow straight
+  left hip neutral
+  left knee bent 7 degrees
+Frame 101 - computed:
+  right shoulder raised out to the side 7 degrees
+  right elbow bent 7 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 16 degrees
+  left elbow straight
+  left hip neutral
+  left knee bent 6 degrees
+Frame 102 - computed:
+  right shoulder raised out to the side 7 degrees
+  right elbow bent 7 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 16 degrees
+  left elbow straight
+  left hip neutral
+  left knee bent 5 degrees
+Frame 103 - computed:
+  right shoulder raised out to the side 7 degrees
+  right elbow bent 9 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 15 degrees
+  left elbow straight
+  left hip neutral
+  left knee bent 5 degrees
+Frame 104 - computed:
+  right shoulder raised out to the side 8 degrees
+  right elbow bent 10 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 15 degrees
+  left elbow straight
+  left hip neutral
+  left knee bent 6 degrees
+Frame 105 - computed:
+  right shoulder raised out to the side 8 degrees
+  right elbow bent 10 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 14 degrees
+  left elbow straight
+  left hip abducted 6 degrees
+  left knee bent 7 degrees
+Frame 106 - computed:
+  right shoulder raised out to the side 9 degrees
+  right elbow bent 9 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 14 degrees
+  left elbow straight
+  left hip abducted 6 degrees
+  left knee bent 7 degrees
+Frame 107 - computed:
+  right shoulder raised out to the side 9 degrees
+  right elbow bent 8 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 13 degrees
+  left elbow straight
+  left hip abducted 5 degrees
+  left knee bent 7 degrees
+Frame 108 - computed:
+  right shoulder raised out to the side 10 degrees
+  right elbow bent 10 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 14 degrees
+  left elbow bent 7 degrees
+  left hip abducted 5 degrees
+  left knee bent 6 degrees
+Frame 109 - computed:
+  right shoulder raised out to the side 10 degrees
+  right elbow bent 11 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 13 degrees
+  left elbow bent 7 degrees
+  left hip abducted 6 degrees
+  left knee bent 7 degrees
+Frame 110 - computed:
+  right shoulder raised out to the side 11 degrees
+  right elbow bent 10 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 11 degrees
+  left elbow straight
+  left hip abducted 7 degrees
+  left knee bent 8 degrees
+Frame 111 - computed:
+  right shoulder raised out to the side 11 degrees
+  right elbow bent 9 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 10 degrees
+  left elbow straight
+  left hip abducted 8 degrees
+  left knee bent 10 degrees
+Frame 112 - computed:
+  right shoulder raised out to the side 14 degrees
+  right elbow bent 14 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 10 degrees
+  left elbow straight
+  left hip abducted 7 degrees
+  left knee bent 10 degrees
+Frame 113 - computed:
+  right shoulder raised out to the side 17 degrees
+  right elbow bent 24 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 13 degrees
+  left elbow straight
+  left hip abducted 7 degrees
+  left knee bent 9 degrees
+Frame 114 - computed:
+  right shoulder raised out to the side 18 degrees
+  right elbow bent 28 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 15 degrees
+  left elbow bent 14 degrees
+  left hip abducted 7 degrees
+  left knee bent 8 degrees
+Frame 115 - computed:
+  right shoulder raised out to the side 14 degrees
+  right elbow bent 20 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 16 degrees
+  left elbow bent 23 degrees
+  left hip abducted 6 degrees
+  left knee bent 9 degrees
+Frame 116 - computed:
+  right shoulder raised out to the side 8 degrees
+  right elbow bent 9 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 13 degrees
+  left elbow bent 21 degrees
+  left hip neutral
+  left knee bent 10 degrees
+Frame 117 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip abducted 7 degrees
+  right knee bent 6 degrees
+  left shoulder raised out to the side 8 degrees
+  left elbow bent 14 degrees
+  left hip neutral
+  left knee bent 11 degrees
+Frame 118 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip abducted 10 degrees
+  right knee bent 7 degrees
+  left shoulder neutral
+  left elbow bent 9 degrees
+  left hip neutral
+  left knee bent 10 degrees
+Frame 119 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip abducted 13 degrees
+  right knee bent 8 degrees
+  left shoulder neutral
+  left elbow bent 9 degrees
+  left hip adducted 7 degrees
+  left knee bent 9 degrees
+Frame 120 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip abducted 15 degrees
+  right knee bent 8 degrees
+  left shoulder pulled across the body 10 degrees
+  left elbow bent 11 degrees
+  left hip adducted 10 degrees
+  left knee bent 10 degrees
+Frame 121 - computed:
+  right shoulder raised out to the side 13 degrees
+  right elbow straight
+  right hip abducted 20 degrees
+  right knee bent 8 degrees
+  left shoulder pulled across the body 19 degrees
+  left elbow bent 11 degrees
+  left hip adducted 17 degrees
+  left knee bent 11 degrees
+Frame 122 - computed:
+  right shoulder raised forward 180 degrees, pulled across the body 173 degrees
+  right elbow bent 7 degrees
+  right hip extended 180 degrees, adducted 176 degrees
+  right knee bent 6 degrees
+  left shoulder raised forward 180 degrees, pulled across the body 179 degrees
+  left elbow straight
+  left hip extended 180 degrees, abducted 174 degrees
+  left knee bent 11 degrees
+Frame 123 - computed:
+  right shoulder raised forward 180 degrees, raised out to the side 173 degrees
+  right elbow bent 16 degrees
+  right hip flexed 180 degrees, abducted 171 degrees
+  right knee straight
+  left shoulder raised forward 180 degrees, pulled across the body 163 degrees
+  left elbow straight
+  left hip flexed 180 degrees, adducted 174 degrees
+  left knee bent 11 degrees
+Frame 124 - computed:
+  right shoulder raised forward 180 degrees, raised out to the side 176 degrees
+  right elbow bent 26 degrees
+  right hip extended 180 degrees, abducted 173 degrees
+  right knee straight
+  left shoulder raised forward 180 degrees, pulled across the body 161 degrees
+  left elbow bent 5 degrees
+  left hip flexed 180 degrees, adducted 175 degrees
+  left knee bent 11 degrees
+Frame 125 - computed:
+  right shoulder raised forward 180 degrees, pulled across the body 175 degrees
+  right elbow bent 33 degrees
+  right hip flexed 180 degrees, abducted 178 degrees
+  right knee straight
+  left shoulder raised forward 180 degrees, pulled across the body 164 degrees
+  left elbow bent 6 degrees
+  left hip flexed 180 degrees, abducted 179 degrees
+  left knee bent 12 degrees
+Frame 126 - computed:
+  right shoulder raised forward 180 degrees, pulled across the body 165 degrees
+  right elbow bent 36 degrees
+  right hip extended 180 degrees, adducted 178 degrees
+  right knee straight
+  left shoulder raised forward 180 degrees, pulled across the body 163 degrees
+  left elbow bent 6 degrees
+  left hip extended 180 degrees, abducted 175 degrees
+  left knee bent 12 degrees
+Frame 127 - computed:
+  right shoulder raised forward 180 degrees, pulled across the body 158 degrees
+  right elbow bent 42 degrees
+  right hip extended 180 degrees, adducted 177 degrees
+  right knee straight
+  left shoulder raised forward 180 degrees, pulled across the body 156 degrees
+  left elbow bent 6 degrees
+  left hip flexed 180 degrees, abducted 174 degrees
+  left knee bent 12 degrees
+Frame 128 - computed:
+  right shoulder raised forward 180 degrees, pulled across the body 163 degrees
+  right elbow bent 48 degrees
+  right hip flexed 180 degrees, abducted 175 degrees
+  right knee straight
+  left shoulder raised forward 180 degrees, pulled across the body 143 degrees
+  left elbow bent 10 degrees
+  left hip extended 180 degrees, adducted 179 degrees
+  left knee bent 12 degrees
+Frame 129 - computed:
+  right shoulder raised forward 180 degrees, pulled across the body 179 degrees
+  right elbow bent 40 degrees
+  right hip extended 180 degrees, abducted 156 degrees
+  right knee straight
+  left shoulder raised forward 180 degrees, pulled across the body 124 degrees
+  left elbow bent 17 degrees
+  left hip flexed 180 degrees, adducted 160 degrees
+  left knee bent 11 degrees
+Frame 130 - computed:
+  right shoulder raised forward 180 degrees, raised out to the side 180 degrees
+  right elbow bent 17 degrees
+  right hip flexed 180 degrees, abducted 156 degrees
+  right knee straight
+  left shoulder raised forward 180 degrees, pulled across the body 122 degrees
+  left elbow bent 25 degrees
+  left hip flexed 180 degrees, adducted 159 degrees
+  left knee bent 10 degrees
+Frame 131 - computed:
+  right shoulder raised forward 180 degrees, pulled across the body 173 degrees
+  right elbow bent 11 degrees
+  right hip extended 180 degrees, abducted 171 degrees
+  right knee straight
+  left shoulder raised forward 180 degrees, pulled across the body 137 degrees
+  left elbow bent 24 degrees
+  left hip extended 180 degrees, adducted 173 degrees
+  left knee bent 9 degrees
+Frame 132 - computed:
+  right shoulder raised forward 180 degrees, pulled across the body 180 degrees
+  right elbow bent 20 degrees
+  right hip flexed 180 degrees, abducted 174 degrees
+  right knee straight
+  left shoulder raised forward 180 degrees, pulled across the body 147 degrees
+  left elbow bent 8 degrees
+  left hip extended 180 degrees, adducted 176 degrees
+  left knee bent 10 degrees
+Frame 133 - computed:
+  right shoulder raised forward 180 degrees, raised out to the side 162 degrees
+  right elbow bent 31 degrees
+  right hip flexed 180 degrees, abducted 163 degrees
+  right knee straight
+  left shoulder raised forward 180 degrees, pulled across the body 144 degrees
+  left elbow bent 13 degrees
+  left hip flexed 180 degrees, adducted 165 degrees
+  left knee bent 11 degrees
+Frame 134 - computed:
+  right shoulder pulled across the body 15 degrees
+  right elbow bent 30 degrees
+  right hip adducted 18 degrees
+  right knee straight
+  left shoulder raised out to the side 8 degrees
+  left elbow bent 19 degrees
+  left hip abducted 21 degrees
+  left knee bent 11 degrees
+Frame 135 - computed:
+  right shoulder pulled across the body 8 degrees
+  right elbow bent 19 degrees
+  right hip adducted 11 degrees
+  right knee straight
+  left shoulder raised out to the side 9 degrees
+  left elbow bent 10 degrees
+  left hip abducted 14 degrees
+  left knee bent 10 degrees
+Frame 136 - computed:
+  right shoulder pulled across the body 7 degrees
+  right elbow bent 15 degrees
+  right hip adducted 10 degrees
+  right knee straight
+  left shoulder raised out to the side 13 degrees
+  left elbow bent 8 degrees
+  left hip abducted 13 degrees
+  left knee bent 9 degrees
+Frame 137 - computed:
+  right shoulder neutral
+  right elbow bent 21 degrees
+  right hip adducted 9 degrees
+  right knee straight
+  left shoulder raised out to the side 16 degrees
+  left elbow bent 10 degrees
+  left hip abducted 12 degrees
+  left knee bent 9 degrees
+Frame 138 - computed:
+  right shoulder neutral
+  right elbow bent 30 degrees
+  right hip adducted 7 degrees
+  right knee straight
+  left shoulder raised out to the side 17 degrees
+  left elbow bent 13 degrees
+  left hip abducted 12 degrees
+  left knee bent 9 degrees
+Frame 139 - computed:
+  right shoulder neutral
+  right elbow bent 27 degrees
+  right hip adducted 6 degrees
+  right knee straight
+  left shoulder raised out to the side 17 degrees
+  left elbow bent 13 degrees
+  left hip abducted 11 degrees
+  left knee bent 9 degrees
+Frame 140 - computed:
+  right shoulder neutral
+  right elbow bent 15 degrees
+  right hip adducted 5 degrees
+  right knee straight
+  left shoulder raised out to the side 15 degrees
+  left elbow bent 9 degrees
+  left hip abducted 10 degrees
+  left knee bent 8 degrees
+Frame 141 - computed:
+  right shoulder neutral
+  right elbow bent 8 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 13 degrees
+  left elbow straight
+  left hip abducted 9 degrees
+  left knee bent 7 degrees
+Frame 142 - computed:
+  right shoulder neutral
+  right elbow bent 6 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 12 degrees
+  left elbow straight
+  left hip abducted 7 degrees
+  left knee bent 6 degrees
+Frame 143 - computed:
+  right shoulder neutral
+  right elbow bent 5 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 11 degrees
+  left elbow bent 6 degrees
+  left hip neutral
+  left knee straight
+Frame 144 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip adducted 6 degrees
+  right knee straight
+  left shoulder raised out to the side 11 degrees
+  left elbow bent 8 degrees
+  left hip neutral
+  left knee straight
+Frame 145 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip adducted 7 degrees
+  right knee straight
+  left shoulder raised out to the side 12 degrees
+  left elbow bent 11 degrees
+  left hip neutral
+  left knee straight
+Frame 146 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip adducted 6 degrees
+  right knee straight
+  left shoulder raised out to the side 13 degrees
+  left elbow bent 13 degrees
+  left hip neutral
+  left knee straight
+Frame 147 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 12 degrees
+  left elbow bent 12 degrees
+  left hip neutral
+  left knee bent 7 degrees
+Frame 148 - computed:
+  right shoulder neutral
+  right elbow bent 6 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 11 degrees
+  left elbow bent 9 degrees
+  left hip neutral
+  left knee bent 6 degrees
+Frame 149 - computed:
+  right shoulder raised out to the side 5 degrees
+  right elbow bent 5 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 12 degrees
+  left elbow bent 8 degrees
+  left hip neutral
+  left knee straight
+Frame 150 - computed:
+  right shoulder raised out to the side 6 degrees
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 14 degrees
+  left elbow bent 14 degrees
+  left hip neutral
+  left knee straight
+Frame 151 - computed:
+  right shoulder raised out to the side 6 degrees
+  right elbow straight
+  right hip abducted 6 degrees
+  right knee straight
+  left shoulder raised out to the side 18 degrees
+  left elbow bent 22 degrees
+  left hip abducted 6 degrees
+  left knee bent 6 degrees
+Frame 152 - computed:
+  right shoulder raised out to the side 8 degrees
+  right elbow straight
+  right hip abducted 6 degrees
+  right knee straight
+  left shoulder raised out to the side 19 degrees
+  left elbow bent 26 degrees
+  left hip abducted 8 degrees
+  left knee bent 7 degrees
+Frame 153 - computed:
+  right shoulder raised out to the side 11 degrees
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 16 degrees
+  left elbow bent 23 degrees
+  left hip abducted 10 degrees
+  left knee bent 10 degrees
+Frame 154 - computed:
+  right shoulder raised out to the side 11 degrees
+  right elbow bent 7 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 12 degrees
+  left elbow bent 17 degrees
+  left hip abducted 11 degrees
+  left knee bent 12 degrees
+Frame 155 - computed:
+  right shoulder raised out to the side 8 degrees
+  right elbow bent 5 degrees
+  right hip abducted 5 degrees
+  right knee bent 7 degrees
+  left shoulder raised out to the side 7 degrees
+  left elbow bent 11 degrees
+  left hip abducted 11 degrees
+  left knee bent 12 degrees
+Frame 156 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip abducted 7 degrees
+  right knee bent 6 degrees
+  left shoulder neutral
+  left elbow bent 7 degrees
+  left hip abducted 9 degrees
+  left knee bent 11 degrees
+Frame 157 - computed:
+  right shoulder neutral
+  right elbow bent 14 degrees
+  right hip abducted 9 degrees
+  right knee straight
+  left shoulder neutral
+  left elbow bent 6 degrees
+  left hip abducted 7 degrees
+  left knee bent 10 degrees
+Frame 158 - computed:
+  right shoulder pulled across the body 7 degrees
+  right elbow bent 20 degrees
+  right hip abducted 11 degrees
+  right knee straight
+  left shoulder neutral
+  left elbow bent 8 degrees
+  left hip neutral
+  left knee bent 14 degrees
+Frame 159 - computed:
+  right shoulder pulled across the body 7 degrees
+  right elbow bent 20 degrees
+  right hip abducted 11 degrees
+  right knee straight
+  left shoulder neutral
+  left elbow bent 10 degrees
+  left hip neutral
+  left knee bent 20 degrees
+Frame 160 - computed:
+  right shoulder pulled across the body 8 degrees
+  right elbow bent 21 degrees
+  right hip abducted 9 degrees
+  right knee bent 12 degrees
+  left shoulder neutral
+  left elbow bent 11 degrees
+  left hip neutral
+  left knee bent 26 degrees
+Frame 161 - computed:
+  right shoulder pulled across the body 12 degrees
+  right elbow bent 26 degrees
+  right hip abducted 6 degrees
+  right knee bent 19 degrees
+  left shoulder neutral
+  left elbow bent 11 degrees
+  left hip neutral
+  left knee bent 30 degrees
+Frame 162 - computed:
+  right shoulder pulled across the body 15 degrees
+  right elbow bent 34 degrees
+  right hip neutral
+  right knee bent 23 degrees
+  left shoulder neutral
+  left elbow bent 12 degrees
+  left hip neutral
+  left knee bent 33 degrees
+Frame 163 - computed:
+  right shoulder pulled across the body 15 degrees
+  right elbow bent 41 degrees
+  right hip neutral
+  right knee bent 26 degrees
+  left shoulder neutral
+  left elbow bent 15 degrees
+  left hip adducted 5 degrees
+  left knee bent 34 degrees
+Frame 164 - computed:
+  right shoulder pulled across the body 13 degrees
+  right elbow bent 45 degrees
+  right hip abducted 9 degrees
+  right knee bent 26 degrees
+  left shoulder neutral
+  left elbow bent 19 degrees
+  left hip adducted 7 degrees
+  left knee bent 31 degrees
+Frame 165 - computed:
+  right shoulder pulled across the body 11 degrees
+  right elbow bent 49 degrees
+  right hip abducted 13 degrees
+  right knee bent 26 degrees
+  left shoulder neutral
+  left elbow bent 24 degrees
+  left hip adducted 8 degrees
+  left knee bent 27 degrees
+Frame 166 - computed:
+  right shoulder pulled across the body 9 degrees
+  right elbow bent 50 degrees
+  right hip abducted 15 degrees
+  right knee bent 28 degrees
+  left shoulder neutral
+  left elbow bent 28 degrees
+  left hip adducted 10 degrees
+  left knee bent 27 degrees
+Frame 167 - computed:
+  right shoulder pulled across the body 7 degrees
+  right elbow bent 47 degrees
+  right hip abducted 17 degrees
+  right knee bent 33 degrees
+  left shoulder neutral
+  left elbow bent 31 degrees
+  left hip adducted 13 degrees
+  left knee bent 32 degrees
+Frame 168 - computed:
+  right shoulder pulled across the body 5 degrees
+  right elbow bent 42 degrees
+  right hip abducted 18 degrees
+  right knee bent 36 degrees
+  left shoulder neutral
+  left elbow bent 33 degrees
+  left hip adducted 17 degrees
+  left knee bent 38 degrees
+Frame 169 - computed:
+  right shoulder neutral
+  right elbow bent 40 degrees
+  right hip abducted 19 degrees
+  right knee bent 34 degrees
+  left shoulder neutral
+  left elbow bent 32 degrees
+  left hip adducted 21 degrees
+  left knee bent 41 degrees
+Frame 170 - computed:
+  right shoulder neutral
+  right elbow bent 40 degrees
+  right hip abducted 18 degrees
+  right knee bent 29 degrees
+  left shoulder pulled across the body 8 degrees
+  left elbow bent 27 degrees
+  left hip adducted 23 degrees
+  left knee bent 39 degrees
+Frame 171 - computed:
+  right shoulder neutral
+  right elbow bent 40 degrees
+  right hip adducted 20 degrees
+  right knee bent 27 degrees
+  left shoulder raised out to the side 13 degrees
+  left elbow bent 24 degrees
+  left hip abducted 25 degrees
+  left knee bent 41 degrees
+Frame 172 - computed:
+  right shoulder pulled across the body 7 degrees
+  right elbow bent 33 degrees
+  right hip adducted 27 degrees
+  right knee bent 36 degrees
+  left shoulder raised out to the side 17 degrees
+  left elbow bent 23 degrees
+  left hip abducted 31 degrees
+  left knee bent 50 degrees
+Frame 173 - computed:
+  right shoulder pulled across the body 18 degrees
+  right elbow bent 18 degrees
+  right hip adducted 33 degrees
+  right knee bent 46 degrees
+  left shoulder raised out to the side 22 degrees
+  left elbow bent 22 degrees
+  left hip abducted 34 degrees
+  left knee bent 53 degrees
+Frame 174 - computed:
+  right shoulder raised out to the side 31 degrees
+  right elbow straight
+  right hip abducted 31 degrees
+  right knee bent 43 degrees
+  left shoulder pulled across the body 28 degrees
+  left elbow bent 19 degrees
+  left hip adducted 24 degrees
+  left knee bent 31 degrees
+Frame 175 - computed:
+  right shoulder raised out to the side 39 degrees
+  right elbow straight
+  right hip abducted 18 degrees
+  right knee bent 22 degrees
+  left shoulder pulled across the body 32 degrees
+  left elbow bent 18 degrees
+  left hip neutral
+  left knee bent 25 degrees
+Frame 176 - computed:
+  right shoulder raised out to the side 41 degrees
+  right elbow bent 6 degrees
+  right hip neutral
+  right knee straight
+  left shoulder pulled across the body 33 degrees
+  left elbow bent 20 degrees
+  left hip abducted 9 degrees
+  left knee bent 71 degrees
+Frame 177 - computed:
+  right shoulder raised out to the side 39 degrees
+  right elbow straight
+  right hip neutral
+  right knee bent 20 degrees
+  left shoulder pulled across the body 31 degrees
+  left elbow bent 21 degrees
+  left hip abducted 14 degrees
+  left knee bent 82 degrees
+Frame 178 - computed:
+  right shoulder raised out to the side 37 degrees
+  right elbow straight
+  right hip adducted 9 degrees
+  right knee bent 36 degrees
+  left shoulder pulled across the body 30 degrees
+  left elbow bent 16 degrees
+  left hip abducted 17 degrees
+  left knee bent 87 degrees
+Frame 179 - computed:
+  right shoulder raised out to the side 36 degrees
+  right elbow bent 9 degrees
+  right hip adducted 16 degrees
+  right knee bent 58 degrees
+  left shoulder pulled across the body 30 degrees
+  left elbow bent 11 degrees
+  left hip abducted 22 degrees
+  left knee bent 101 degrees
+Frame 180 - computed:
+  right shoulder raised out to the side 35 degrees
+  right elbow straight
+  right hip adducted 25 degrees
+  right knee bent 82 degrees
+  left shoulder pulled across the body 33 degrees
+  left elbow bent 11 degrees
+  left hip abducted 26 degrees
+  left knee bent 116 degrees
+Frame 181 - computed:
+  right shoulder raised out to the side 36 degrees
+  right elbow bent 7 degrees
+  right hip adducted 30 degrees
+  right knee bent 101 degrees
+  left shoulder pulled across the body 35 degrees
+  left elbow bent 13 degrees
+  left hip abducted 27 degrees
+  left knee bent 121 degrees
+Frame 182 - computed:
+  right shoulder raised out to the side 37 degrees
+  right elbow bent 8 degrees
+  right hip adducted 28 degrees
+  right knee bent 102 degrees
+  left shoulder pulled across the body 35 degrees
+  left elbow bent 15 degrees
+  left hip abducted 24 degrees
+  left knee bent 113 degrees
+Frame 183 - computed:
+  right shoulder raised out to the side 40 degrees
+  right elbow straight
+  right hip adducted 15 degrees
+  right knee bent 50 degrees
+  left shoulder pulled across the body 34 degrees
+  left elbow bent 16 degrees
+  left hip abducted 13 degrees
+  left knee bent 83 degrees
+Frame 184 - computed:
+  right shoulder raised out to the side 40 degrees
+  right elbow straight
+  right hip abducted 21 degrees
+  right knee bent 45 degrees
+  left shoulder pulled across the body 29 degrees
+  left elbow bent 21 degrees
+  left hip neutral
+  left knee bent 23 degrees
+Frame 185 - computed:
+  right shoulder pulled across the body 32 degrees
+  right elbow bent 10 degrees
+  right hip adducted 49 degrees
+  right knee bent 86 degrees
+  left shoulder raised out to the side 22 degrees
+  left elbow bent 28 degrees
+  left hip abducted 16 degrees
+  left knee bent 19 degrees
+Frame 186 - computed:
+  right shoulder pulled across the body 15 degrees
+  right elbow bent 27 degrees
+  right hip adducted 53 degrees
+  right knee bent 91 degrees
+  left shoulder raised out to the side 15 degrees
+  left elbow bent 34 degrees
+  left hip abducted 23 degrees
+  left knee bent 37 degrees
+Frame 187 - computed:
+  right shoulder neutral
+  right elbow bent 34 degrees
+  right hip adducted 49 degrees
+  right knee bent 86 degrees
+  left shoulder raised out to the side 12 degrees
+  left elbow bent 34 degrees
+  left hip abducted 30 degrees
+  left knee bent 52 degrees
+Frame 188 - computed:
+  right shoulder neutral
+  right elbow bent 32 degrees
+  right hip adducted 48 degrees
+  right knee bent 78 degrees
+  left shoulder raised out to the side 10 degrees
+  left elbow bent 33 degrees
+  left hip abducted 38 degrees
+  left knee bent 62 degrees
+Frame 189 - computed:
+  right shoulder neutral
+  right elbow bent 33 degrees
+  right hip adducted 50 degrees
+  right knee bent 74 degrees
+  left shoulder raised out to the side 8 degrees
+  left elbow bent 35 degrees
+  left hip abducted 44 degrees
+  left knee bent 68 degrees
+Frame 190 - computed:
+  right shoulder neutral
+  right elbow bent 38 degrees
+  right hip adducted 49 degrees
+  right knee bent 76 degrees
+  left shoulder raised out to the side 7 degrees
+  left elbow bent 38 degrees
+  left hip abducted 44 degrees
+  left knee bent 76 degrees
+Frame 191 - computed:
+  right shoulder neutral
+  right elbow bent 40 degrees
+  right hip abducted 44 degrees
+  right knee bent 81 degrees
+  left shoulder pulled across the body 6 degrees
+  left elbow bent 40 degrees
+  left hip adducted 41 degrees
+  left knee bent 86 degrees
+Frame 192 - computed:
+  right shoulder neutral
+  right elbow bent 36 degrees
+  right hip abducted 38 degrees
+  right knee bent 79 degrees
+  left shoulder neutral
+  left elbow bent 40 degrees
+  left hip adducted 37 degrees
+  left knee bent 89 degrees
+Frame 193 - computed:
+  right shoulder neutral
+  right elbow bent 32 degrees
+  right hip abducted 31 degrees
+  right knee bent 65 degrees
+  left shoulder neutral
+  left elbow bent 43 degrees
+  left hip adducted 32 degrees
+  left knee bent 80 degrees
+Frame 194 - computed:
+  right shoulder neutral
+  right elbow bent 29 degrees
+  right hip abducted 25 degrees
+  right knee bent 49 degrees
+  left shoulder neutral
+  left elbow bent 44 degrees
+  left hip adducted 28 degrees
+  left knee bent 65 degrees
+Frame 195 - computed:
+  right shoulder neutral
+  right elbow bent 26 degrees
+  right hip abducted 20 degrees
+  right knee bent 38 degrees
+  left shoulder neutral
+  left elbow bent 42 degrees
+  left hip adducted 23 degrees
+  left knee bent 54 degrees
+Frame 196 - computed:
+  right shoulder neutral
+  right elbow bent 24 degrees
+  right hip abducted 17 degrees
+  right knee bent 36 degrees
+  left shoulder neutral
+  left elbow bent 38 degrees
+  left hip adducted 21 degrees
+  left knee bent 51 degrees
+Frame 197 - computed:
+  right shoulder neutral
+  right elbow bent 28 degrees
+  right hip abducted 15 degrees
+  right knee bent 37 degrees
+  left shoulder neutral
+  left elbow bent 37 degrees
+  left hip adducted 19 degrees
+  left knee bent 51 degrees
+Frame 198 - computed:
+  right shoulder raised out to the side 6 degrees
+  right elbow bent 37 degrees
+  right hip abducted 15 degrees
+  right knee bent 40 degrees
+  left shoulder neutral
+  left elbow bent 41 degrees
+  left hip adducted 19 degrees
+  left knee bent 52 degrees
+Frame 199 - computed:
+  right shoulder raised out to the side 13 degrees
+  right elbow bent 42 degrees
+  right hip abducted 14 degrees
+  right knee bent 42 degrees
+  left shoulder neutral
+  left elbow bent 46 degrees
+  left hip adducted 18 degrees
+  left knee bent 51 degrees
+Frame 200 - computed:
+  right shoulder raised out to the side 16 degrees
+  right elbow bent 43 degrees
+  right hip abducted 14 degrees
+  right knee bent 42 degrees
+  left shoulder neutral
+  left elbow bent 47 degrees
+  left hip adducted 19 degrees
+  left knee bent 51 degrees
+Frame 201 - computed:
+  right shoulder raised out to the side 15 degrees
+  right elbow bent 42 degrees
+  right hip abducted 13 degrees
+  right knee bent 40 degrees
+  left shoulder neutral
+  left elbow bent 40 degrees
+  left hip adducted 19 degrees
+  left knee bent 49 degrees
+Frame 202 - computed:
+  right shoulder raised out to the side 13 degrees
+  right elbow bent 40 degrees
+  right hip abducted 11 degrees
+  right knee bent 39 degrees
+  left shoulder neutral
+  left elbow bent 30 degrees
+  left hip adducted 18 degrees
+  left knee bent 45 degrees
+Frame 203 - computed:
+  right shoulder raised out to the side 12 degrees
+  right elbow bent 38 degrees
+  right hip abducted 9 degrees
+  right knee bent 37 degrees
+  left shoulder neutral
+  left elbow bent 22 degrees
+  left hip adducted 14 degrees
+  left knee bent 39 degrees
+Frame 204 - computed:
+  right shoulder raised out to the side 11 degrees
+  right elbow bent 35 degrees
+  right hip abducted 7 degrees
+  right knee bent 35 degrees
+  left shoulder neutral
+  left elbow bent 18 degrees
+  left hip adducted 11 degrees
+  left knee bent 35 degrees
+Frame 205 - computed:
+  right shoulder raised out to the side 11 degrees
+  right elbow bent 31 degrees
+  right hip abducted 5 degrees
+  right knee bent 33 degrees
+  left shoulder neutral
+  left elbow bent 16 degrees
+  left hip adducted 8 degrees
+  left knee bent 33 degrees
+Frame 206 - computed:
+  right shoulder raised out to the side 9 degrees
+  right elbow bent 26 degrees
+  right hip neutral
+  right knee bent 31 degrees
+  left shoulder neutral
+  left elbow bent 15 degrees
+  left hip adducted 6 degrees
+  left knee bent 34 degrees
+Frame 207 - computed:
+  right shoulder raised out to the side 7 degrees
+  right elbow bent 18 degrees
+  right hip neutral
+  right knee bent 29 degrees
+  left shoulder neutral
+  left elbow bent 14 degrees
+  left hip neutral
+  left knee bent 36 degrees
+Frame 208 - computed:
+  right shoulder neutral
+  right elbow bent 11 degrees
+  right hip neutral
+  right knee bent 26 degrees
+  left shoulder neutral
+  left elbow bent 14 degrees
+  left hip neutral
+  left knee bent 38 degrees
+Frame 209 - computed:
+  right shoulder neutral
+  right elbow bent 7 degrees
+  right hip neutral
+  right knee bent 22 degrees
+  left shoulder neutral
+  left elbow bent 14 degrees
+  left hip neutral
+  left knee bent 36 degrees
+Frame 210 - computed:
+  right shoulder neutral
+  right elbow bent 8 degrees
+  right hip neutral
+  right knee bent 20 degrees
+  left shoulder neutral
+  left elbow bent 15 degrees
+  left hip neutral
+  left knee bent 32 degrees
+Frame 211 - computed:
+  right shoulder neutral
+  right elbow bent 10 degrees
+  right hip neutral
+  right knee bent 21 degrees
+  left shoulder neutral
+  left elbow bent 18 degrees
+  left hip neutral
+  left knee bent 27 degrees
+Frame 212 - computed:
+  right shoulder neutral
+  right elbow bent 11 degrees
+  right hip abducted 8 degrees
+  right knee bent 22 degrees
+  left shoulder neutral
+  left elbow bent 21 degrees
+  left hip neutral
+  left knee bent 24 degrees
+Frame 213 - computed:
+  right shoulder neutral
+  right elbow bent 11 degrees
+  right hip abducted 10 degrees
+  right knee bent 18 degrees
+  left shoulder neutral
+  left elbow bent 20 degrees
+  left hip neutral
+  left knee bent 23 degrees
+Frame 214 - computed:
+  right shoulder neutral
+  right elbow bent 13 degrees
+  right hip abducted 12 degrees
+  right knee bent 13 degrees
+  left shoulder neutral
+  left elbow bent 18 degrees
+  left hip neutral
+  left knee bent 23 degrees
+Frame 215 - computed:
+  right shoulder neutral
+  right elbow bent 18 degrees
+  right hip abducted 13 degrees
+  right knee bent 12 degrees
+  left shoulder neutral
+  left elbow bent 18 degrees
+  left hip abducted 6 degrees
+  left knee bent 23 degrees
+Frame 216 - computed:
+  right shoulder neutral
+  right elbow bent 23 degrees
+  right hip abducted 13 degrees
+  right knee bent 14 degrees
+  left shoulder neutral
+  left elbow bent 24 degrees
+  left hip abducted 7 degrees
+  left knee bent 25 degrees
+Frame 217 - computed:
+  right shoulder neutral
+  right elbow bent 26 degrees
+  right hip abducted 11 degrees
+  right knee bent 15 degrees
+  left shoulder neutral
+  left elbow bent 33 degrees
+  left hip abducted 7 degrees
+  left knee bent 29 degrees
+Frame 218 - computed:
+  right shoulder neutral
+  right elbow bent 25 degrees
+  right hip abducted 8 degrees
+  right knee bent 15 degrees
+  left shoulder neutral
+  left elbow bent 20 degrees
+  left hip abducted 8 degrees
+  left knee bent 30 degrees
+Frame 219 - computed:
+  right shoulder neutral
+  right elbow bent 24 degrees
+  right hip abducted 6 degrees
+  right knee bent 17 degrees
+  left shoulder raised out to the side 6 degrees
+  left elbow bent 13 degrees
+  left hip abducted 5 degrees
+  left knee bent 26 degrees
+Frame 220 - computed:
+  right shoulder neutral
+  right elbow bent 29 degrees
+  right hip neutral
+  right knee bent 21 degrees
+  left shoulder raised out to the side 6 degrees
+  left elbow bent 11 degrees
+  left hip neutral
+  left knee bent 18 degrees
+Frame 221 - computed:
+  right shoulder neutral
+  right elbow bent 35 degrees
+  right hip adducted 8 degrees
+  right knee bent 21 degrees
+  left shoulder neutral
+  left elbow bent 10 degrees
+  left hip adducted 10 degrees
+  left knee bent 12 degrees
+Frame 222 - computed:
+  right shoulder neutral
+  right elbow bent 38 degrees
+  right hip adducted 13 degrees
+  right knee bent 17 degrees
+  left shoulder neutral
+  left elbow bent 14 degrees
+  left hip adducted 13 degrees
+  left knee bent 10 degrees
+Frame 223 - computed:
+  right shoulder neutral
+  right elbow bent 37 degrees
+  right hip adducted 9 degrees
+  right knee bent 10 degrees
+  left shoulder neutral
+  left elbow bent 20 degrees
+  left hip adducted 10 degrees
+  left knee bent 9 degrees
+Frame 224 - computed:
+  right shoulder neutral
+  right elbow bent 37 degrees
+  right hip neutral
+  right knee bent 5 degrees
+  left shoulder neutral
+  left elbow bent 22 degrees
+  left hip adducted 7 degrees
+  left knee bent 9 degrees
+Frame 225 - computed:
+  right shoulder raised out to the side 7 degrees
+  right elbow bent 40 degrees
+  right hip abducted 6 degrees
+  right knee straight
+  left shoulder neutral
+  left elbow bent 18 degrees
+  left hip adducted 10 degrees
+  left knee bent 11 degrees
+Frame 226 - computed:
+  right shoulder raised out to the side 7 degrees
+  right elbow bent 42 degrees
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow bent 10 degrees
+  left hip adducted 15 degrees
+  left knee bent 12 degrees
+Frame 227 - computed:
+  right shoulder neutral
+  right elbow bent 37 degrees
+  right hip neutral
+  right knee straight
+  left shoulder pulled across the body 9 degrees
+  left elbow bent 9 degrees
+  left hip adducted 17 degrees
+  left knee bent 11 degrees
+Frame 228 - computed:
+  right shoulder pulled across the body 8 degrees
+  right elbow bent 19 degrees
+  right hip adducted 5 degrees
+  right knee straight
+  left shoulder pulled across the body 14 degrees
+  left elbow bent 15 degrees
+  left hip adducted 15 degrees
+  left knee bent 10 degrees
+Frame 229 - computed:
+  right shoulder raised out to the side 13 degrees
+  right elbow bent 5 degrees
+  right hip abducted 6 degrees
+  right knee bent 9 degrees
+  left shoulder raised out to the side 16 degrees
+  left elbow bent 20 degrees
+  left hip abducted 11 degrees
+  left knee bent 11 degrees
+Frame 230 - computed:
+  right shoulder pulled across the body 12 degrees
+  right elbow bent 18 degrees
+  right hip neutral
+  right knee bent 12 degrees
+  left shoulder pulled across the body 16 degrees
+  left elbow bent 21 degrees
+  left hip adducted 8 degrees
+  left knee bent 15 degrees
+Frame 231 - computed:
+  right shoulder pulled across the body 8 degrees
+  right elbow bent 34 degrees
+  right hip neutral
+  right knee bent 13 degrees
+  left shoulder pulled across the body 16 degrees
+  left elbow bent 18 degrees
+  left hip adducted 5 degrees
+  left knee bent 17 degrees
+Frame 232 - computed:
+  right shoulder neutral
+  right elbow bent 36 degrees
+  right hip neutral
+  right knee bent 12 degrees
+  left shoulder pulled across the body 16 degrees
+  left elbow bent 17 degrees
+  left hip neutral
+  left knee bent 16 degrees
+Frame 233 - computed:
+  right shoulder pulled across the body 5 degrees
+  right elbow bent 29 degrees
+  right hip neutral
+  right knee bent 10 degrees
+  left shoulder pulled across the body 15 degrees
+  left elbow bent 17 degrees
+  left hip neutral
+  left knee bent 13 degrees
+Frame 234 - computed:
+  right shoulder pulled across the body 8 degrees
+  right elbow bent 20 degrees
+  right hip neutral
+  right knee bent 10 degrees
+  left shoulder pulled across the body 16 degrees
+  left elbow bent 15 degrees
+  left hip neutral
+  left knee bent 10 degrees
+Frame 235 - computed:
+  right shoulder pulled across the body 9 degrees
+  right elbow bent 19 degrees
+  right hip neutral
+  right knee bent 10 degrees
+  left shoulder pulled across the body 18 degrees
+  left elbow bent 15 degrees
+  left hip neutral
+  left knee bent 6 degrees
+Frame 236 - computed:
+  right shoulder pulled across the body 9 degrees
+  right elbow bent 23 degrees
+  right hip neutral
+  right knee bent 9 degrees
+  left shoulder pulled across the body 18 degrees
+  left elbow bent 18 degrees
+  left hip neutral
+  left knee straight
+Frame 237 - computed:
+  right shoulder pulled across the body 7 degrees
+  right elbow bent 23 degrees
+  right hip neutral
+  right knee bent 7 degrees
+  left shoulder pulled across the body 17 degrees
+  left elbow bent 23 degrees
+  left hip neutral
+  left knee straight
+Frame 238 - computed:
+  right shoulder neutral
+  right elbow bent 18 degrees
+  right hip neutral
+  right knee straight
+  left shoulder pulled across the body 13 degrees
+  left elbow bent 27 degrees
+  left hip neutral
+  left knee straight
+Frame 239 - computed:
+  right shoulder neutral
+  right elbow bent 8 degrees
+  right hip abducted 7 degrees
+  right knee straight
+  left shoulder neutral
+  left elbow bent 29 degrees
+  left hip neutral
+  left knee straight
+Frame 240 - computed:
+  right shoulder raised out to the side 7 degrees
+  right elbow straight
+  right hip abducted 8 degrees
+  right knee bent 5 degrees
+  left shoulder neutral
+  left elbow bent 24 degrees
+  left hip neutral
+  left knee straight
+Frame 241 - computed:
+  right shoulder raised out to the side 13 degrees
+  right elbow bent 21 degrees
+  right hip abducted 9 degrees
+  right knee bent 6 degrees
+  left shoulder raised out to the side 10 degrees
+  left elbow bent 16 degrees
+  left hip neutral
+  left knee straight
+Frame 242 - computed:
+  right shoulder raised out to the side 19 degrees
+  right elbow bent 70 degrees
+  right hip abducted 8 degrees
+  right knee straight
+  left shoulder raised out to the side 13 degrees
+  left elbow bent 8 degrees
+  left hip neutral
+  left knee bent 5 degrees
+Frame 243 - computed:
+  right shoulder raised out to the side 24 degrees
+  right elbow bent 106 degrees
+  right hip abducted 6 degrees
+  right knee straight
+  left shoulder raised out to the side 13 degrees
+  left elbow straight
+  left hip neutral
+  left knee bent 5 degrees
+Frame 244 - computed:
+  right shoulder raised out to the side 24 degrees
+  right elbow bent 105 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 13 degrees
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 245 - computed:
+  right shoulder raised out to the side 19 degrees
+  right elbow bent 95 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 12 degrees
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 246 - computed:
+  right shoulder raised out to the side 14 degrees
+  right elbow bent 95 degrees
+  right hip neutral
+  right knee bent 6 degrees
+  left shoulder raised out to the side 10 degrees
+  left elbow straight
+  left hip neutral
+  left knee bent 6 degrees
+Frame 247 - computed:
+  right shoulder raised out to the side 12 degrees
+  right elbow bent 96 degrees
+  right hip abducted 7 degrees
+  right knee straight
+  left shoulder neutral
+  left elbow bent 9 degrees
+  left hip neutral
+  left knee bent 8 degrees
+Frame 248 - computed:
+  right shoulder raised out to the side 9 degrees
+  right elbow bent 86 degrees
+  right hip abducted 6 degrees
+  right knee straight
+  left shoulder neutral
+  left elbow bent 14 degrees
+  left hip neutral
+  left knee bent 11 degrees
+Frame 249 - computed:
+  right shoulder neutral
+  right elbow bent 60 degrees
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow bent 14 degrees
+  left hip abducted 6 degrees
+  left knee bent 13 degrees
+Frame 250 - computed:
+  right shoulder pulled across the body 7 degrees
+  right elbow bent 30 degrees
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow bent 9 degrees
+  left hip abducted 9 degrees
+  left knee bent 13 degrees
+Frame 251 - computed:
+  right shoulder pulled across the body 13 degrees
+  right elbow bent 10 degrees
+  right hip adducted 8 degrees
+  right knee bent 10 degrees
+  left shoulder raised out to the side 7 degrees
+  left elbow bent 7 degrees
+  left hip abducted 11 degrees
+  left knee bent 10 degrees
+Frame 252 - computed:
+  right shoulder raised out to the side 13 degrees
+  right elbow straight
+  right hip abducted 9 degrees
+  right knee bent 18 degrees
+  left shoulder pulled across the body 6 degrees
+  left elbow bent 11 degrees
+  left hip adducted 9 degrees
+  left knee bent 8 degrees
+Frame 253 - computed:
+  right shoulder raised out to the side 11 degrees
+  right elbow bent 6 degrees
+  right hip abducted 8 degrees
+  right knee bent 24 degrees
+  left shoulder neutral
+  left elbow bent 20 degrees
+  left hip adducted 7 degrees
+  left knee bent 12 degrees
+Frame 254 - computed:
+  right shoulder raised out to the side 9 degrees
+  right elbow bent 13 degrees
+  right hip abducted 10 degrees
+  right knee bent 27 degrees
+  left shoulder neutral
+  left elbow bent 28 degrees
+  left hip adducted 11 degrees
+  left knee bent 20 degrees
+Frame 255 - computed:
+  right shoulder raised out to the side 7 degrees
+  right elbow bent 19 degrees
+  right hip abducted 13 degrees
+  right knee bent 28 degrees
+  left shoulder neutral
+  left elbow bent 29 degrees
+  left hip adducted 15 degrees
+  left knee bent 28 degrees
+Frame 256 - computed:
+  right shoulder raised out to the side 7 degrees
+  right elbow bent 22 degrees
+  right hip abducted 16 degrees
+  right knee bent 26 degrees
+  left shoulder neutral
+  left elbow bent 27 degrees
+  left hip adducted 14 degrees
+  left knee bent 27 degrees
+Frame 257 - computed:
+  right shoulder raised out to the side 7 degrees
+  right elbow bent 23 degrees
+  right hip abducted 18 degrees
+  right knee bent 20 degrees
+  left shoulder neutral
+  left elbow bent 29 degrees
+  left hip adducted 8 degrees
+  left knee bent 19 degrees
+Frame 258 - computed:
+  right shoulder raised out to the side 7 degrees
+  right elbow bent 22 degrees
+  right hip abducted 19 degrees
+  right knee bent 14 degrees
+  left shoulder neutral
+  left elbow bent 36 degrees
+  left hip neutral
+  left knee bent 13 degrees
+Frame 259 - computed:
+  right shoulder raised out to the side 6 degrees
+  right elbow bent 22 degrees
+  right hip abducted 19 degrees
+  right knee bent 10 degrees
+  left shoulder neutral
+  left elbow bent 37 degrees
+  left hip neutral
+  left knee bent 14 degrees
+Frame 260 - computed:
+  right shoulder raised out to the side 7 degrees
+  right elbow bent 22 degrees
+  right hip abducted 18 degrees
+  right knee bent 11 degrees
+  left shoulder neutral
+  left elbow bent 27 degrees
+  left hip neutral
+  left knee bent 22 degrees
+Frame 261 - computed:
+  right shoulder raised out to the side 6 degrees
+  right elbow bent 22 degrees
+  right hip abducted 17 degrees
+  right knee bent 14 degrees
+  left shoulder neutral
+  left elbow bent 19 degrees
+  left hip adducted 10 degrees
+  left knee bent 33 degrees
+Frame 262 - computed:
+  right shoulder raised out to the side 6 degrees
+  right elbow bent 22 degrees
+  right hip abducted 14 degrees
+  right knee bent 19 degrees
+  left shoulder neutral
+  left elbow bent 18 degrees
+  left hip adducted 15 degrees
+  left knee bent 38 degrees
+Frame 263 - computed:
+  right shoulder neutral
+  right elbow bent 21 degrees
+  right hip abducted 11 degrees
+  right knee bent 22 degrees
+  left shoulder neutral
+  left elbow bent 18 degrees
+  left hip adducted 16 degrees
+  left knee bent 33 degrees
+Frame 264 - computed:
+  right shoulder raised out to the side 5 degrees
+  right elbow bent 22 degrees
+  right hip abducted 9 degrees
+  right knee bent 21 degrees
+  left shoulder neutral
+  left elbow bent 16 degrees
+  left hip adducted 14 degrees
+  left knee bent 24 degrees
+Frame 265 - computed:
+  right shoulder raised out to the side 9 degrees
+  right elbow bent 25 degrees
+  right hip abducted 8 degrees
+  right knee bent 17 degrees
+  left shoulder neutral
+  left elbow bent 16 degrees
+  left hip adducted 13 degrees
+  left knee bent 18 degrees
+Frame 266 - computed:
+  right shoulder raised out to the side 12 degrees
+  right elbow bent 29 degrees
+  right hip abducted 10 degrees
+  right knee bent 14 degrees
+  left shoulder neutral
+  left elbow bent 19 degrees
+  left hip adducted 14 degrees
+  left knee bent 14 degrees
+Frame 267 - computed:
+  right shoulder raised out to the side 15 degrees
+  right elbow bent 33 degrees
+  right hip abducted 11 degrees
+  right knee bent 12 degrees
+  left shoulder neutral
+  left elbow bent 23 degrees
+  left hip adducted 14 degrees
+  left knee bent 10 degrees
+Frame 268 - computed:
+  right shoulder raised out to the side 14 degrees
+  right elbow bent 34 degrees
+  right hip abducted 11 degrees
+  right knee bent 13 degrees
+  left shoulder neutral
+  left elbow bent 22 degrees
+  left hip adducted 12 degrees
+  left knee bent 6 degrees
+Frame 269 - computed:
+  right shoulder pulled across the body 12 degrees
+  right elbow bent 35 degrees
+  right hip adducted 11 degrees
+  right knee bent 14 degrees
+  left shoulder neutral
+  left elbow bent 15 degrees
+  left hip abducted 9 degrees
+  left knee straight
+Frame 270 - computed:
+  right shoulder pulled across the body 11 degrees
+  right elbow bent 37 degrees
+  right hip adducted 12 degrees
+  right knee bent 16 degrees
+  left shoulder pulled across the body 5 degrees
+  left elbow bent 10 degrees
+  left hip abducted 9 degrees
+  left knee straight
+Frame 271 - computed:
+  right shoulder pulled across the body 9 degrees
+  right elbow bent 36 degrees
+  right hip adducted 15 degrees
+  right knee bent 18 degrees
+  left shoulder neutral
+  left elbow bent 13 degrees
+  left hip abducted 12 degrees
+  left knee bent 6 degrees
+Frame 272 - computed:
+  right shoulder pulled across the body 8 degrees
+  right elbow bent 29 degrees
+  right hip adducted 17 degrees
+  right knee bent 18 degrees
+  left shoulder neutral
+  left elbow bent 21 degrees
+  left hip abducted 15 degrees
+  left knee bent 6 degrees
+Frame 273 - computed:
+  right shoulder pulled across the body 9 degrees
+  right elbow bent 23 degrees
+  right hip adducted 17 degrees
+  right knee bent 15 degrees
+  left shoulder raised out to the side 5 degrees
+  left elbow bent 24 degrees
+  left hip abducted 17 degrees
+  left knee bent 7 degrees
+Frame 274 - computed:
+  right shoulder pulled across the body 12 degrees
+  right elbow bent 26 degrees
+  right hip adducted 15 degrees
+  right knee bent 12 degrees
+  left shoulder raised out to the side 11 degrees
+  left elbow bent 21 degrees
+  left hip abducted 18 degrees
+  left knee bent 10 degrees
+Frame 275 - computed:
+  right shoulder pulled across the body 15 degrees
+  right elbow bent 47 degrees
+  right hip adducted 14 degrees
+  right knee bent 10 degrees
+  left shoulder raised out to the side 15 degrees
+  left elbow bent 18 degrees
+  left hip abducted 17 degrees
+  left knee bent 12 degrees
+Frame 276 - computed:
+  right shoulder pulled across the body 12 degrees
+  right elbow bent 62 degrees
+  right hip adducted 11 degrees
+  right knee bent 9 degrees
+  left shoulder raised out to the side 18 degrees
+  left elbow bent 17 degrees
+  left hip abducted 14 degrees
+  left knee bent 11 degrees
+Frame 277 - computed:
+  right shoulder neutral
+  right elbow bent 27 degrees
+  right hip adducted 7 degrees
+  right knee bent 6 degrees
+  left shoulder raised out to the side 21 degrees
+  left elbow bent 15 degrees
+  left hip abducted 11 degrees
+  left knee bent 9 degrees
+Frame 278 - computed:
+  right shoulder raised out to the side 8 degrees
+  right elbow bent 14 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 23 degrees
+  left elbow bent 11 degrees
+  left hip abducted 9 degrees
+  left knee bent 7 degrees
+Frame 279 - computed:
+  right shoulder raised out to the side 12 degrees
+  right elbow bent 18 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 24 degrees
+  left elbow straight
+  left hip abducted 8 degrees
+  left knee straight
+Frame 280 - computed:
+  right shoulder raised out to the side 14 degrees
+  right elbow bent 32 degrees
+  right hip abducted 6 degrees
+  right knee straight
+  left shoulder raised out to the side 24 degrees
+  left elbow straight
+  left hip abducted 6 degrees
+  left knee straight
+Frame 281 - computed:
+  right shoulder raised out to the side 14 degrees
+  right elbow bent 79 degrees
+  right hip abducted 7 degrees
+  right knee straight
+  left shoulder raised out to the side 23 degrees
+  left elbow straight
+  left hip neutral
+  left knee straight
+Frame 282 - computed:
+  right shoulder raised out to the side 15 degrees
+  right elbow bent 109 degrees
+  right hip abducted 6 degrees
+  right knee straight
+  left shoulder raised out to the side 24 degrees
+  left elbow bent 8 degrees
+  left hip neutral
+  left knee bent 7 degrees
+Frame 283 - computed:
+  right shoulder raised out to the side 14 degrees
+  right elbow bent 96 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 25 degrees
+  left elbow bent 14 degrees
+  left hip neutral
+  left knee bent 8 degrees
+Frame 284 - computed:
+  right shoulder raised out to the side 12 degrees
+  right elbow bent 51 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 24 degrees
+  left elbow bent 21 degrees
+  left hip neutral
+  left knee bent 7 degrees
+Frame 285 - computed:
+  right shoulder raised out to the side 12 degrees
+  right elbow bent 14 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 22 degrees
+  left elbow bent 32 degrees
+  left hip neutral
+  left knee bent 7 degrees
+Frame 286 - computed:
+  right shoulder raised out to the side 13 degrees
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 18 degrees
+  left elbow bent 55 degrees
+  left hip neutral
+  left knee bent 7 degrees
+Frame 287 - computed:
+  right shoulder raised out to the side 15 degrees
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 16 degrees
+  left elbow bent 69 degrees
+  left hip neutral
+  left knee bent 10 degrees
+Frame 288 - computed:
+  right shoulder raised out to the side 16 degrees
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 15 degrees
+  left elbow bent 47 degrees
+  left hip neutral
+  left knee bent 12 degrees
+Frame 289 - computed:
+  right shoulder raised out to the side 16 degrees
+  right elbow straight
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 15 degrees
+  left elbow bent 25 degrees
+  left hip neutral
+  left knee bent 11 degrees
+Frame 290 - computed:
+  right shoulder raised out to the side 16 degrees
+  right elbow bent 6 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 16 degrees
+  left elbow bent 16 degrees
+  left hip adducted 5 degrees
+  left knee bent 10 degrees
+Frame 291 - computed:
+  right shoulder raised out to the side 16 degrees
+  right elbow bent 7 degrees
+  right hip neutral
+  right knee bent 7 degrees
+  left shoulder raised out to the side 16 degrees
+  left elbow bent 13 degrees
+  left hip adducted 8 degrees
+  left knee bent 12 degrees
+Frame 292 - computed:
+  right shoulder raised out to the side 15 degrees
+  right elbow bent 6 degrees
+  right hip neutral
+  right knee bent 8 degrees
+  left shoulder raised out to the side 16 degrees
+  left elbow bent 10 degrees
+  left hip adducted 10 degrees
+  left knee bent 14 degrees
+Frame 293 - computed:
+  right shoulder raised out to the side 13 degrees
+  right elbow bent 6 degrees
+  right hip neutral
+  right knee bent 5 degrees
+  left shoulder raised out to the side 15 degrees
+  left elbow bent 7 degrees
+  left hip adducted 10 degrees
+  left knee bent 12 degrees
+Frame 294 - computed:
+  right shoulder raised out to the side 11 degrees
+  right elbow bent 7 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 15 degrees
+  left elbow straight
+  left hip adducted 8 degrees
+  left knee bent 7 degrees
+Frame 295 - computed:
+  right shoulder raised out to the side 9 degrees
+  right elbow bent 7 degrees
+  right hip adducted 6 degrees
+  right knee bent 5 degrees
+  left shoulder raised out to the side 15 degrees
+  left elbow straight
+  left hip adducted 6 degrees
+  left knee straight
+Frame 296 - computed:
+  right shoulder raised out to the side 7 degrees
+  right elbow bent 7 degrees
+  right hip adducted 5 degrees
+  right knee bent 10 degrees
+  left shoulder raised out to the side 14 degrees
+  left elbow straight
+  left hip adducted 5 degrees
+  left knee straight
+Frame 297 - computed:
+  right shoulder raised out to the side 7 degrees
+  right elbow bent 7 degrees
+  right hip neutral
+  right knee bent 16 degrees
+  left shoulder raised out to the side 13 degrees
+  left elbow straight
+  left hip neutral
+  left knee bent 7 degrees
+Frame 298 - computed:
+  right shoulder raised out to the side 7 degrees
+  right elbow bent 8 degrees
+  right hip neutral
+  right knee bent 20 degrees
+  left shoulder raised out to the side 11 degrees
+  left elbow bent 6 degrees
+  left hip neutral
+  left knee bent 7 degrees
+Frame 299 - computed:
+  right shoulder raised out to the side 7 degrees
+  right elbow bent 8 degrees
+  right hip neutral
+  right knee bent 17 degrees
+  left shoulder raised out to the side 10 degrees
+  left elbow bent 7 degrees
+  left hip neutral
+  left knee straight
+Frame 300 - computed:
+  right shoulder raised out to the side 7 degrees
+  right elbow bent 9 degrees
+  right hip neutral
+  right knee bent 9 degrees
+  left shoulder raised out to the side 9 degrees
+  left elbow bent 9 degrees
+  left hip neutral
+  left knee straight
+Frame 301 - computed:
+  right shoulder raised out to the side 8 degrees
+  right elbow bent 9 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 7 degrees
+  left elbow bent 12 degrees
+  left hip neutral
+  left knee straight
+Frame 302 - computed:
+  right shoulder raised out to the side 8 degrees
+  right elbow bent 8 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 5 degrees
+  left elbow bent 15 degrees
+  left hip neutral
+  left knee straight
+Frame 303 - computed:
+  right shoulder raised out to the side 9 degrees
+  right elbow bent 7 degrees
+  right hip neutral
+  right knee bent 5 degrees
+  left shoulder neutral
+  left elbow bent 17 degrees
+  left hip neutral
+  left knee straight
+Frame 304 - computed:
+  right shoulder raised out to the side 8 degrees
+  right elbow bent 7 degrees
+  right hip neutral
+  right knee bent 5 degrees
+  left shoulder neutral
+  left elbow bent 18 degrees
+  left hip neutral
+  left knee straight
+Frame 305 - computed:
+  right shoulder raised out to the side 7 degrees
+  right elbow bent 8 degrees
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow bent 16 degrees
+  left hip neutral
+  left knee straight
+Frame 306 - computed:
+  right shoulder raised out to the side 5 degrees
+  right elbow bent 9 degrees
+  right hip neutral
+  right knee straight
+  left shoulder neutral
+  left elbow bent 13 degrees
+  left hip neutral
+  left knee bent 6 degrees
+Frame 307 - computed:
+  right shoulder neutral
+  right elbow bent 9 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 5 degrees
+  left elbow bent 10 degrees
+  left hip neutral
+  left knee bent 8 degrees
+Frame 308 - computed:
+  right shoulder neutral
+  right elbow bent 8 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 7 degrees
+  left elbow bent 10 degrees
+  left hip neutral
+  left knee bent 8 degrees
+Frame 309 - computed:
+  right shoulder raised out to the side 6 degrees
+  right elbow bent 9 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 8 degrees
+  left elbow bent 10 degrees
+  left hip neutral
+  left knee bent 7 degrees
+Frame 310 - computed:
+  right shoulder raised out to the side 7 degrees
+  right elbow bent 12 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 8 degrees
+  left elbow bent 8 degrees
+  left hip neutral
+  left knee bent 6 degrees
+Frame 311 - computed:
+  right shoulder raised out to the side 7 degrees
+  right elbow bent 14 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 8 degrees
+  left elbow bent 6 degrees
+  left hip neutral
+  left knee straight
+Frame 312 - computed:
+  right shoulder raised out to the side 7 degrees
+  right elbow bent 16 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 9 degrees
+  left elbow bent 5 degrees
+  left hip neutral
+  left knee straight
+Frame 313 - computed:
+  right shoulder raised out to the side 6 degrees
+  right elbow bent 18 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 10 degrees
+  left elbow bent 9 degrees
+  left hip neutral
+  left knee bent 8 degrees
+Frame 314 - computed:
+  right shoulder raised out to the side 6 degrees
+  right elbow bent 20 degrees
+  right hip neutral
+  right knee bent 5 degrees
+  left shoulder raised out to the side 12 degrees
+  left elbow bent 16 degrees
+  left hip neutral
+  left knee bent 9 degrees
+Frame 315 - computed:
+  right shoulder raised out to the side 6 degrees
+  right elbow bent 22 degrees
+  right hip abducted 7 degrees
+  right knee straight
+  left shoulder raised out to the side 12 degrees
+  left elbow bent 22 degrees
+  left hip abducted 6 degrees
+  left knee bent 7 degrees
+Frame 316 - computed:
+  right shoulder neutral
+  right elbow bent 22 degrees
+  right hip abducted 8 degrees
+  right knee straight
+  left shoulder raised out to the side 12 degrees
+  left elbow bent 23 degrees
+  left hip abducted 6 degrees
+  left knee bent 6 degrees
+Frame 317 - computed:
+  right shoulder neutral
+  right elbow bent 19 degrees
+  right hip abducted 7 degrees
+  right knee bent 6 degrees
+  left shoulder raised out to the side 11 degrees
+  left elbow bent 22 degrees
+  left hip abducted 5 degrees
+  left knee bent 7 degrees
+Frame 318 - computed:
+  right shoulder neutral
+  right elbow bent 13 degrees
+  right hip abducted 6 degrees
+  right knee bent 10 degrees
+  left shoulder raised out to the side 12 degrees
+  left elbow bent 21 degrees
+  left hip neutral
+  left knee bent 9 degrees
+Frame 319 - computed:
+  right shoulder neutral
+  right elbow bent 8 degrees
+  right hip abducted 7 degrees
+  right knee bent 13 degrees
+  left shoulder raised out to the side 15 degrees
+  left elbow bent 20 degrees
+  left hip neutral
+  left knee bent 9 degrees
+Frame 320 - computed:
+  right shoulder pulled across the body 5 degrees
+  right elbow bent 7 degrees
+  right hip abducted 9 degrees
+  right knee bent 13 degrees
+  left shoulder raised out to the side 16 degrees
+  left elbow bent 18 degrees
+  left hip neutral
+  left knee bent 9 degrees
+Frame 321 - computed:
+  right shoulder neutral
+  right elbow bent 6 degrees
+  right hip abducted 13 degrees
+  right knee bent 16 degrees
+  left shoulder raised out to the side 16 degrees
+  left elbow bent 13 degrees
+  left hip neutral
+  left knee bent 15 degrees
+Frame 322 - computed:
+  right shoulder neutral
+  right elbow bent 7 degrees
+  right hip abducted 17 degrees
+  right knee bent 26 degrees
+  left shoulder raised out to the side 16 degrees
+  left elbow bent 7 degrees
+  left hip neutral
+  left knee bent 24 degrees
+Frame 323 - computed:
+  right shoulder neutral
+  right elbow bent 8 degrees
+  right hip abducted 23 degrees
+  right knee bent 36 degrees
+  left shoulder raised out to the side 16 degrees
+  left elbow straight
+  left hip adducted 9 degrees
+  left knee bent 25 degrees
+Frame 324 - computed:
+  right shoulder pulled across the body 7 degrees
+  right elbow bent 10 degrees
+  right hip abducted 30 degrees
+  right knee bent 39 degrees
+  left shoulder raised out to the side 17 degrees
+  left elbow straight
+  left hip adducted 18 degrees
+  left knee bent 21 degrees
+Frame 325 - computed:
+  right shoulder pulled across the body 8 degrees
+  right elbow bent 13 degrees
+  right hip abducted 39 degrees
+  right knee bent 39 degrees
+  left shoulder raised out to the side 18 degrees
+  left elbow bent 7 degrees
+  left hip adducted 31 degrees
+  left knee bent 29 degrees
+Frame 326 - computed:
+  right shoulder pulled across the body 6 degrees
+  right elbow bent 19 degrees
+  right hip abducted 49 degrees
+  right knee bent 41 degrees
+  left shoulder raised out to the side 18 degrees
+  left elbow bent 10 degrees
+  left hip adducted 44 degrees
+  left knee bent 46 degrees
+Frame 327 - computed:
+  right shoulder neutral
+  right elbow bent 32 degrees
+  right hip abducted 57 degrees
+  right knee bent 48 degrees
+  left shoulder raised out to the side 19 degrees
+  left elbow bent 12 degrees
+  left hip adducted 52 degrees
+  left knee bent 61 degrees
+Frame 328 - computed:
+  right shoulder neutral
+  right elbow bent 33 degrees
+  right hip abducted 63 degrees
+  right knee bent 54 degrees
+  left shoulder raised out to the side 20 degrees
+  left elbow bent 15 degrees
+  left hip adducted 57 degrees
+  left knee bent 64 degrees
+Frame 329 - computed:
+  right shoulder neutral
+  right elbow bent 26 degrees
+  right hip abducted 66 degrees
+  right knee bent 60 degrees
+  left shoulder raised out to the side 24 degrees
+  left elbow bent 23 degrees
+  left hip adducted 61 degrees
+  left knee bent 63 degrees
+Frame 330 - computed:
+  right shoulder neutral
+  right elbow bent 23 degrees
+  right hip abducted 70 degrees
+  right knee bent 65 degrees
+  left shoulder raised out to the side 30 degrees
+  left elbow bent 34 degrees
+  left hip adducted 65 degrees
+  left knee bent 67 degrees
+Frame 331 - computed:
+  right shoulder pulled across the body 8 degrees
+  right elbow bent 29 degrees
+  right hip abducted 74 degrees
+  right knee bent 70 degrees
+  left shoulder raised out to the side 37 degrees
+  left elbow bent 47 degrees
+  left hip adducted 69 degrees
+  left knee bent 77 degrees
+Frame 332 - computed:
+  right shoulder pulled across the body 11 degrees
+  right elbow bent 42 degrees
+  right hip abducted 78 degrees
+  right knee bent 76 degrees
+  left shoulder raised out to the side 43 degrees
+  left elbow bent 59 degrees
+  left hip adducted 73 degrees
+  left knee bent 88 degrees
+Frame 333 - computed:
+  right shoulder pulled across the body 12 degrees
+  right elbow bent 53 degrees
+  right hip abducted 83 degrees
+  right knee bent 82 degrees
+  left shoulder raised out to the side 50 degrees
+  left elbow bent 72 degrees
+  left hip adducted 77 degrees
+  left knee bent 96 degrees
+Frame 334 - computed:
+  right shoulder pulled across the body 10 degrees
+  right elbow bent 51 degrees
+  right hip abducted 87 degrees
+  right knee bent 90 degrees
+  left shoulder raised out to the side 56 degrees
+  left elbow bent 84 degrees
+  left hip adducted 81 degrees
+  left knee bent 98 degrees
+Frame 335 - computed:
+  right shoulder pulled across the body 7 degrees
+  right elbow bent 41 degrees
+  right hip abducted 90 degrees
+  right knee bent 100 degrees
+  left shoulder raised out to the side 57 degrees
+  left elbow bent 90 degrees
+  left hip adducted 82 degrees
+  left knee bent 96 degrees
+Frame 336 - computed:
+  right shoulder pulled across the body 5 degrees
+  right elbow bent 34 degrees
+  right hip extended 180 degrees, abducted 90 degrees
+  right knee bent 107 degrees
+  left shoulder raised out to the side 51 degrees
+  left elbow bent 89 degrees
+  left hip adducted 81 degrees
+  left knee bent 94 degrees
+Frame 337 - computed:
+  right shoulder pulled across the body 6 degrees
+  right elbow bent 34 degrees
+  right hip abducted 88 degrees
+  right knee bent 108 degrees
+  left shoulder raised out to the side 44 degrees
+  left elbow bent 87 degrees
+  left hip adducted 79 degrees
+  left knee bent 94 degrees
+Frame 338 - computed:
+  right shoulder neutral
+  right elbow bent 37 degrees
+  right hip abducted 84 degrees
+  right knee bent 102 degrees
+  left shoulder raised out to the side 40 degrees
+  left elbow bent 86 degrees
+  left hip adducted 77 degrees
+  left knee bent 94 degrees
+Frame 339 - computed:
+  right shoulder neutral
+  right elbow bent 37 degrees
+  right hip abducted 81 degrees
+  right knee bent 96 degrees
+  left shoulder raised out to the side 36 degrees
+  left elbow bent 83 degrees
+  left hip adducted 76 degrees
+  left knee bent 94 degrees
+Frame 340 - computed:
+  right shoulder neutral
+  right elbow bent 36 degrees
+  right hip abducted 79 degrees
+  right knee bent 93 degrees
+  left shoulder raised out to the side 24 degrees
+  left elbow bent 75 degrees
+  left hip adducted 75 degrees
+  left knee bent 94 degrees
+Frame 341 - computed:
+  right shoulder raised out to the side 5 degrees
+  right elbow bent 43 degrees
+  right hip abducted 77 degrees
+  right knee bent 94 degrees
+  left shoulder raised out to the side 7 degrees
+  left elbow bent 69 degrees
+  left hip adducted 73 degrees
+  left knee bent 94 degrees
+Frame 342 - computed:
+  right shoulder neutral
+  right elbow bent 59 degrees
+  right hip abducted 76 degrees
+  right knee bent 94 degrees
+  left shoulder neutral
+  left elbow bent 72 degrees
+  left hip adducted 72 degrees
+  left knee bent 94 degrees
+Frame 343 - computed:
+  right shoulder neutral
+  right elbow bent 70 degrees
+  right hip abducted 75 degrees
+  right knee bent 93 degrees
+  left shoulder neutral
+  left elbow bent 77 degrees
+  left hip adducted 71 degrees
+  left knee bent 93 degrees
+Frame 344 - computed:
+  right shoulder neutral
+  right elbow bent 66 degrees
+  right hip abducted 73 degrees
+  right knee bent 90 degrees
+  left shoulder neutral
+  left elbow bent 80 degrees
+  left hip adducted 69 degrees
+  left knee bent 90 degrees
+Frame 345 - computed:
+  right shoulder neutral
+  right elbow bent 53 degrees
+  right hip abducted 71 degrees
+  right knee bent 88 degrees
+  left shoulder neutral
+  left elbow bent 78 degrees
+  left hip adducted 68 degrees
+  left knee bent 86 degrees
+Frame 346 - computed:
+  right shoulder neutral
+  right elbow bent 41 degrees
+  right hip abducted 70 degrees
+  right knee bent 86 degrees
+  left shoulder neutral
+  left elbow bent 77 degrees
+  left hip adducted 66 degrees
+  left knee bent 83 degrees
+Frame 347 - computed:
+  right shoulder neutral
+  right elbow bent 35 degrees
+  right hip abducted 68 degrees
+  right knee bent 84 degrees
+  left shoulder neutral
+  left elbow bent 78 degrees
+  left hip adducted 64 degrees
+  left knee bent 80 degrees
+Frame 348 - computed:
+  right shoulder neutral
+  right elbow bent 33 degrees
+  right hip abducted 66 degrees
+  right knee bent 83 degrees
+  left shoulder raised out to the side 7 degrees
+  left elbow bent 82 degrees
+  left hip adducted 62 degrees
+  left knee bent 75 degrees
+Frame 349 - computed:
+  right shoulder neutral
+  right elbow bent 33 degrees
+  right hip abducted 64 degrees
+  right knee bent 81 degrees
+  left shoulder raised out to the side 10 degrees
+  left elbow bent 83 degrees
+  left hip adducted 60 degrees
+  left knee bent 70 degrees
+Frame 350 - computed:
+  right shoulder neutral
+  right elbow bent 31 degrees
+  right hip abducted 63 degrees
+  right knee bent 80 degrees
+  left shoulder raised out to the side 10 degrees
+  left elbow bent 81 degrees
+  left hip adducted 58 degrees
+  left knee bent 68 degrees
+Frame 351 - computed:
+  right shoulder neutral
+  right elbow bent 26 degrees
+  right hip abducted 63 degrees
+  right knee bent 82 degrees
+  left shoulder raised out to the side 9 degrees
+  left elbow bent 77 degrees
+  left hip adducted 57 degrees
+  left knee bent 69 degrees
+Frame 352 - computed:
+  right shoulder neutral
+  right elbow bent 15 degrees
+  right hip abducted 64 degrees
+  right knee bent 84 degrees
+  left shoulder raised out to the side 7 degrees
+  left elbow bent 75 degrees
+  left hip adducted 56 degrees
+  left knee bent 69 degrees
+Frame 353 - computed:
+  right shoulder neutral
+  right elbow straight
+  right hip abducted 65 degrees
+  right knee bent 84 degrees
+  left shoulder raised out to the side 6 degrees
+  left elbow bent 74 degrees
+  left hip adducted 55 degrees
+  left knee bent 67 degrees
+Frame 354 - computed:
+  right shoulder neutral
+  right elbow bent 12 degrees
+  right hip abducted 66 degrees
+  right knee bent 84 degrees
+  left shoulder raised out to the side 6 degrees
+  left elbow bent 75 degrees
+  left hip adducted 54 degrees
+  left knee bent 63 degrees
+Frame 355 - computed:
+  right shoulder neutral
+  right elbow bent 19 degrees
+  right hip abducted 67 degrees
+  right knee bent 84 degrees
+  left shoulder raised out to the side 7 degrees
+  left elbow bent 77 degrees
+  left hip adducted 54 degrees
+  left knee bent 61 degrees
+Frame 356 - computed:
+  right shoulder neutral
+  right elbow bent 26 degrees
+  right hip abducted 71 degrees
+  right knee bent 85 degrees
+  left shoulder raised out to the side 10 degrees
+  left elbow bent 82 degrees
+  left hip adducted 57 degrees
+  left knee bent 60 degrees
+Frame 357 - computed:
+  right shoulder neutral
+  right elbow bent 39 degrees
+  right hip abducted 76 degrees
+  right knee bent 88 degrees
+  left shoulder raised out to the side 15 degrees
+  left elbow bent 89 degrees
+  left hip adducted 60 degrees
+  left knee bent 60 degrees
+Frame 358 - computed:
+  right shoulder neutral
+  right elbow bent 61 degrees
+  right hip abducted 79 degrees
+  right knee bent 88 degrees
+  left shoulder raised out to the side 19 degrees
+  left elbow bent 95 degrees
+  left hip adducted 60 degrees
+  left knee bent 58 degrees
+Frame 359 - computed:
+  right shoulder raised out to the side 10 degrees
+  right elbow bent 77 degrees
+  right hip abducted 77 degrees
+  right knee bent 85 degrees
+  left shoulder raised out to the side 21 degrees
+  left elbow bent 97 degrees
+  left hip adducted 52 degrees
+  left knee bent 49 degrees
+Frame 360 - computed:
+  right shoulder raised out to the side 15 degrees
+  right elbow bent 86 degrees
+  right hip abducted 73 degrees
+  right knee bent 79 degrees
+  left shoulder raised out to the side 20 degrees
+  left elbow bent 96 degrees
+  left hip adducted 34 degrees
+  left knee bent 31 degrees
+Frame 361 - computed:
+  right shoulder raised out to the side 19 degrees
+  right elbow bent 90 degrees
+  right hip abducted 71 degrees
+  right knee bent 74 degrees
+  left shoulder raised out to the side 19 degrees
+  left elbow bent 96 degrees
+  left hip adducted 14 degrees
+  left knee bent 9 degrees
+Frame 362 - computed:
+  right shoulder raised out to the side 21 degrees
+  right elbow bent 91 degrees
+  right hip abducted 71 degrees
+  right knee bent 76 degrees
+  left shoulder raised out to the side 19 degrees
+  left elbow bent 97 degrees
+  left hip neutral
+  left knee bent 9 degrees
+Frame 363 - computed:
+  right shoulder raised out to the side 22 degrees
+  right elbow bent 91 degrees
+  right hip abducted 74 degrees
+  right knee bent 84 degrees
+  left shoulder raised out to the side 20 degrees
+  left elbow bent 98 degrees
+  left hip neutral
+  left knee bent 17 degrees
+Frame 364 - computed:
+  right shoulder raised out to the side 23 degrees
+  right elbow bent 91 degrees
+  right hip abducted 76 degrees
+  right knee bent 91 degrees
+  left shoulder raised out to the side 20 degrees
+  left elbow bent 98 degrees
+  left hip neutral
+  left knee bent 21 degrees
+Frame 365 - computed:
+  right shoulder raised out to the side 23 degrees
+  right elbow bent 91 degrees
+  right hip abducted 77 degrees
+  right knee bent 94 degrees
+  left shoulder raised out to the side 20 degrees
+  left elbow bent 98 degrees
+  left hip abducted 9 degrees
+  left knee bent 28 degrees
+Frame 366 - computed:
+  right shoulder raised out to the side 23 degrees
+  right elbow bent 91 degrees
+  right hip abducted 79 degrees
+  right knee bent 93 degrees
+  left shoulder raised out to the side 19 degrees
+  left elbow bent 98 degrees
+  left hip abducted 20 degrees
+  left knee bent 39 degrees
+Frame 367 - computed:
+  right shoulder raised out to the side 23 degrees
+  right elbow bent 90 degrees
+  right hip abducted 81 degrees
+  right knee bent 91 degrees
+  left shoulder raised out to the side 18 degrees
+  left elbow bent 97 degrees
+  left hip abducted 35 degrees
+  left knee bent 54 degrees
+Frame 368 - computed:
+  right shoulder raised out to the side 23 degrees
+  right elbow bent 90 degrees
+  right hip abducted 83 degrees
+  right knee bent 89 degrees
+  left shoulder raised out to the side 17 degrees
+  left elbow bent 97 degrees
+  left hip abducted 50 degrees
+  left knee bent 68 degrees
+Frame 369 - computed:
+  right shoulder raised out to the side 23 degrees
+  right elbow bent 90 degrees
+  right hip abducted 82 degrees
+  right knee bent 87 degrees
+  left shoulder raised out to the side 17 degrees
+  left elbow bent 96 degrees
+  left hip abducted 61 degrees
+  left knee bent 76 degrees
+Frame 370 - computed:
+  right shoulder raised out to the side 23 degrees
+  right elbow bent 90 degrees
+  right hip abducted 81 degrees
+  right knee bent 84 degrees
+  left shoulder raised out to the side 17 degrees
+  left elbow bent 96 degrees
+  left hip abducted 66 degrees
+  left knee bent 79 degrees
+Frame 371 - computed:
+  right shoulder raised out to the side 23 degrees
+  right elbow bent 91 degrees
+  right hip abducted 81 degrees
+  right knee bent 82 degrees
+  left shoulder raised out to the side 17 degrees
+  left elbow bent 96 degrees
+  left hip abducted 67 degrees
+  left knee bent 80 degrees
+Frame 372 - computed:
+  right shoulder raised out to the side 23 degrees
+  right elbow bent 93 degrees
+  right hip abducted 84 degrees
+  right knee bent 84 degrees
+  left shoulder raised out to the side 17 degrees
+  left elbow bent 96 degrees
+  left hip abducted 68 degrees
+  left knee bent 80 degrees
+Frame 373 - computed:
+  right shoulder raised out to the side 24 degrees
+  right elbow bent 94 degrees
+  right hip extended 180 degrees, abducted 93 degrees
+  right knee bent 93 degrees
+  left shoulder raised out to the side 16 degrees
+  left elbow bent 96 degrees
+  left hip abducted 68 degrees
+  left knee bent 81 degrees
+Frame 374 - computed:
+  right shoulder raised out to the side 24 degrees
+  right elbow bent 95 degrees
+  right hip extended 180 degrees, abducted 104 degrees
+  right knee bent 104 degrees
+  left shoulder raised out to the side 16 degrees
+  left elbow bent 96 degrees
+  left hip abducted 68 degrees
+  left knee bent 81 degrees
+Frame 375 - computed:
+  right shoulder raised out to the side 24 degrees
+  right elbow bent 95 degrees
+  right hip flexed 180 degrees, abducted 109 degrees
+  right knee bent 108 degrees
+  left shoulder raised out to the side 15 degrees
+  left elbow bent 96 degrees
+  left hip abducted 68 degrees
+  left knee bent 81 degrees
+Frame 376 - computed:
+  right shoulder raised out to the side 24 degrees
+  right elbow bent 95 degrees
+  right hip flexed 180 degrees, abducted 109 degrees
+  right knee bent 109 degrees
+  left shoulder raised out to the side 14 degrees
+  left elbow bent 96 degrees
+  left hip abducted 66 degrees
+  left knee bent 79 degrees
+Frame 377 - computed:
+  right shoulder raised out to the side 24 degrees
+  right elbow bent 95 degrees
+  right hip extended 180 degrees, abducted 110 degrees
+  right knee bent 110 degrees
+  left shoulder raised out to the side 14 degrees
+  left elbow bent 95 degrees
+  left hip abducted 65 degrees
+  left knee bent 77 degrees
+Frame 378 - computed:
+  right shoulder raised out to the side 24 degrees
+  right elbow bent 95 degrees
+  right hip flexed 180 degrees, abducted 112 degrees
+  right knee bent 112 degrees
+  left shoulder raised out to the side 14 degrees
+  left elbow bent 95 degrees
+  left hip abducted 65 degrees
+  left knee bent 78 degrees
+Frame 379 - computed:
+  right shoulder raised out to the side 24 degrees
+  right elbow bent 95 degrees
+  right hip extended 180 degrees, abducted 111 degrees
+  right knee bent 111 degrees
+  left shoulder raised out to the side 14 degrees
+  left elbow bent 94 degrees
+  left hip abducted 65 degrees
+  left knee bent 79 degrees
+Frame 380 - computed:
+  right shoulder raised out to the side 25 degrees
+  right elbow bent 95 degrees
+  right hip flexed 180 degrees, abducted 106 degrees
+  right knee bent 107 degrees
+  left shoulder raised out to the side 14 degrees
+  left elbow bent 93 degrees
+  left hip abducted 65 degrees
+  left knee bent 80 degrees
+Frame 381 - computed:
+  right shoulder raised out to the side 25 degrees
+  right elbow bent 95 degrees
+  right hip flexed 180 degrees, abducted 103 degrees
+  right knee bent 104 degrees
+  left shoulder raised out to the side 14 degrees
+  left elbow bent 93 degrees
+  left hip abducted 65 degrees
+  left knee bent 80 degrees
+Frame 382 - computed:
+  right shoulder raised out to the side 25 degrees
+  right elbow bent 94 degrees
+  right hip flexed 180 degrees, abducted 103 degrees
+  right knee bent 104 degrees
+  left shoulder raised out to the side 14 degrees
+  left elbow bent 93 degrees
+  left hip abducted 65 degrees
+  left knee bent 79 degrees
+Frame 383 - computed:
+  right shoulder raised out to the side 24 degrees
+  right elbow bent 95 degrees
+  right hip extended 180 degrees, abducted 104 degrees
+  right knee bent 105 degrees
+  left shoulder raised out to the side 14 degrees
+  left elbow bent 93 degrees
+  left hip abducted 65 degrees
+  left knee bent 79 degrees
+Frame 384 - computed:
+  right shoulder raised out to the side 24 degrees
+  right elbow bent 95 degrees
+  right hip flexed 180 degrees, abducted 105 degrees
+  right knee bent 104 degrees
+  left shoulder raised out to the side 14 degrees
+  left elbow bent 94 degrees
+  left hip abducted 65 degrees
+  left knee bent 80 degrees
+Frame 385 - computed:
+  right shoulder raised out to the side 24 degrees
+  right elbow bent 96 degrees
+  right hip flexed 180 degrees, abducted 106 degrees
+  right knee bent 104 degrees
+  left shoulder raised out to the side 14 degrees
+  left elbow bent 93 degrees
+  left hip abducted 67 degrees
+  left knee bent 81 degrees
+Frame 386 - computed:
+  right shoulder raised out to the side 23 degrees
+  right elbow bent 96 degrees
+  right hip flexed 180 degrees, abducted 107 degrees
+  right knee bent 104 degrees
+  left shoulder raised out to the side 15 degrees
+  left elbow bent 93 degrees
+  left hip abducted 68 degrees
+  left knee bent 82 degrees
+Frame 387 - computed:
+  right shoulder raised out to the side 23 degrees
+  right elbow bent 96 degrees
+  right hip flexed 180 degrees, abducted 106 degrees
+  right knee bent 104 degrees
+  left shoulder raised out to the side 14 degrees
+  left elbow bent 94 degrees
+  left hip abducted 69 degrees
+  left knee bent 83 degrees
+Frame 388 - computed:
+  right shoulder raised out to the side 23 degrees
+  right elbow bent 96 degrees
+  right hip flexed 180 degrees, abducted 103 degrees
+  right knee bent 101 degrees
+  left shoulder raised out to the side 15 degrees
+  left elbow bent 95 degrees
+  left hip abducted 70 degrees
+  left knee bent 84 degrees
+Frame 389 - computed:
+  right shoulder raised out to the side 23 degrees
+  right elbow bent 96 degrees
+  right hip extended 180 degrees, abducted 98 degrees
+  right knee bent 96 degrees
+  left shoulder raised out to the side 15 degrees
+  left elbow bent 95 degrees
+  left hip abducted 69 degrees
+  left knee bent 84 degrees
+Frame 390 - computed:
+  right shoulder raised out to the side 23 degrees
+  right elbow bent 96 degrees
+  right hip flexed 180 degrees, abducted 94 degrees
+  right knee bent 92 degrees
+  left shoulder raised out to the side 15 degrees
+  left elbow bent 90 degrees
+  left hip abducted 69 degrees
+  left knee bent 84 degrees
+Frame 391 - computed:
+  right shoulder raised out to the side 23 degrees
+  right elbow bent 95 degrees
+  right hip flexed 180 degrees, abducted 93 degrees
+  right knee bent 91 degrees
+  left shoulder raised out to the side 15 degrees
+  left elbow bent 90 degrees
+  left hip abducted 68 degrees
+  left knee bent 84 degrees
+Frame 392 - computed:
+  right shoulder raised out to the side 23 degrees
+  right elbow bent 95 degrees
+  right hip extended 180 degrees, abducted 92 degrees
+  right knee bent 90 degrees
+  left shoulder raised out to the side 16 degrees
+  left elbow bent 100 degrees
+  left hip abducted 68 degrees
+  left knee bent 85 degrees
+Frame 393 - computed:
+  right shoulder raised out to the side 24 degrees
+  right elbow bent 95 degrees
+  right hip flexed 180 degrees, abducted 92 degrees
+  right knee bent 89 degrees
+  left shoulder raised out to the side 19 degrees
+  left elbow bent 115 degrees
+  left hip abducted 69 degrees
+  left knee bent 85 degrees
+Frame 394 - computed:
+  right shoulder raised out to the side 24 degrees
+  right elbow bent 94 degrees
+  right hip flexed 180 degrees, abducted 95 degrees
+  right knee bent 92 degrees
+  left shoulder raised out to the side 23 degrees
+  left elbow bent 132 degrees
+  left hip abducted 70 degrees
+  left knee bent 87 degrees
+Frame 395 - computed:
+  right shoulder raised out to the side 24 degrees
+  right elbow bent 93 degrees
+  right hip extended 180 degrees, abducted 103 degrees
+  right knee bent 101 degrees
+  left shoulder raised out to the side 27 degrees
+  left elbow bent 37 degrees
+  left hip abducted 71 degrees
+  left knee bent 88 degrees
+Frame 396 - computed:
+  right shoulder raised out to the side 24 degrees
+  right elbow bent 92 degrees
+  right hip flexed 180 degrees, abducted 113 degrees
+  right knee bent 112 degrees
+  left shoulder raised out to the side 33 degrees
+  left elbow bent 19 degrees
+  left hip abducted 72 degrees
+  left knee bent 90 degrees
+Frame 397 - computed:
+  right shoulder raised out to the side 24 degrees
+  right elbow bent 92 degrees
+  right hip flexed 180 degrees, abducted 119 degrees
+  right knee bent 117 degrees
+  left shoulder raised out to the side 39 degrees
+  left elbow straight
+  left hip abducted 72 degrees
+  left knee bent 91 degrees
+Frame 398 - computed:
+  right shoulder raised out to the side 25 degrees
+  right elbow bent 93 degrees
+  right hip flexed 180 degrees, abducted 119 degrees
+  right knee bent 117 degrees
+  left shoulder raised out to the side 44 degrees
+  left elbow bent 24 degrees
+  left hip abducted 72 degrees
+  left knee bent 91 degrees
+Frame 399 - computed:
+  right shoulder raised out to the side 25 degrees
+  right elbow bent 93 degrees
+  right hip extended 180 degrees, abducted 116 degrees
+  right knee bent 113 degrees
+  left shoulder raised out to the side 46 degrees
+  left elbow bent 76 degrees
+  left hip abducted 71 degrees
+  left knee bent 90 degrees
+Frame 400 - computed:
+  right shoulder raised out to the side 25 degrees
+  right elbow bent 94 degrees
+  right hip flexed 180 degrees, abducted 114 degrees
+  right knee bent 111 degrees
+  left shoulder raised out to the side 46 degrees
+  left elbow bent 136 degrees
+  left hip abducted 71 degrees
+  left knee bent 90 degrees
+Frame 401 - computed:
+  right shoulder raised out to the side 25 degrees
+  right elbow bent 94 degrees
+  right hip extended 180 degrees, abducted 116 degrees
+  right knee bent 113 degrees
+  left shoulder raised out to the side 46 degrees
+  left elbow bent 157 degrees
+  left hip abducted 71 degrees
+  left knee bent 90 degrees
+Frame 402 - computed:
+  right shoulder raised out to the side 25 degrees
+  right elbow bent 95 degrees
+  right hip flexed 180 degrees, abducted 118 degrees
+  right knee bent 115 degrees
+  left shoulder raised out to the side 46 degrees
+  left elbow bent 163 degrees
+  left hip abducted 72 degrees
+  left knee bent 90 degrees
+Frame 403 - computed:
+  right shoulder raised out to the side 25 degrees
+  right elbow bent 95 degrees
+  right hip extended 180 degrees, abducted 118 degrees
+  right knee bent 115 degrees
+  left shoulder raised out to the side 46 degrees
+  left elbow bent 163 degrees
+  left hip abducted 72 degrees
+  left knee bent 90 degrees
+Frame 404 - computed:
+  right shoulder raised out to the side 25 degrees
+  right elbow bent 95 degrees
+  right hip extended 180 degrees, abducted 114 degrees
+  right knee bent 111 degrees
+  left shoulder raised out to the side 46 degrees
+  left elbow bent 163 degrees
+  left hip abducted 72 degrees
+  left knee bent 90 degrees
+Frame 405 - computed:
+  right shoulder raised out to the side 25 degrees
+  right elbow bent 95 degrees
+  right hip flexed 180 degrees, abducted 111 degrees
+  right knee bent 108 degrees
+  left shoulder raised out to the side 45 degrees
+  left elbow bent 165 degrees
+  left hip abducted 72 degrees
+  left knee bent 90 degrees
+Frame 406 - computed:
+  right shoulder raised out to the side 25 degrees
+  right elbow bent 95 degrees
+  right hip extended 180 degrees, abducted 111 degrees
+  right knee bent 108 degrees
+  left shoulder raised out to the side 44 degrees
+  left elbow bent 26 degrees
+  left hip abducted 72 degrees
+  left knee bent 90 degrees
+Frame 407 - computed:
+  right shoulder raised out to the side 26 degrees
+  right elbow bent 95 degrees
+  right hip flexed 180 degrees, abducted 113 degrees
+  right knee bent 110 degrees
+  left shoulder raised out to the side 46 degrees
+  left elbow bent 14 degrees
+  left hip abducted 73 degrees
+  left knee bent 91 degrees
+Frame 408 - computed:
+  right shoulder raised out to the side 26 degrees
+  right elbow bent 95 degrees
+  right hip extended 180 degrees, abducted 113 degrees
+  right knee bent 111 degrees
+  left shoulder raised out to the side 48 degrees
+  left elbow bent 5 degrees
+  left hip abducted 72 degrees
+  left knee bent 92 degrees
+Frame 409 - computed:
+  right shoulder raised out to the side 26 degrees
+  right elbow bent 96 degrees
+  right hip flexed 180 degrees, abducted 113 degrees
+  right knee bent 111 degrees
+  left shoulder raised out to the side 46 degrees
+  left elbow bent 24 degrees
+  left hip abducted 71 degrees
+  left knee bent 92 degrees
+Frame 410 - computed:
+  right shoulder raised out to the side 25 degrees
+  right elbow bent 98 degrees
+  right hip extended 180 degrees, abducted 115 degrees
+  right knee bent 112 degrees
+  left shoulder raised out to the side 40 degrees
+  left elbow bent 105 degrees
+  left hip abducted 70 degrees
+  left knee bent 91 degrees
+Frame 411 - computed:
+  right shoulder raised out to the side 25 degrees
+  right elbow bent 102 degrees
+  right hip flexed 180 degrees, abducted 119 degrees
+  right knee bent 117 degrees
+  left shoulder raised out to the side 32 degrees
+  left elbow bent 118 degrees
+  left hip abducted 70 degrees
+  left knee bent 91 degrees
+Frame 412 - computed:
+  right shoulder raised out to the side 26 degrees
+  right elbow bent 113 degrees
+  right hip extended 180 degrees, abducted 121 degrees
+  right knee bent 120 degrees
+  left shoulder raised out to the side 25 degrees
+  left elbow bent 116 degrees
+  left hip abducted 70 degrees
+  left knee bent 90 degrees
+Frame 413 - computed:
+  right shoulder raised out to the side 29 degrees
+  right elbow bent 153 degrees
+  right hip flexed 180 degrees, abducted 118 degrees
+  right knee bent 119 degrees
+  left shoulder raised out to the side 21 degrees
+  left elbow bent 110 degrees
+  left hip abducted 70 degrees
+  left knee bent 88 degrees
+Frame 414 - computed:
+  right shoulder raised out to the side 34 degrees
+  right elbow bent 152 degrees
+  right hip extended 180 degrees, abducted 114 degrees
+  right knee bent 116 degrees
+  left shoulder raised out to the side 18 degrees
+  left elbow bent 105 degrees
+  left hip abducted 68 degrees
+  left knee bent 86 degrees
+Frame 415 - computed:
+  right shoulder raised out to the side 42 degrees
+  right elbow bent 131 degrees
+  right hip extended 180 degrees, abducted 113 degrees
+  right knee bent 114 degrees
+  left shoulder raised out to the side 17 degrees
+  left elbow bent 106 degrees
+  left hip abducted 67 degrees
+  left knee bent 85 degrees
+Frame 416 - computed:
+  right shoulder raised out to the side 55 degrees
+  right elbow bent 117 degrees
+  right hip extended 180 degrees, abducted 111 degrees
+  right knee bent 113 degrees
+  left shoulder raised out to the side 18 degrees
+  left elbow bent 108 degrees
+  left hip abducted 65 degrees
+  left knee bent 85 degrees
+Frame 417 - computed:
+  right shoulder raised out to the side 70 degrees
+  right elbow bent 103 degrees
+  right hip extended 180 degrees, abducted 106 degrees
+  right knee bent 108 degrees
+  left shoulder raised out to the side 19 degrees
+  left elbow bent 110 degrees
+  left hip abducted 65 degrees
+  left knee bent 86 degrees
+Frame 418 - computed:
+  right shoulder raised out to the side 79 degrees
+  right elbow bent 92 degrees
+  right hip flexed 180 degrees, abducted 98 degrees
+  right knee bent 100 degrees
+  left shoulder raised out to the side 21 degrees
+  left elbow bent 111 degrees
+  left hip abducted 65 degrees
+  left knee bent 87 degrees
+Frame 419 - computed:
+  right shoulder raised out to the side 82 degrees
+  right elbow bent 85 degrees
+  right hip extended 180 degrees, abducted 92 degrees
+  right knee bent 95 degrees
+  left shoulder raised out to the side 21 degrees
+  left elbow bent 111 degrees
+  left hip abducted 66 degrees
+  left knee bent 87 degrees
+Frame 420 - computed:
+  right shoulder raised out to the side 83 degrees
+  right elbow bent 81 degrees
+  right hip flexed 180 degrees, abducted 90 degrees
+  right knee bent 95 degrees
+  left shoulder raised out to the side 21 degrees
+  left elbow bent 111 degrees
+  left hip abducted 67 degrees
+  left knee bent 87 degrees
+Frame 421 - computed:
+  right shoulder raised out to the side 84 degrees
+  right elbow bent 78 degrees
+  right hip extended 180 degrees, abducted 91 degrees
+  right knee bent 96 degrees
+  left shoulder raised out to the side 21 degrees
+  left elbow bent 112 degrees
+  left hip abducted 68 degrees
+  left knee bent 87 degrees
+Frame 422 - computed:
+  right shoulder raised out to the side 84 degrees
+  right elbow bent 77 degrees
+  right hip extended 180 degrees, abducted 91 degrees
+  right knee bent 97 degrees
+  left shoulder raised out to the side 21 degrees
+  left elbow bent 112 degrees
+  left hip abducted 70 degrees
+  left knee bent 88 degrees
+Frame 423 - computed:
+  right shoulder raised out to the side 83 degrees
+  right elbow bent 80 degrees
+  right hip flexed 180 degrees, abducted 91 degrees
+  right knee bent 97 degrees
+  left shoulder raised out to the side 21 degrees
+  left elbow bent 113 degrees
+  left hip abducted 71 degrees
+  left knee bent 89 degrees
+Frame 424 - computed:
+  right shoulder raised out to the side 81 degrees
+  right elbow bent 83 degrees
+  right hip flexed 180 degrees, abducted 91 degrees
+  right knee bent 98 degrees
+  left shoulder raised out to the side 22 degrees
+  left elbow bent 113 degrees
+  left hip abducted 71 degrees
+  left knee bent 91 degrees
+Frame 425 - computed:
+  right shoulder raised out to the side 80 degrees
+  right elbow bent 85 degrees
+  right hip flexed 180 degrees, abducted 91 degrees
+  right knee bent 98 degrees
+  left shoulder raised out to the side 22 degrees
+  left elbow bent 113 degrees
+  left hip abducted 72 degrees
+  left knee bent 92 degrees
+Frame 426 - computed:
+  right shoulder raised out to the side 79 degrees
+  right elbow bent 86 degrees
+  right hip flexed 180 degrees, abducted 90 degrees
+  right knee bent 97 degrees
+  left shoulder raised out to the side 22 degrees
+  left elbow bent 113 degrees
+  left hip abducted 72 degrees
+  left knee bent 92 degrees
+Frame 427 - computed:
+  right shoulder raised out to the side 78 degrees
+  right elbow bent 88 degrees
+  right hip abducted 90 degrees
+  right knee bent 97 degrees
+  left shoulder raised out to the side 22 degrees
+  left elbow bent 112 degrees
+  left hip abducted 72 degrees
+  left knee bent 92 degrees
+Frame 428 - computed:
+  right shoulder raised out to the side 76 degrees
+  right elbow bent 90 degrees
+  right hip abducted 90 degrees
+  right knee bent 96 degrees
+  left shoulder raised out to the side 22 degrees
+  left elbow bent 111 degrees
+  left hip abducted 72 degrees
+  left knee bent 93 degrees
+Frame 429 - computed:
+  right shoulder raised out to the side 74 degrees
+  right elbow bent 91 degrees
+  right hip abducted 89 degrees
+  right knee bent 96 degrees
+  left shoulder raised out to the side 22 degrees
+  left elbow bent 111 degrees
+  left hip abducted 72 degrees
+  left knee bent 93 degrees
+Frame 430 - computed:
+  right shoulder raised out to the side 72 degrees
+  right elbow bent 91 degrees
+  right hip abducted 88 degrees
+  right knee bent 95 degrees
+  left shoulder raised out to the side 22 degrees
+  left elbow bent 111 degrees
+  left hip abducted 71 degrees
+  left knee bent 92 degrees
+Frame 431 - computed:
+  right shoulder raised out to the side 72 degrees
+  right elbow bent 88 degrees
+  right hip abducted 88 degrees
+  right knee bent 94 degrees
+  left shoulder raised out to the side 22 degrees
+  left elbow bent 110 degrees
+  left hip abducted 71 degrees
+  left knee bent 91 degrees
+Frame 432 - computed:
+  right shoulder raised out to the side 76 degrees
+  right elbow bent 83 degrees
+  right hip abducted 88 degrees
+  right knee bent 93 degrees
+  left shoulder raised out to the side 21 degrees
+  left elbow bent 109 degrees
+  left hip abducted 70 degrees
+  left knee bent 90 degrees
+Frame 433 - computed:
+  right shoulder raised out to the side 82 degrees
+  right elbow bent 77 degrees
+  right hip abducted 90 degrees
+  right knee bent 94 degrees
+  left shoulder raised out to the side 21 degrees
+  left elbow bent 108 degrees
+  left hip abducted 70 degrees
+  left knee bent 89 degrees
+Frame 434 - computed:
+  right shoulder raised out to the side 90 degrees
+  right elbow bent 67 degrees
+  right hip flexed 180 degrees, abducted 92 degrees
+  right knee bent 96 degrees
+  left shoulder raised out to the side 21 degrees
+  left elbow bent 108 degrees
+  left hip abducted 70 degrees
+  left knee bent 89 degrees
+Frame 435 - computed:
+  right shoulder raised forward 180 degrees, raised out to the side 95 degrees
+  right elbow bent 52 degrees
+  right hip flexed 180 degrees, abducted 95 degrees
+  right knee bent 99 degrees
+  left shoulder raised out to the side 21 degrees
+  left elbow bent 109 degrees
+  left hip abducted 70 degrees
+  left knee bent 89 degrees
+Frame 436 - computed:
+  right shoulder raised forward 180 degrees, raised out to the side 97 degrees
+  right elbow bent 29 degrees
+  right hip flexed 180 degrees, abducted 97 degrees
+  right knee bent 102 degrees
+  left shoulder raised out to the side 21 degrees
+  left elbow bent 108 degrees
+  left hip abducted 71 degrees
+  left knee bent 90 degrees
+Frame 437 - computed:
+  right shoulder raised forward 180 degrees, raised out to the side 91 degrees
+  right elbow bent 12 degrees
+  right hip flexed 180 degrees, abducted 98 degrees
+  right knee bent 103 degrees
+  left shoulder raised out to the side 20 degrees
+  left elbow bent 107 degrees
+  left hip abducted 71 degrees
+  left knee bent 90 degrees
+Frame 438 - computed:
+  right shoulder raised out to the side 77 degrees
+  right elbow bent 14 degrees
+  right hip flexed 180 degrees, abducted 99 degrees
+  right knee bent 103 degrees
+  left shoulder raised out to the side 19 degrees
+  left elbow bent 108 degrees
+  left hip abducted 71 degrees
+  left knee bent 90 degrees
+Frame 439 - computed:
+  right shoulder raised out to the side 61 degrees
+  right elbow bent 24 degrees
+  right hip flexed 180 degrees, abducted 101 degrees
+  right knee bent 105 degrees
+  left shoulder raised out to the side 18 degrees
+  left elbow bent 104 degrees
+  left hip abducted 71 degrees
+  left knee bent 89 degrees
+Frame 440 - computed:
+  right shoulder raised out to the side 51 degrees
+  right elbow bent 22 degrees
+  right hip flexed 180 degrees, abducted 102 degrees
+  right knee bent 105 degrees
+  left shoulder raised out to the side 18 degrees
+  left elbow bent 71 degrees
+  left hip abducted 70 degrees
+  left knee bent 88 degrees
+Frame 441 - computed:
+  right shoulder raised out to the side 44 degrees
+  right elbow bent 10 degrees
+  right hip flexed 180 degrees, abducted 98 degrees
+  right knee bent 101 degrees
+  left shoulder raised out to the side 21 degrees
+  left elbow bent 5 degrees
+  left hip abducted 70 degrees
+  left knee bent 87 degrees
+Frame 442 - computed:
+  right shoulder raised out to the side 34 degrees
+  right elbow bent 13 degrees
+  right hip extended 180 degrees, abducted 90 degrees
+  right knee bent 93 degrees
+  left shoulder raised out to the side 28 degrees
+  left elbow straight
+  left hip abducted 69 degrees
+  left knee bent 85 degrees
+Frame 443 - computed:
+  right shoulder raised out to the side 24 degrees
+  right elbow bent 25 degrees
+  right hip abducted 84 degrees
+  right knee bent 88 degrees
+  left shoulder raised out to the side 40 degrees
+  left elbow straight
+  left hip abducted 68 degrees
+  left knee bent 83 degrees
+Frame 444 - computed:
+  right shoulder raised out to the side 18 degrees
+  right elbow bent 35 degrees
+  right hip abducted 88 degrees
+  right knee bent 92 degrees
+  left shoulder raised out to the side 58 degrees
+  left elbow bent 26 degrees
+  left hip abducted 69 degrees
+  left knee bent 83 degrees
+Frame 445 - computed:
+  right shoulder raised out to the side 18 degrees
+  right elbow bent 41 degrees
+  right hip flexed 180 degrees, abducted 99 degrees
+  right knee bent 104 degrees
+  left shoulder raised out to the side 81 degrees
+  left elbow bent 152 degrees
+  left hip abducted 70 degrees
+  left knee bent 84 degrees
+Frame 446 - computed:
+  right shoulder raised out to the side 19 degrees
+  right elbow bent 47 degrees
+  right hip flexed 180 degrees, abducted 110 degrees
+  right knee bent 114 degrees
+  left shoulder raised out to the side 88 degrees
+  left elbow bent 167 degrees
+  left hip abducted 72 degrees
+  left knee bent 86 degrees
+Frame 447 - computed:
+  right shoulder raised out to the side 19 degrees
+  right elbow bent 53 degrees
+  right hip flexed 180 degrees, abducted 115 degrees
+  right knee bent 119 degrees
+  left shoulder raised out to the side 73 degrees
+  left elbow bent 178 degrees
+  left hip abducted 73 degrees
+  left knee bent 88 degrees
+Frame 448 - computed:
+  right shoulder raised out to the side 17 degrees
+  right elbow bent 57 degrees
+  right hip extended 180 degrees, abducted 117 degrees
+  right knee bent 120 degrees
+  left shoulder raised out to the side 57 degrees
+  left elbow bent 67 degrees
+  left hip abducted 74 degrees
+  left knee bent 89 degrees
+Frame 449 - computed:
+  right shoulder raised out to the side 16 degrees
+  right elbow bent 57 degrees
+  right hip flexed 180 degrees, abducted 119 degrees
+  right knee bent 122 degrees
+  left shoulder raised out to the side 47 degrees
+  left elbow bent 24 degrees
+  left hip abducted 75 degrees
+  left knee bent 89 degrees
+Frame 450 - computed:
+  right shoulder raised out to the side 16 degrees
+  right elbow bent 54 degrees
+  right hip flexed 180 degrees, abducted 121 degrees
+  right knee bent 124 degrees
+  left shoulder raised out to the side 41 degrees
+  left elbow bent 21 degrees
+  left hip abducted 75 degrees
+  left knee bent 89 degrees
+Frame 451 - computed:
+  right shoulder raised out to the side 18 degrees
+  right elbow bent 48 degrees
+  right hip extended 180 degrees, abducted 121 degrees
+  right knee bent 124 degrees
+  left shoulder raised out to the side 35 degrees
+  left elbow bent 14 degrees
+  left hip abducted 74 degrees
+  left knee bent 88 degrees
+Frame 452 - computed:
+  right shoulder raised out to the side 19 degrees
+  right elbow bent 43 degrees
+  right hip flexed 180 degrees, abducted 119 degrees
+  right knee bent 121 degrees
+  left shoulder raised out to the side 29 degrees
+  left elbow bent 6 degrees
+  left hip abducted 73 degrees
+  left knee bent 88 degrees
+Frame 453 - computed:
+  right shoulder raised out to the side 19 degrees
+  right elbow bent 44 degrees
+  right hip flexed 180 degrees, abducted 114 degrees
+  right knee bent 116 degrees
+  left shoulder raised out to the side 24 degrees
+  left elbow bent 27 degrees
+  left hip abducted 72 degrees
+  left knee bent 88 degrees
+Frame 454 - computed:
+  right shoulder raised out to the side 19 degrees
+  right elbow bent 45 degrees
+  right hip flexed 180 degrees, abducted 108 degrees
+  right knee bent 110 degrees
+  left shoulder raised out to the side 21 degrees
+  left elbow bent 32 degrees
+  left hip abducted 72 degrees
+  left knee bent 89 degrees
+Frame 455 - computed:
+  right shoulder raised out to the side 22 degrees
+  right elbow bent 30 degrees
+  right hip flexed 180 degrees, abducted 106 degrees
+  right knee bent 108 degrees
+  left shoulder raised out to the side 19 degrees
+  left elbow bent 16 degrees
+  left hip abducted 70 degrees
+  left knee bent 89 degrees
+Frame 456 - computed:
+  right shoulder raised out to the side 30 degrees
+  right elbow bent 13 degrees
+  right hip flexed 180 degrees, abducted 107 degrees
+  right knee bent 108 degrees
+  left shoulder raised out to the side 19 degrees
+  left elbow bent 14 degrees
+  left hip abducted 69 degrees
+  left knee bent 89 degrees
+Frame 457 - computed:
+  right shoulder raised out to the side 44 degrees
+  right elbow bent 43 degrees
+  right hip flexed 180 degrees, abducted 107 degrees
+  right knee bent 109 degrees
+  left shoulder raised out to the side 23 degrees
+  left elbow bent 27 degrees
+  left hip abducted 67 degrees
+  left knee bent 87 degrees
+Frame 458 - computed:
+  right shoulder raised out to the side 60 degrees
+  right elbow bent 67 degrees
+  right hip flexed 180 degrees, abducted 106 degrees
+  right knee bent 107 degrees
+  left shoulder raised out to the side 32 degrees
+  left elbow bent 34 degrees
+  left hip abducted 66 degrees
+  left knee bent 84 degrees
+Frame 459 - computed:
+  right shoulder raised out to the side 70 degrees
+  right elbow bent 81 degrees
+  right hip extended 180 degrees, abducted 99 degrees
+  right knee bent 102 degrees
+  left shoulder raised out to the side 43 degrees
+  left elbow bent 48 degrees
+  left hip abducted 65 degrees
+  left knee bent 81 degrees
+Frame 460 - computed:
+  right shoulder raised out to the side 72 degrees
+  right elbow bent 85 degrees
+  right hip flexed 180 degrees, abducted 91 degrees
+  right knee bent 94 degrees
+  left shoulder raised out to the side 49 degrees
+  left elbow bent 58 degrees
+  left hip abducted 65 degrees
+  left knee bent 80 degrees
+Frame 461 - computed:
+  right shoulder raised out to the side 71 degrees
+  right elbow bent 83 degrees
+  right hip abducted 86 degrees
+  right knee bent 89 degrees
+  left shoulder raised out to the side 49 degrees
+  left elbow bent 62 degrees
+  left hip abducted 65 degrees
+  left knee bent 79 degrees
+Frame 462 - computed:
+  right shoulder raised out to the side 68 degrees
+  right elbow bent 77 degrees
+  right hip abducted 82 degrees
+  right knee bent 85 degrees
+  left shoulder raised out to the side 48 degrees
+  left elbow bent 61 degrees
+  left hip abducted 66 degrees
+  left knee bent 79 degrees
+Frame 463 - computed:
+  right shoulder raised out to the side 63 degrees
+  right elbow bent 70 degrees
+  right hip abducted 69 degrees
+  right knee bent 72 degrees
+  left shoulder raised out to the side 46 degrees
+  left elbow bent 56 degrees
+  left hip abducted 64 degrees
+  left knee bent 77 degrees
+Frame 464 - computed:
+  right shoulder raised out to the side 57 degrees
+  right elbow bent 64 degrees
+  right hip abducted 45 degrees
+  right knee bent 49 degrees
+  left shoulder raised out to the side 42 degrees
+  left elbow bent 50 degrees
+  left hip abducted 58 degrees
+  left knee bent 73 degrees
+Frame 465 - computed:
+  right shoulder raised out to the side 52 degrees
+  right elbow bent 59 degrees
+  right hip abducted 29 degrees
+  right knee bent 34 degrees
+  left shoulder raised out to the side 36 degrees
+  left elbow bent 42 degrees
+  left hip abducted 51 degrees
+  left knee bent 67 degrees
+Frame 466 - computed:
+  right shoulder raised out to the side 47 degrees
+  right elbow bent 53 degrees
+  right hip abducted 22 degrees
+  right knee bent 29 degrees
+  left shoulder raised out to the side 31 degrees
+  left elbow bent 33 degrees
+  left hip abducted 46 degrees
+  left knee bent 62 degrees
+Frame 467 - computed:
+  right shoulder raised out to the side 41 degrees
+  right elbow bent 46 degrees
+  right hip abducted 18 degrees
+  right knee bent 27 degrees
+  left shoulder raised out to the side 27 degrees
+  left elbow bent 26 degrees
+  left hip abducted 44 degrees
+  left knee bent 59 degrees
+Frame 468 - computed:
+  right shoulder raised out to the side 35 degrees
+  right elbow bent 37 degrees
+  right hip abducted 16 degrees
+  right knee bent 26 degrees
+  left shoulder raised out to the side 25 degrees
+  left elbow bent 21 degrees
+  left hip abducted 42 degrees
+  left knee bent 58 degrees
+Frame 469 - computed:
+  right shoulder raised out to the side 27 degrees
+  right elbow bent 29 degrees
+  right hip abducted 15 degrees
+  right knee bent 26 degrees
+  left shoulder raised out to the side 24 degrees
+  left elbow bent 20 degrees
+  left hip abducted 41 degrees
+  left knee bent 55 degrees
+Frame 470 - computed:
+  right shoulder raised out to the side 19 degrees
+  right elbow bent 26 degrees
+  right hip abducted 13 degrees
+  right knee bent 26 degrees
+  left shoulder raised out to the side 23 degrees
+  left elbow bent 19 degrees
+  left hip abducted 39 degrees
+  left knee bent 54 degrees
+Frame 471 - computed:
+  right shoulder raised out to the side 12 degrees
+  right elbow bent 27 degrees
+  right hip abducted 12 degrees
+  right knee bent 28 degrees
+  left shoulder raised out to the side 22 degrees
+  left elbow bent 17 degrees
+  left hip abducted 39 degrees
+  left knee bent 61 degrees
+Frame 472 - computed:
+  right shoulder raised out to the side 9 degrees
+  right elbow bent 27 degrees
+  right hip abducted 12 degrees
+  right knee bent 32 degrees
+  left shoulder raised out to the side 18 degrees
+  left elbow bent 12 degrees
+  left hip abducted 39 degrees
+  left knee bent 78 degrees
+Frame 473 - computed:
+  right shoulder raised out to the side 9 degrees
+  right elbow bent 22 degrees
+  right hip abducted 11 degrees
+  right knee bent 41 degrees
+  left shoulder raised out to the side 11 degrees
+  left elbow bent 6 degrees
+  left hip abducted 38 degrees
+  left knee bent 91 degrees
+Frame 474 - computed:
+  right shoulder raised out to the side 10 degrees
+  right elbow bent 15 degrees
+  right hip abducted 10 degrees
+  right knee bent 49 degrees
+  left shoulder raised out to the side 7 degrees
+  left elbow straight
+  left hip abducted 35 degrees
+  left knee bent 85 degrees
+Frame 475 - computed:
+  right shoulder raised out to the side 11 degrees
+  right elbow bent 11 degrees
+  right hip abducted 8 degrees
+  right knee bent 41 degrees
+  left shoulder raised out to the side 9 degrees
+  left elbow straight
+  left hip abducted 31 degrees
+  left knee bent 70 degrees
+Frame 476 - computed:
+  right shoulder raised out to the side 10 degrees
+  right elbow bent 9 degrees
+  right hip abducted 6 degrees
+  right knee bent 27 degrees
+  left shoulder raised out to the side 12 degrees
+  left elbow straight
+  left hip abducted 26 degrees
+  left knee bent 62 degrees
+Frame 477 - computed:
+  right shoulder raised out to the side 9 degrees
+  right elbow bent 8 degrees
+  right hip abducted 6 degrees
+  right knee bent 19 degrees
+  left shoulder raised out to the side 12 degrees
+  left elbow straight
+  left hip abducted 23 degrees
+  left knee bent 60 degrees
+Frame 478 - computed:
+  right shoulder raised out to the side 11 degrees
+  right elbow bent 7 degrees
+  right hip abducted 6 degrees
+  right knee bent 17 degrees
+  left shoulder raised out to the side 10 degrees
+  left elbow straight
+  left hip abducted 20 degrees
+  left knee bent 55 degrees
+Frame 479 - computed:
+  right shoulder raised out to the side 15 degrees
+  right elbow bent 8 degrees
+  right hip abducted 5 degrees
+  right knee bent 16 degrees
+  left shoulder raised out to the side 7 degrees
+  left elbow straight
+  left hip abducted 16 degrees
+  left knee bent 43 degrees
+Frame 480 - computed:
+  right shoulder raised out to the side 18 degrees
+  right elbow bent 12 degrees
+  right hip neutral
+  right knee bent 13 degrees
+  left shoulder raised out to the side 7 degrees
+  left elbow straight
+  left hip abducted 14 degrees
+  left knee bent 33 degrees
+Frame 481 - computed:
+  right shoulder raised out to the side 20 degrees
+  right elbow bent 17 degrees
+  right hip neutral
+  right knee bent 9 degrees
+  left shoulder raised out to the side 8 degrees
+  left elbow straight
+  left hip abducted 14 degrees
+  left knee bent 28 degrees
+Frame 482 - computed:
+  right shoulder raised out to the side 17 degrees
+  right elbow bent 24 degrees
+  right hip adducted 11 degrees
+  right knee straight
+  left shoulder raised out to the side 10 degrees
+  left elbow straight
+  left hip abducted 21 degrees
+  left knee bent 28 degrees
+Frame 483 - computed:
+  right shoulder raised out to the side 9 degrees
+  right elbow bent 35 degrees
+  right hip adducted 27 degrees
+  right knee straight
+  left shoulder raised out to the side 12 degrees
+  left elbow straight
+  left hip abducted 35 degrees
+  left knee bent 28 degrees
+Frame 484 - computed:
+  right shoulder neutral
+  right elbow bent 56 degrees
+  right hip adducted 54 degrees
+  right knee bent 11 degrees
+  left shoulder raised out to the side 15 degrees
+  left elbow bent 18 degrees
+  left hip abducted 58 degrees
+  left knee bent 27 degrees
+Frame 485 - computed:
+  right shoulder pulled across the body 11 degrees
+  right elbow bent 78 degrees
+  right hip adducted 79 degrees
+  right knee bent 16 degrees
+  left shoulder raised out to the side 21 degrees
+  left elbow bent 41 degrees
+  left hip abducted 77 degrees
+  left knee bent 24 degrees
+Frame 486 - computed:
+  right shoulder pulled across the body 17 degrees
+  right elbow bent 76 degrees
+  right hip adducted 89 degrees
+  right knee bent 20 degrees
+  left shoulder raised out to the side 30 degrees
+  left elbow bent 46 degrees
+  left hip abducted 81 degrees
+  left knee bent 23 degrees
+Frame 487 - computed:
+  right shoulder pulled across the body 27 degrees
+  right elbow bent 47 degrees
+  right hip adducted 89 degrees
+  right knee bent 26 degrees
+  left shoulder raised out to the side 41 degrees
+  left elbow bent 30 degrees
+  left hip abducted 77 degrees
+  left knee bent 21 degrees
+Frame 488 - computed:
+  right shoulder pulled across the body 38 degrees
+  right elbow bent 13 degrees
+  right hip adducted 89 degrees
+  right knee bent 35 degrees
+  left shoulder raised out to the side 47 degrees
+  left elbow bent 26 degrees
+  left hip abducted 75 degrees
+  left knee bent 19 degrees
+Frame 489 - computed:
+  right shoulder pulled across the body 48 degrees
+  right elbow straight
+  right hip extended 180 degrees, adducted 102 degrees
+  right knee bent 44 degrees
+  left shoulder raised out to the side 54 degrees
+  left elbow bent 17 degrees
+  left hip abducted 85 degrees
+  left knee bent 23 degrees
+Frame 490 - computed:
+  right shoulder pulled across the body 53 degrees
+  right elbow bent 18 degrees
+  right hip flexed 180 degrees, adducted 134 degrees
+  right knee bent 60 degrees
+  left shoulder raised out to the side 68 degrees
+  left elbow bent 13 degrees
+  left hip flexed 180 degrees, abducted 111 degrees
+  left knee bent 55 degrees
+Frame 491 - computed:
+  right shoulder pulled across the body 42 degrees
+  right elbow bent 56 degrees
+  right hip extended 180 degrees, abducted 178 degrees
+  right knee bent 125 degrees
+  left shoulder raised out to the side 76 degrees
+  left elbow bent 50 degrees
+  left hip flexed 180 degrees, abducted 115 degrees
+  left knee bent 113 degrees
+Frame 492 - computed:
+  right shoulder pulled across the body 33 degrees
+  right elbow bent 79 degrees
+  right hip abducted 48 degrees
+  right knee bent 49 degrees
+  left shoulder raised out to the side 74 degrees
+  left elbow bent 77 degrees
+  left hip adducted 17 degrees
+  left knee bent 12 degrees
+Frame 493 - computed:
+  right shoulder pulled across the body 29 degrees
+  right elbow bent 90 degrees
+  right hip abducted 24 degrees
+  right knee bent 15 degrees
+  left shoulder raised out to the side 70 degrees
+  left elbow bent 94 degrees
+  left hip adducted 14 degrees
+  left knee bent 10 degrees
+Frame 494 - computed:
+  right shoulder pulled across the body 27 degrees
+  right elbow bent 96 degrees
+  right hip abducted 15 degrees
+  right knee bent 5 degrees
+  left shoulder raised out to the side 66 degrees
+  left elbow bent 105 degrees
+  left hip adducted 11 degrees
+  left knee bent 9 degrees
+Frame 495 - computed:
+  right shoulder pulled across the body 25 degrees
+  right elbow bent 100 degrees
+  right hip abducted 10 degrees
+  right knee straight
+  left shoulder raised out to the side 63 degrees
+  left elbow bent 114 degrees
+  left hip adducted 8 degrees
+  left knee bent 7 degrees
+Frame 496 - computed:
+  right shoulder pulled across the body 24 degrees
+  right elbow bent 102 degrees
+  right hip abducted 6 degrees
+  right knee straight
+  left shoulder raised out to the side 60 degrees
+  left elbow bent 120 degrees
+  left hip adducted 6 degrees
+  left knee bent 6 degrees
+Frame 497 - computed:
+  right shoulder pulled across the body 24 degrees
+  right elbow bent 106 degrees
+  right hip neutral
+  right knee bent 7 degrees
+  left shoulder raised out to the side 57 degrees
+  left elbow bent 127 degrees
+  left hip neutral
+  left knee bent 6 degrees
+Frame 498 - computed:
+  right shoulder pulled across the body 24 degrees
+  right elbow bent 109 degrees
+  right hip neutral
+  right knee bent 8 degrees
+  left shoulder raised out to the side 55 degrees
+  left elbow bent 132 degrees
+  left hip neutral
+  left knee bent 6 degrees
+Frame 499 - computed:
+  right shoulder pulled across the body 23 degrees
+  right elbow bent 108 degrees
+  right hip neutral
+  right knee bent 8 degrees
+  left shoulder raised out to the side 55 degrees
+  left elbow bent 133 degrees
+  left hip neutral
+  left knee bent 6 degrees
+Frame 500 - computed:
+  right shoulder pulled across the body 22 degrees
+  right elbow bent 104 degrees
+  right hip neutral
+  right knee bent 10 degrees
+  left shoulder raised out to the side 55 degrees
+  left elbow bent 134 degrees
+  left hip neutral
+  left knee straight
+Frame 501 - computed:
+  right shoulder pulled across the body 22 degrees
+  right elbow bent 108 degrees
+  right hip neutral
+  right knee bent 12 degrees
+  left shoulder raised out to the side 52 degrees
+  left elbow bent 139 degrees
+  left hip neutral
+  left knee straight
+Frame 502 - computed:
+  right shoulder pulled across the body 24 degrees
+  right elbow bent 120 degrees
+  right hip neutral
+  right knee bent 12 degrees
+  left shoulder raised out to the side 47 degrees
+  left elbow bent 148 degrees
+  left hip neutral
+  left knee straight
+Frame 503 - computed:
+  right shoulder pulled across the body 26 degrees
+  right elbow bent 126 degrees
+  right hip neutral
+  right knee bent 8 degrees
+  left shoulder raised out to the side 44 degrees
+  left elbow bent 155 degrees
+  left hip neutral
+  left knee bent 8 degrees
+Frame 504 - computed:
+  right shoulder pulled across the body 25 degrees
+  right elbow bent 130 degrees
+  right hip abducted 6 degrees
+  right knee straight
+  left shoulder raised out to the side 45 degrees
+  left elbow bent 160 degrees
+  left hip neutral
+  left knee bent 12 degrees
+Frame 505 - computed:
+  right shoulder pulled across the body 21 degrees
+  right elbow bent 137 degrees
+  right hip abducted 6 degrees
+  right knee straight
+  left shoulder raised out to the side 49 degrees
+  left elbow bent 164 degrees
+  left hip neutral
+  left knee bent 11 degrees
+Frame 506 - computed:
+  right shoulder pulled across the body 16 degrees
+  right elbow bent 145 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 51 degrees
+  left elbow bent 167 degrees
+  left hip neutral
+  left knee bent 8 degrees
+Frame 507 - computed:
+  right shoulder pulled across the body 16 degrees
+  right elbow bent 148 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 50 degrees
+  left elbow bent 168 degrees
+  left hip neutral
+  left knee bent 7 degrees
+Frame 508 - computed:
+  right shoulder pulled across the body 17 degrees
+  right elbow bent 146 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 49 degrees
+  left elbow bent 168 degrees
+  left hip neutral
+  left knee bent 8 degrees
+Frame 509 - computed:
+  right shoulder pulled across the body 17 degrees
+  right elbow bent 145 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 49 degrees
+  left elbow bent 167 degrees
+  left hip neutral
+  left knee bent 8 degrees
+Frame 510 - computed:
+  right shoulder pulled across the body 17 degrees
+  right elbow bent 145 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 50 degrees
+  left elbow bent 167 degrees
+  left hip neutral
+  left knee bent 8 degrees
+Frame 511 - computed:
+  right shoulder pulled across the body 17 degrees
+  right elbow bent 146 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 50 degrees
+  left elbow bent 168 degrees
+  left hip neutral
+  left knee bent 8 degrees
+Frame 512 - computed:
+  right shoulder pulled across the body 17 degrees
+  right elbow bent 146 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 50 degrees
+  left elbow bent 168 degrees
+  left hip neutral
+  left knee bent 8 degrees
+Frame 513 - computed:
+  right shoulder pulled across the body 17 degrees
+  right elbow bent 145 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 50 degrees
+  left elbow bent 168 degrees
+  left hip neutral
+  left knee bent 8 degrees
+Frame 514 - computed:
+  right shoulder pulled across the body 17 degrees
+  right elbow bent 145 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 50 degrees
+  left elbow bent 168 degrees
+  left hip neutral
+  left knee bent 8 degrees
+Frame 515 - computed:
+  right shoulder pulled across the body 17 degrees
+  right elbow bent 146 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 50 degrees
+  left elbow bent 168 degrees
+  left hip neutral
+  left knee bent 8 degrees
+Frame 516 - computed:
+  right shoulder pulled across the body 17 degrees
+  right elbow bent 146 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 50 degrees
+  left elbow bent 168 degrees
+  left hip neutral
+  left knee bent 8 degrees
+Frame 517 - computed:
+  right shoulder pulled across the body 17 degrees
+  right elbow bent 145 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 50 degrees
+  left elbow bent 168 degrees
+  left hip neutral
+  left knee bent 8 degrees
+Frame 518 - computed:
+  right shoulder pulled across the body 17 degrees
+  right elbow bent 145 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 50 degrees
+  left elbow bent 168 degrees
+  left hip neutral
+  left knee bent 8 degrees
+Frame 519 - computed:
+  right shoulder pulled across the body 17 degrees
+  right elbow bent 145 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 50 degrees
+  left elbow bent 168 degrees
+  left hip neutral
+  left knee bent 8 degrees
+Frame 520 - computed:
+  right shoulder pulled across the body 17 degrees
+  right elbow bent 145 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 50 degrees
+  left elbow bent 168 degrees
+  left hip neutral
+  left knee bent 8 degrees
+Frame 521 - computed:
+  right shoulder pulled across the body 17 degrees
+  right elbow bent 145 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 50 degrees
+  left elbow bent 168 degrees
+  left hip neutral
+  left knee bent 8 degrees
+Frame 522 - computed:
+  right shoulder pulled across the body 17 degrees
+  right elbow bent 145 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 50 degrees
+  left elbow bent 168 degrees
+  left hip neutral
+  left knee bent 8 degrees
+Frame 523 - computed:
+  right shoulder pulled across the body 17 degrees
+  right elbow bent 145 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 50 degrees
+  left elbow bent 168 degrees
+  left hip neutral
+  left knee bent 8 degrees
+Frame 524 - computed:
+  right shoulder pulled across the body 17 degrees
+  right elbow bent 145 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 50 degrees
+  left elbow bent 168 degrees
+  left hip neutral
+  left knee bent 8 degrees
+Frame 525 - computed:
+  right shoulder pulled across the body 17 degrees
+  right elbow bent 145 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 50 degrees
+  left elbow bent 168 degrees
+  left hip neutral
+  left knee bent 8 degrees
+Frame 526 - computed:
+  right shoulder pulled across the body 17 degrees
+  right elbow bent 145 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 50 degrees
+  left elbow bent 168 degrees
+  left hip neutral
+  left knee bent 8 degrees
+Frame 527 - computed:
+  right shoulder pulled across the body 17 degrees
+  right elbow bent 145 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 50 degrees
+  left elbow bent 168 degrees
+  left hip neutral
+  left knee bent 8 degrees
+Frame 528 - computed:
+  right shoulder pulled across the body 17 degrees
+  right elbow bent 145 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 50 degrees
+  left elbow bent 168 degrees
+  left hip neutral
+  left knee bent 8 degrees
+Frame 529 - computed:
+  right shoulder pulled across the body 17 degrees
+  right elbow bent 145 degrees
+  right hip neutral
+  right knee straight
+  left shoulder raised out to the side 50 degrees
+  left elbow bent 168 degrees
+  left hip neutral
+  left knee bent 8 degrees
