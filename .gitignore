@@ -3,3 +3,9 @@ venv/
 
 # Python cache
 __pycache__/
+
+# Input files
+# joint-analysis/freemocap/ # normally we would ignore this, but I'm keep this so you can see the current input data (annotated videos) I'm working with in the repo.
+
+# Output files
+# joint-analysis/analysis_output/ # normally we would ignore this, but I'm keep this so you can see the output of the analysis in the repo. 
