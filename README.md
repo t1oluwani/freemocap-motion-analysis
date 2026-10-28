@@ -25,8 +25,29 @@ Analyzes FreeMoCap's Blender-exported `*_bone_and_joint_data.csv` and reports jo
  
 ```text
 freemocap-motion-analysis/
-├── README.md                # this file
+├── README.md                          # this file
 └── joint-analysis/
-    ├── README.md            # how to run the joint analysis
-    └── joint_analysis.py
+    ├── README.md                      # how to run the joint analysis
+    ├── run_analysis.py                # entry point: argparse + orchestration
+    ├── configs/
+    │   ├── __init__.py
+    │   └── path_configs.py            # recording number, input/output paths
+    ├── process/
+    │   ├── __init__.py
+    │   ├── schema.py                  # CSV format + joint definitions
+    │   ├── geometry.py                # vector math + compute_joint_angles
+    │   ├── describe.py                # readable joint text
+    │   └── tables.py                  # per-frame pandas tables
+    ├── utils/
+    │   ├── __init__.py
+    │   ├── csv_parser.py              # CSV -> frame dict
+    │   └── output_writer.py           # save CSV/text to output dirs
+    ├── input/
+    │   └── freemocap/
+    │       └── video1/
+    │           └── saved_data/
+    │               └── recording_XX_XX_XX_gmt-X_bone_and_joint_data.csv
+    └── output/
+        ├── csv/                       # per-frame angle tables (*.csv)
+        └── print/                     # readable joint reports (*.txt)
 ```
