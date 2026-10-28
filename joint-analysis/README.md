@@ -44,7 +44,7 @@ Run from the folder that contains `freemocap/` (with `run_analysis.py` and `bone
 | `--euler_unit {radians,degrees}` | `radians` | Unit of the CSV's `rotation_euler` columns. Blender writes radians; the script warns if values look like degrees. |
 | `--print_frames N` | `3` | How many leading frames to describe on the console. |
 | `--save` | off | Write output files to `analysis_output/` (see below). |
-| `--combine` | off | Only meaningful with `--save`. Produce a single combined CSV + TXT instead of separate computed/FreeMoCap files. |
+| `--combine` | off | Only meaningful with `--save`. Produce a single combined CSV + TXT instead of separate Computed/FreeMoCap files. |
 
 ### Examples
 
@@ -52,7 +52,7 @@ Run from the folder that contains `freemocap/` (with `run_analysis.py` and `bone
 # Print 3 frames using the default CSV
 python run_analysis.py
 
-# Print 20 frames, save split computed + FreeMoCap outputs
+# Print 20 frames, save split Computed + FreeMoCap outputs
 python run_analysis.py --print_frames 20 --save
 
 # Save one combined CSV + TXT with interleaved per-joint lines
@@ -69,14 +69,14 @@ python run_analysis.py --euler_unit degrees
 
 Each printed frame shows both views.
 
-**Without `--combine`** — FreeMoCap block, then computed block:
+**Without `--combine`** — FreeMoCap block, then Computed block:
 
 ```text
 Frame 1 - FreeMoCap:
   right elbow: rotation XYZ x=50 y=0 z=0 degrees
   left knee: rotation ~0 degrees
   ...
-Frame 1 - computed:
+Frame 1 - Computed:
   right elbow bent 50 degrees
   left knee straight
   ...
@@ -85,10 +85,10 @@ Frame 1 - computed:
 **With `--combine`** — interleaved, one joint at a time:
 
 ```text
-Frame 1 (computed vs FreeMoCap, interleaved):
-  computed:   right elbow bent 50 degrees
+Frame 1 (Computed vs FreeMoCap, interleaved):
+  Computed:   right elbow bent 50 degrees
   FreeMoCap:  right elbow: rotation XYZ x=50 y=0 z=0 degrees
-  computed:   left knee straight
+  Computed:   left knee straight
   FreeMoCap:  left knee: rotation ~0 degrees
   ...
 ```
@@ -105,14 +105,14 @@ All files land under `analysis_output/`.
 |------|----------|
 | `analysis_output/csv/<recording>_computed_joint_angles.csv` | One row per frame; our geometric angles only: `<joint>_flexion_deg`, and `<joint>_abduction_deg` for shoulders/hips. |
 | `analysis_output/csv/<recording>_freemocap_joint_angles.csv` | One row per frame; FreeMoCap's Euler values only: `<joint>_freemocap_euler_x/y/z_deg` and `<joint>_freemocap_euler_order`. |
-| `analysis_output/print/<recording>_computed_joint_analysis.txt` | Human-readable computed descriptions per printed frame. |
+| `analysis_output/print/<recording>_computed_joint_analysis.txt` | Human-readable Computed descriptions per printed frame. |
 | `analysis_output/print/<recording>_freemocap_joint_analysis.txt` | Human-readable FreeMoCap descriptions per printed frame. |
 
 ### With `--combine` (single file)
 
 | File | Contents |
 |------|----------|
-| `analysis_output/csv/<recording>_joint_angles_combined.csv` | Both computed and FreeMoCap angle columns side by side, one row per frame. |
+| `analysis_output/csv/<recording>_joint_angles_combined.csv` | Both Computed and FreeMoCap angle columns side by side, one row per frame. |
 | `analysis_output/print/<recording>_joint_analysis_combined.txt` | Console text exactly as printed (header, Euler sanity block, interleaved per-joint lines). |
 
 CSV column names encode the joint and quantity, e.g. `right_elbow_flexion_deg`, `left_hip_abduction_deg`, `right_shoulder_freemocap_euler_x_deg` — so you can plot or diff our angle against FreeMoCap's directly.

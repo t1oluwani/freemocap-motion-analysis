@@ -1,30 +1,27 @@
 """
-bone_and_joint.py
+describe.py
 
-Presentation layer: turns the frame dict from the loader into readable text
-and pandas tables. Does no CSV reading, geometry, or file output.
+Turns computed joint angles into readable English, so the report can be read
+without decoding numbers. Two descriptions per joint:
 
-  Text:   describe_joint, describe_joint_euler, describe_frames,
-          interleave, check_euler_columns
-  Tables: frames_to_computed_angle_table, frames_to_freemocap_angle_table,
-          frames_to_angle_table
+  - ours:        describe_joint()        e.g. "right elbow bent 50 degrees"
+  - FreeMoCap's: describe_joint_euler()  e.g. "right elbow: rotation XYZ
+                                               x=3 y=-52 z=0 degrees"
 
-Builds on geometry.compute_joint_angles(); joint definitions and the neutral
-threshold live in schema.py. All angles here are in degrees.
+describe_frames() produces both for every joint in a frame; interleave()
+pairs them so they can be compared joint by joint in the printed report.
 
+check_euler_columns() prints a sanity-check range of FreeMoCap's Euler values
+per bone (currently captured by the caller via redirect_stdout).
+
+Depends on geometry.compute_joint_angles() for the angles and schema.py for
+joint definitions and the neutral threshold. All angles in degrees.
 """
 
 import numpy as np
-import pandas as pd
 
-from geometry import compute_joint_angles
-
-from schema import (
-    RELEVANT_PREFIXES,
-    JOINT_SPECS,
-    JOINT_ORDER,
-    NEUTRAL_THRESHOLD_DEG,
-)
+from process.geometry import compute_joint_angles
+from process.schema import JOINT_ORDER, NEUTRAL_THRESHOLD_DEG, RELEVANT_PREFIXES
 
 
 def describe_joint(joint_name: str, angles: dict | None) -> str:
@@ -103,58 +100,9 @@ def interleave(computed: list[str], freemocap: list[str]) -> list[str]:
     """Pair each computed line with its FreeMoCap line, joint by joint."""
     out = []
     for c, f in zip(computed, freemocap):
-        out.append(f"  computed:   {c}")
+        out.append(f"  Computed:   {c}")
         out.append(f"  FreeMoCap:  {f}")
     return out
-
-
-def frames_to_angle_table(frames):
-    """Return a single DataFrame with one row per frame, containing both our computed angles and FreeMoCap's Euler angles. """
-    return pd.concat(
-        [
-            frames_to_computed_angle_table(frames),
-            frames_to_freemocap_angle_table(frames).drop(columns="frame"),
-        ],
-        axis=1,
-    )
-
-
-def frames_to_computed_angle_table(frames: dict[int, dict]) -> pd.DataFrame:
-    """
-    One row per frame: ONLY our geometric angles (flexion for all joints,
-    abduction for ball joints). No FreeMoCap Euler columns.
-    """
-    rows = []
-    for i, frame in frames.items():
-        angles = compute_joint_angles(frame)
-        row = {"frame": i}
-        for joint in JOINT_ORDER:
-            a = angles[joint]
-            row[f"{joint}_flexion_deg"] = a["flexion_deg"] if a else np.nan
-            if JOINT_SPECS[joint]["kind"] == "ball":
-                row[f"{joint}_abduction_deg"] = a["abduction_deg"] if a else np.nan
-        rows.append(row)
-    return pd.DataFrame(rows)
-
-
-def frames_to_freemocap_angle_table(frames: dict[int, dict]) -> pd.DataFrame:
-    """
-    One row per frame: ONLY FreeMoCap's own Euler rotations (degrees) for the
-    bone mapped to each joint. No geometric angles.
-    """
-    rows = []
-    for i, frame in frames.items():
-        angles = compute_joint_angles(frame)
-        row = {"frame": i}
-        for joint in JOINT_ORDER:
-            a = angles[joint]
-            fm = a["freemocap_euler_deg"] if a else (np.nan,) * 3
-            order = a["freemocap_euler_order"] if a else ""
-            for axis, v in zip("xyz", fm):
-                row[f"{joint}_freemocap_euler_{axis}_deg"] = v
-            row[f"{joint}_freemocap_euler_order"] = order
-        rows.append(row)
-    return pd.DataFrame(rows)
 
 
 def check_euler_columns(frames: dict[int, dict]) -> None:

@@ -2,13 +2,13 @@
 run_analysis.py
 
 Entry point (the "main"): loads a FreeMoCap bone_and_joint CSV through
-bone_and_joint.py, prints the readable joint descriptions for the first few
-frames, and optionally saves per-frame angle tables and the printed text to
-analysis_output/.
+utils.csv_parser, prints readable joint descriptions for the first few frames
+(see process.describe), and optionally saves per-frame angle tables
+(process.tables) and the printed text via utils.output_writer.
 
-UNITS: Blender's Python API stores rotation_euler in RADIANS. load_relevant_frames()
-assumes radians by default (euler_unit="degrees" to override) and warns if the
-values look like degrees.
+UNITS: Blender's Python API stores rotation_euler in RADIANS.
+load_relevant_frames() assumes radians by default (euler_unit="degrees" to
+override) and warns if the values look like degrees.
 
 Usage:
     python run_analysis.py --csv path/to/..._bone_and_joint_data.csv --save
@@ -22,13 +22,15 @@ from contextlib import redirect_stdout
 from configs.path_configs import BONE_AND_JOINT_CSV_FILE, RECORDING_NUMBER
 from utils.output_writer import save_csv_to_output_dir, save_print_to_output_dir
 from utils.csv_parser import load_relevant_frames
-from process.bone_and_joint import (
+from process.describe import (
     check_euler_columns,
     describe_frames,
+    interleave,
+)
+from process.tables import (
     frames_to_angle_table,
     frames_to_computed_angle_table,
     frames_to_freemocap_angle_table,
-    interleave,
 )
 
 # ---------------------------------------------------------------------------
@@ -77,15 +79,15 @@ def main():
         computed, freemocap = describe_frames(frames[i])
 
         if args.combine:
-            full_lines.append(f"Frame {i} (computed vs FreeMoCap, interleaved):")
+            full_lines.append(f"Frame {i} (Computed vs FreeMoCap, interleaved):")
             full_lines.extend(interleave(computed, freemocap))
         else:
             full_lines.append(f"Frame {i} - FreeMoCap:")
             full_lines.extend(f"  {l}" for l in freemocap)
-            full_lines.append(f"Frame {i} - computed:")
+            full_lines.append(f"Frame {i} - Computed:")
             full_lines.extend(f"  {l}" for l in computed)
 
-            computed_lines.append(f"Frame {i} - computed:")
+            computed_lines.append(f"Frame {i} - Computed:")
             computed_lines.extend(f"  {l}" for l in computed)
             freemocap_lines.append(f"Frame {i} - FreeMoCap:")
             freemocap_lines.extend(f"  {l}" for l in freemocap)

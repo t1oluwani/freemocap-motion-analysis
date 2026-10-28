@@ -26,11 +26,7 @@ All angles are in degrees. Joint definitions live in schema.py.
 
 import numpy as np
 
-from schema import (
-    JOINT_TO_BONE,
-    JOINT_SPECS,
-    JOINT_ORDER,
-)
+from process.schema import JOINT_TO_BONE, JOINT_SPECS, JOINT_ORDER
 
 
 def _unit(v) -> np.ndarray:
