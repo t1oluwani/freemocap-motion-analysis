@@ -1,28 +1,28 @@
-""" 
-Geometric calculations for joint analysis. 
+"""
+geometry.py
 
-Each joint is reported two ways so they can be compared (as you (Prof. Payandeh) requested):
-  - OUR angle: geometric, from the bone head/tail world positions.
-  - FreeMoCap's own: the Blender pose-bone rotation_euler of the matching bone.
+Geometric joint angles computed from world-space bone head/tail positions.
+For each joint we produce OUR angle here; FreeMoCap's own rotation_euler is
+carried alongside by compute_joint_angles() so the two can be compared.
 
-JOINT DEFINITIONS (ours)
-  Elbow / knee (hinge joints): flexion = angle between the proximal bone
-      direction and the distal bone direction (upper_arm->forearm,
-      thigh->shin).  0 = straight, larger = more bent.
-  Shoulder / hip (ball joints): measured against a trunk frame built from the
-      bones themselves:
-          up      = spine head -> neck head
-          right   = left thigh head -> right thigh head (made perpendicular to up)
-          forward = up x right
-      The limb direction is projected onto the sagittal plane (up/forward) and
-      the frontal plane (up/right):
-          flexion   (+ = limb forward of the trunk, - = behind)
-          abduction (+ = limb away from the midline, - = across the body)
-      0/0 means the limb hangs straight down relative to the trunk.
-      These are projection angles, not a full 3-axis joint decomposition, and
-      they get less meaningful once a limb is raised near/above horizontal.
-      """
+Hinge joints (elbow, knee): flexion = angle between proximal and distal bone
+directions (upper_arm->forearm, thigh->shin). 0 = straight, larger = more bent.
 
+Ball joints (shoulder, hip): measured against a trunk frame built from the
+bones themselves:
+    up      = spine head -> neck head
+    right   = left thigh head -> right thigh head (made perpendicular to up)
+    forward = up x right
+The limb direction is projected onto the sagittal plane (up/forward) and the
+frontal plane (up/right):
+    flexion   (+ = limb forward of trunk, - = behind)
+    abduction (+ = away from midline, - = across body)
+0/0 means the limb hangs straight down relative to the trunk. These are
+projection angles, not a full 3-axis decomposition, and become less
+meaningful once a limb is raised near/above horizontal.
+
+All angles are in degrees. Joint definitions live in schema.py.
+"""
 
 import numpy as np
 
@@ -31,6 +31,7 @@ from schema import (
     JOINT_SPECS,
     JOINT_ORDER,
 )
+
 
 def _unit(v) -> np.ndarray:
     v = np.asarray(v, dtype=float)

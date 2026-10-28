@@ -1,27 +1,16 @@
 """
 bone_and_joint.py
 
-Library for turning FreeMoCap's Blender-exported bone_and_joint CSV into:
+Presentation layer: turns the frame dict from the loader into readable text
+and pandas tables. Does no CSV reading, geometry, or file output.
 
-  1. Done via 'columns.py':
-        a frame-by-frame dict containing ONLY the bones we care about:
-         frames = {
-             0: {"forearm.R": {"head": (x, y, z), "tail": (x, y, z),
-                               "quaternion": (x, y, z, w),
-                               "euler_deg": (x, y, z), "euler_order": "XYZ"},
-                 "thigh.L": {...}, ...},
-             1: {...},
-         }
+  Text:   describe_joint, describe_joint_euler, describe_frames,
+          interleave, check_euler_columns
+  Tables: frames_to_computed_angle_table, frames_to_freemocap_angle_table,
+          frames_to_angle_table
 
-  2. Done via 'geometry.py':
-  joint angles computed from the world-space bone positions, and
-  
-  3. Done via 'joint_and_bone.py':
-  readable text such as "right elbow bent 50 degrees".
-
-
-
-
+Builds on geometry.compute_joint_angles(); joint definitions and the neutral
+threshold live in schema.py. All angles here are in degrees.
 
 """
 
@@ -120,6 +109,7 @@ def interleave(computed: list[str], freemocap: list[str]) -> list[str]:
 
 
 def frames_to_angle_table(frames):
+    """Return a single DataFrame with one row per frame, containing both our computed angles and FreeMoCap's Euler angles. """
     return pd.concat(
         [
             frames_to_computed_angle_table(frames),

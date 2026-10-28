@@ -1,4 +1,18 @@
-"""Functions for reading CSVs and extracting the relevant columns and frames."""
+"""
+csv_parser.py
+
+Reads a FreeMoCap bone_and_joint CSV and builds the frame-by-frame dict used
+by the rest of the pipeline:
+
+    {frame_index: {bone_name: {"head": (x, y, z), "tail": (x, y, z),
+                               "quaternion": (x, y, z, w),
+                               "euler_deg": (x, y, z),
+                               "euler_order": "XYZ"}}}
+
+Only the bones needed for joint analysis are loaded (see schema.RELEVANT_PREFIXES
+and schema.REFERENCE_PREFIXES). Euler angles are converted to degrees here, so
+everything downstream is in degrees.
+"""
 
 import math
 import numpy as np

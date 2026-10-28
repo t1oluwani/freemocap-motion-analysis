@@ -22,7 +22,14 @@ from contextlib import redirect_stdout
 from configs.path_configs import BONE_AND_JOINT_CSV_FILE, RECORDING_NUMBER
 from utils.output_writer import save_csv_to_output_dir, save_print_to_output_dir
 from utils.csv_parser import load_relevant_frames
-from process.bone_and_joint import *
+from process.bone_and_joint import (
+    check_euler_columns,
+    describe_frames,
+    frames_to_angle_table,
+    frames_to_computed_angle_table,
+    frames_to_freemocap_angle_table,
+    interleave,
+)
 
 # ---------------------------------------------------------------------------
 # Command line

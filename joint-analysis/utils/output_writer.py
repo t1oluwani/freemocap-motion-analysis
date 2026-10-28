@@ -1,3 +1,11 @@
+"""
+output_writer.py
+
+File-output helpers for the analysis run. Everything here writes to the
+directories defined in configs.path_configs, creating them if needed, and
+prints the path that was written.
+"""
+
 import os
 import pandas as pd
 

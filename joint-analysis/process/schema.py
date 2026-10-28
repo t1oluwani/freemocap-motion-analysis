@@ -1,4 +1,20 @@
-""" Schema definitions for bone and joint data. """
+"""
+schema.py
+
+Constants describing the shape of the bone_and_joint CSV and the joint
+definitions used to analyse it. No logic lives here.
+
+  - HEADER_PREFIXES / HEADER_SUFFIXES: the bone names and per-bone property
+    suffixes that make up the CSV column names (<prefix><suffix>).
+  - RELEVANT_PREFIXES / REFERENCE_PREFIXES: the bones we analyse, plus the
+    spine/neck bones needed only to build the trunk reference frame.
+  - JOINT_TO_BONE / JOINT_SPECS / JOINT_ORDER: which bone each joint maps to,
+    how each joint's angle is computed, and the order joints are reported in.
+  - PROPERTY_COLUMNS / EULER_ORDER_SUFFIX: which CSV columns feed each
+    property in the frame dict.
+  - NEUTRAL_THRESHOLD_DEG: below this, a joint is described as "straight"
+    or "neutral" in the readable output.
+"""
 
 # The headers in the bone and joint data files follow a pattern of <prefix>_<joint_name>.
 # I have defined the prefixes as the HEADER_PREFIXES list.
