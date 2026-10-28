@@ -4,7 +4,7 @@ import math
 import numpy as np
 import pandas as pd
 
-from schema import (
+from process.schema import (
     HEADER_SUFFIXES,
     RELEVANT_PREFIXES,
     REFERENCE_PREFIXES,

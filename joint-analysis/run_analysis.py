@@ -15,24 +15,14 @@ Usage:
     python run_analysis.py --combine --save      # one combined CSV/text instead of two
 """
 
-import argparse
 import io
-
+import argparse
 from contextlib import redirect_stdout
 
-from bone_and_joint import (
-    check_euler_columns,
-    describe_frames,
-    frames_to_angle_table,
-    frames_to_computed_angle_table,
-    frames_to_freemocap_angle_table,
-    interleave,
-    load_relevant_frames,
-)
-
-from utils.output_writer import save_csv_to_output_dir, save_print_to_output_dir
-from columns import load_relevant_frames
 from configs.path_configs import BONE_AND_JOINT_CSV_FILE, RECORDING_NUMBER
+from utils.output_writer import save_csv_to_output_dir, save_print_to_output_dir
+from utils.csv_parser import load_relevant_frames
+from process.bone_and_joint import *
 
 # ---------------------------------------------------------------------------
 # Command line
