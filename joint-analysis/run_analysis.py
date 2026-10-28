@@ -6,7 +6,9 @@ bone_and_joint.py, prints the readable joint descriptions for the first few
 frames, and optionally saves per-frame angle tables and the printed text to
 analysis_output/.
 
-bone_and_joint.py must sit in the same folder as this file.
+UNITS: Blender's Python API stores rotation_euler in RADIANS. load_relevant_frames()
+assumes radians by default (euler_unit="degrees" to override) and warns if the
+values look like degrees.
 
 Usage:
     python run_analysis.py --csv path/to/..._bone_and_joint_data.csv --save
@@ -27,7 +29,9 @@ from bone_and_joint import (
     interleave,
     load_relevant_frames,
 )
+
 from utils.output_writer import save_csv_to_output_dir, save_print_to_output_dir
+from columns import load_relevant_frames
 from configs.path_configs import BONE_AND_JOINT_CSV_FILE, RECORDING_NUMBER
 
 # ---------------------------------------------------------------------------
