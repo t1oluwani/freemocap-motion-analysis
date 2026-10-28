@@ -15,10 +15,8 @@ Usage:
 
 import argparse
 import io
-import os
-from contextlib import redirect_stdout
 
-import pandas as pd
+from contextlib import redirect_stdout
 
 from bone_and_joint import (
     check_euler_columns,
@@ -29,34 +27,13 @@ from bone_and_joint import (
     interleave,
     load_relevant_frames,
 )
-
-DATA_TYPE = "bone_and_joint_data.csv"
-RECORDING_NUMBER = "recording_17_33_15_gmt-7"
-VIDEO_FOLDER_PATH = "freemocap/video1/saved_data"
-BONE_AND_JOINT_CSV_FILE = f"{VIDEO_FOLDER_PATH}/{RECORDING_NUMBER}_{DATA_TYPE}"
-
-
-def save_csv_to_output_dir(data: pd.DataFrame, filename: str) -> None:
-    """Save the given DataFrame to the analysis output directory with the specified filename."""
-    output_dir = "analysis_output/csv"
-    os.makedirs(output_dir, exist_ok=True)
-    output_path = os.path.join(output_dir, filename)
-    data.to_csv(output_path, index=False)
-    print(f"Data saved to {output_path}")
-
-
-def save_print_to_output_dir(print_output: str, filename: str) -> None:
-    """Save all print output to a file in the analysis output directory."""
-    output_dir = "analysis_output/print"
-    os.makedirs(output_dir, exist_ok=True)
-    output_path = os.path.join(output_dir, filename)
-    with open(output_path, "w") as f:
-        f.write(print_output)
-    print(f"Print output saved to {output_path}")
+from utils.output_writer import save_csv_to_output_dir, save_print_to_output_dir
+from configs.path_configs import BONE_AND_JOINT_CSV_FILE, RECORDING_NUMBER
 
 # ---------------------------------------------------------------------------
 # Command line
 # ---------------------------------------------------------------------------
+
 
 def main():
     ap = argparse.ArgumentParser()
