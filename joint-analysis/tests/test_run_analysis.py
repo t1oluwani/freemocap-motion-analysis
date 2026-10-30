@@ -16,7 +16,7 @@ import pytest
 import run_analysis as ra
 
 REC = ra.RECORDING_NUMBER
-HERE = Path(__file__).resolve().parent
+HERE = Path(ra.__file__).resolve().parent  # folder containing run_analysis.py
 
 
 @pytest.fixture
@@ -91,7 +91,7 @@ class TestPrinting:
     def test_combine_interleaves_instead_of_two_blocks(self, run, standard_csv):
         out = run("--csv", standard_csv, "--combine", "--print_frames", 1)
         assert "Frame 0 (computed vs FreeMoCap, interleaved):" in out
-        assert "  computed:   right shoulder" in out
+        assert "  Computed:   right shoulder" in out
         assert "  FreeMoCap:  right shoulder" in out
         assert "Frame 0 - computed:" not in out
 
@@ -214,7 +214,7 @@ class TestSaveCombined:
         text = out_path(tmp_path, "print", f"{REC}_joint_analysis_combined.txt").read_text()
         assert text.startswith("Loaded 3 frames")
         assert "interleaved" in text
-        assert "  computed:   right elbow bent 50 degrees" in text
+        assert "  Computed:   right elbow bent 50 degrees" in text
 
 
 class TestSaveHelpers:

@@ -21,7 +21,7 @@ import math
 import numpy as np
 import pandas as pd
 
-from bone_and_joint import (
+from process.schema import (
     HEADER_PREFIXES,
     HEADER_SUFFIXES,
     REFERENCE_PREFIXES,
